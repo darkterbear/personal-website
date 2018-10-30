@@ -13,7 +13,8 @@ export default class HomePage extends Component {
 		super(props)
 
 		this.state = {
-			text: ''
+			text: '',
+			nameText: 'terrance li'
 		}
 	}
 
@@ -23,13 +24,21 @@ export default class HomePage extends Component {
 			await sleep(Math.random() * 40 + 30)
 			this.setState({ text: this.state.text + homeText.charAt(i) })
 		}
+
+		this.jitterNameText()
+	}
+
+	jitterNameText = async () => {
+		while (1) {
+			await sleep(50)
+		}
 	}
 
 	render() {
 		return (
 			<div className="content">
 				<div className="center">
-					<h1>terrance li</h1>
+					<h1>{this.state.nameText}</h1>
 					<p className="code">{this.state.text}</p>
 				</div>
 				<BottomBar />
