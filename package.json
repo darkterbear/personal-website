@@ -17,7 +17,6 @@
 	"bugs": {
 		"url": "https://github.com/darkterbear/personal-website/issues"
 	},
-	"homepage": "https://github.com/darkterbear/personal-website#readme",
 	"dependencies": {
 		"react": "^16.4.2",
 		"react-dom": "^16.4.2",
