@@ -34,11 +34,11 @@ export class CodePane extends Component {
 
 	render() {
 		const homePageLines = [
-			<span>{'var terrance = new Developer({'}</span>,
-			<span>{'\n\u00A0\u00A0age: ' + this.state.age + ','}</span>,
-			<span>{"\n\u00A0\u00A0email: 'tyli@uw.edu',"}</span>,
-			<span>{"\n\u00A0\u00A0location: 'Seattle'"}</span>,
-			<span>{'\n})'}</span>
+			// <span>{'var terrance = new Developer({'}</span>,
+			// <span>{'\n\u00A0\u00A0age: ' + this.state.age + ','}</span>,
+			// <span>{"\n\u00A0\u00A0email: 'tyli@uw.edu',"}</span>,
+			// <span>{"\n\u00A0\u00A0location: 'Seattle'"}</span>,
+			// <span>{'\n})'}</span>
 		]
 
 		return <p className="code">{homePageLines}</p>

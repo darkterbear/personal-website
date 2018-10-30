@@ -27,7 +27,7 @@ export default class HomePage extends Component {
 
 		this.state = {
 			text: '',
-			nameText: hat(8) + ' ' + hat(2)
+			nameText: '|'
 		}
 	}
 
@@ -50,15 +50,28 @@ export default class HomePage extends Component {
 	}
 
 	revealName = async () => {
-		await sleep(1000)
+		await sleep(500)
+		this.setState({ nameText: '' })
+		await sleep(500)
+		this.setState({ nameText: '|' })
+		await sleep(100)
 
-		const actual = 'terrance li'
-		for (var i = 0; i < 11; i++) {
+		var actual = 'terrance li'
+		for (var i = 0; i < actual.length; i++) {
 			this.setState({
-				nameText: replaceAt(this.state.nameText, i, actual.charAt(i))
+				nameText: replaceAt(this.state.nameText, i, actual.charAt(i) + '|')
 			})
 			await sleep(50)
 		}
+
+		this.setState({ nameText: 'terrance li\u00A0' })
+		setInterval(() => {
+			if (this.state.nameText.charAt(this.state.nameText.length - 1) === '|') {
+				this.setState({ nameText: 'terrance li\u00A0' })
+			} else {
+				this.setState({ nameText: 'terrance li|' })
+			}
+		}, 500)
 	}
 
 	render() {
