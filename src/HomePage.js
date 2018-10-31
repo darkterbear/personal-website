@@ -11,7 +11,8 @@ export default class HomePage extends Component {
 
 		this.state = {
 			text: '|',
-			current: -1
+			current: -1,
+			blinking: true
 		}
 	}
 
@@ -20,7 +21,7 @@ export default class HomePage extends Component {
 		setInterval(() => {
 			const current = this.state.text
 
-			if (current.charAt(current.length - 1) == '|') {
+			if (current.charAt(current.length - 1) == '|' || !this.state.blinking) {
 				this.setState({
 					text: current.substring(0, current.length - 1) + '\u00a0'
 				})
@@ -67,22 +68,23 @@ export default class HomePage extends Component {
 		}
 	}
 
-	handlePageSelect = page => {
+	handlePageSelect = async page => {
 		if (this.state.current === page) return
-		this.setState({ current: page })
+		this.setState({ current: page, blinking: true })
 		switch (page) {
 			case 0:
-				this.typeText('bio')
+				await this.typeText('bio')
 				break
 			case 1:
-				this.typeText('experience')
+				await this.typeText('experience')
 				break
 			case 2:
-				this.typeText('honors')
+				await this.typeText('honors')
 				break
 			case 3:
-				this.typeText('portfolio')
+				await this.typeText('portfolio')
 		}
+		this.setState({ blinking: false })
 	}
 
 	render() {
