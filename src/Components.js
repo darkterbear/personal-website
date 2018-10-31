@@ -17,6 +17,7 @@ export class Logo extends Component {
 	render() {
 		return (
 			<svg
+				onClick={this.props.onClick}
 				className="logo"
 				width="64"
 				height="64"

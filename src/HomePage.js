@@ -32,11 +32,12 @@ export default class HomePage extends Component {
 			}
 		}, 500)
 
+		await sleep(1000)
 		this.typeText('terrance li')
 	}
 
 	removeText = async () => {
-		await sleep(500)
+		await sleep(100)
 
 		var before = this.state.text
 		for (var i = 0; i < before.length - 1; i++) {
@@ -55,7 +56,7 @@ export default class HomePage extends Component {
 	typeText = async text => {
 		if (this.state.text.length > 1) await this.removeText()
 
-		await sleep(100)
+		await sleep(500)
 
 		for (var i = 0; i < text.length; i++) {
 			this.setState({
@@ -87,10 +88,16 @@ export default class HomePage extends Component {
 		this.setState({ blinking: false })
 	}
 
+	handleSelectHome = async () => {
+		if (this.state.current === -1) return
+		this.setState({ current: -1, blinking: true })
+		await this.typeText('terrance li')
+	}
+
 	render() {
 		return (
 			<div className="content">
-				<Logo />
+				<Logo onClick={this.handleSelectHome} />
 				<div className="center">
 					<h1>{this.state.text}</h1>
 				</div>
