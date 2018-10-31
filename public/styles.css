@@ -52,8 +52,19 @@ h1 {
   align-items: center;
 }
 .bottom-bar a {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   margin-left: 1em;
   margin-right: 1em;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.bottom-bar a:hover {
+  color: #527aff;
 }
 
 .logo {

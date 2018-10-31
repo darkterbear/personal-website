@@ -2,11 +2,12 @@ import React, { Component } from 'react'
 
 export class BottomBar extends Component {
 	render() {
+		const pages = ['bio', 'experience', 'honors', 'portfolio']
 		return (
 			<div className="bottom-bar">
-				<a>experience</a>
-				<a>honors</a>
-				<a>portfolio</a>
+				{pages.map((text, i) => {
+					return <a onClick={() => this.props.onClick(i)}>{text}</a>
+				})}
 			</div>
 		)
 	}
