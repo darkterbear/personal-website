@@ -12,7 +12,8 @@ export default class HomePage extends Component {
 		this.state = {
 			text: '|',
 			current: -1,
-			blinking: true
+			blinking: true,
+			deleting: false
 		}
 	}
 
@@ -37,6 +38,7 @@ export default class HomePage extends Component {
 	}
 
 	removeText = async () => {
+		this.setState({ deleting: true })
 		await sleep(100)
 
 		var before = this.state.text
@@ -53,11 +55,13 @@ export default class HomePage extends Component {
 		}
 	}
 
-	typeText = async text => {
+	typeText = async target => {
+		this.setState({ target: target })
 		if (this.state.text.length > 1) await this.removeText()
-
 		await sleep(500)
 
+		this.setState({ deleting: false })
+		const text = this.state.target
 		for (var i = 0; i < text.length; i++) {
 			this.setState({
 				text:
@@ -65,6 +69,7 @@ export default class HomePage extends Component {
 					text.charAt(i) +
 					this.state.text.slice(i)
 			})
+			if (this.state.deleting) break
 			await sleep(Math.random() * 100 + 50)
 		}
 	}
@@ -74,16 +79,33 @@ export default class HomePage extends Component {
 		this.setState({ current: page, blinking: true })
 		switch (page) {
 			case 0:
-				await this.typeText('bio')
+				if (this.state.deleting) {
+					this.setState({ target: 'bio' })
+				} else {
+					await this.typeText('bio')
+				}
+
 				break
 			case 1:
-				await this.typeText('experience')
+				if (this.state.deleting) {
+					this.setState({ target: 'experience' })
+				} else {
+					await this.typeText('experience')
+				}
 				break
 			case 2:
-				await this.typeText('honors')
+				if (this.state.deleting) {
+					this.setState({ target: 'honors' })
+				} else {
+					await this.typeText('honors')
+				}
 				break
 			case 3:
-				await this.typeText('portfolio')
+				if (this.state.deleting) {
+					this.setState({ target: 'portfolio' })
+				} else {
+					await this.typeText('portfolio')
+				}
 		}
 		this.setState({ blinking: false })
 	}
