@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BottomBar, CodePane } from './Components'
+import { BottomBar, CodePane, Logo } from './Components'
 
 const sleep = ms => {
 	return new Promise(resolve => setTimeout(resolve, ms))
@@ -52,9 +52,9 @@ export default class HomePage extends Component {
 	render() {
 		return (
 			<div className="content">
+				<Logo />
 				<div className="center">
 					<h1>{this.state.nameText}</h1>
-					<CodePane handlePageChange={this.handlePageChange} />
 				</div>
 				<BottomBar />
 			</div>
