@@ -1,21 +1,8 @@
 import React, { Component } from 'react'
 import { BottomBar, CodePane } from './Components'
 
-function sleep(ms) {
+const sleep = ms => {
 	return new Promise(resolve => setTimeout(resolve, ms))
-}
-const replaceAt = (s, index, replacement) => {
-	return s.substr(0, index) + replacement + s.substr(index + replacement.length)
-}
-
-const hat = length => {
-	var text = ''
-	var possible = 'abcdef0123456789'
-
-	for (var i = 0; i < length; i++)
-		text += possible.charAt(Math.floor(Math.random() * possible.length))
-
-	return text
 }
 
 export default class HomePage extends Component {
@@ -29,34 +16,37 @@ export default class HomePage extends Component {
 	}
 
 	async componentDidMount() {
-		//this.renderText()
+		// handle blinking cursor
+		setInterval(() => {
+			const current = this.state.nameText
+
+			if (current.charAt(current.length - 1) == '|') {
+				this.setState({
+					nameText: current.substring(0, current.length - 1) + '\u00a0'
+				})
+			} else {
+				this.setState({
+					nameText: current.substring(0, current.length - 1) + '|'
+				})
+			}
+		}, 500)
 
 		this.revealName()
 	}
 
 	revealName = async () => {
 		await sleep(500)
-		this.setState({ nameText: '' })
-		await sleep(500)
-		this.setState({ nameText: '|' })
-		await sleep(100)
 
 		var actual = 'terrance li'
 		for (var i = 0; i < actual.length; i++) {
 			this.setState({
-				nameText: replaceAt(this.state.nameText, i, actual.charAt(i) + '|')
+				nameText:
+					this.state.nameText.slice(0, i) +
+					actual.charAt(i) +
+					this.state.nameText.slice(i)
 			})
-			await sleep(50)
+			await sleep(Math.random() * 100 + 50)
 		}
-
-		this.setState({ nameText: 'terrance li\u00A0' })
-		setInterval(() => {
-			if (this.state.nameText.charAt(this.state.nameText.length - 1) === '|') {
-				this.setState({ nameText: 'terrance li\u00A0' })
-			} else {
-				this.setState({ nameText: 'terrance li|' })
-			}
-		}, 500)
 	}
 
 	render() {
