@@ -12,8 +12,7 @@ export default class HomePage extends Component {
 		this.state = {
 			text: '|',
 			current: -1,
-			blinking: true,
-			deleting: false
+			target: ''
 		}
 	}
 
@@ -22,7 +21,7 @@ export default class HomePage extends Component {
 		setInterval(() => {
 			const current = this.state.text
 
-			if (current.charAt(current.length - 1) == '|' || !this.state.blinking) {
+			if (current.charAt(current.length - 1) == '|') {
 				this.setState({
 					text: current.substring(0, current.length - 1) + '\u00a0'
 				})
@@ -33,93 +32,77 @@ export default class HomePage extends Component {
 			}
 		}, 500)
 
+		// loop to type/delete characters to match target
+		setInterval(() => {
+			const current = this.state.text
+			const target = this.state.target
+
+			// if theyre the same string don't do anything
+			if (current.substring(0, current.length - 1) == target) return
+
+			// if current is longer than target ya kinda hafta delete
+			if (current.length > target.length) {
+				this.setState({
+					text:
+						current.slice(0, current.length - 2) +
+						current.slice(current.length - 1, current.length)
+				})
+			} else {
+				// check if current is the leading substring of target
+				if (
+					current.substring(0, current.length - 1) ==
+					target.substring(0, current.length - 1)
+				) {
+					// if so, type next character
+					this.setState({
+						text:
+							current.slice(0, current.length - 1) +
+							target.charAt(current.length - 1) +
+							current.slice(current.length - 1)
+					})
+				} else {
+					// if not, delete a character
+					this.setState({
+						text:
+							current.slice(0, current.length - 2) +
+							current.slice(current.length - 1, current.length)
+					})
+				}
+			}
+		}, 50)
+
 		await sleep(1000)
-		this.typeText('terrance\u00a0li')
-	}
-
-	removeText = async () => {
-		this.setState({ deleting: true })
-		await sleep(100)
-
-		var before = this.state.text
-		for (var i = 0; i < before.length - 1; i++) {
-			this.setState({
-				text:
-					this.state.text.slice(0, this.state.text.length - 2) +
-					this.state.text.slice(
-						this.state.text.length - 1,
-						this.state.text.length
-					)
-			})
-			await sleep(50)
-		}
-	}
-
-	typeText = async target => {
-		this.setState({ target: target })
-		if (this.state.text.length > 1) await this.removeText()
-		await sleep(500)
-
-		this.setState({ deleting: false })
-		const text = this.state.target
-		for (var i = 0; i < text.length; i++) {
-			this.setState({
-				text:
-					this.state.text.slice(0, i) +
-					text.charAt(i) +
-					this.state.text.slice(i)
-			})
-			if (this.state.deleting) break
-			await sleep(Math.random() * 100 + 50)
-		}
+		this.setState({ target: 'terrance\u00a0li' })
 	}
 
 	handlePageSelect = async page => {
 		if (this.state.current === page) return
-		this.setState({ current: page, blinking: true })
-		switch (page) {
-			case 0:
-				if (this.state.deleting) {
-					this.setState({ target: 'bio' })
-				} else {
-					await this.typeText('bio')
-				}
+		const target = (page => {
+			switch (page) {
+				case -1:
+					return 'terrance\u00a0li'
+				case 0:
+					return 'bio'
+				case 1:
+					return 'experience'
+				case 2:
+					return 'honors'
+				case 3:
+					return 'portfolio'
+			}
+		})(page)
 
-				break
-			case 1:
-				if (this.state.deleting) {
-					this.setState({ target: 'experience' })
-				} else {
-					await this.typeText('experience')
-				}
-				break
-			case 2:
-				if (this.state.deleting) {
-					this.setState({ target: 'honors' })
-				} else {
-					await this.typeText('honors')
-				}
-				break
-			case 3:
-				if (this.state.deleting) {
-					this.setState({ target: 'portfolio' })
-				} else {
-					await this.typeText('portfolio')
-				}
-		}
-		this.setState({ blinking: false })
-	}
-
-	handleSelectHome = async () => {
-		if (this.state.current === -1) return
-		this.setState({ current: -1, blinking: true })
-		await this.typeText('terrance li')
+		this.setState({ current: page, target })
 	}
 
 	render() {
 		return (
 			<div className="content">
-				<Logo onClick={this.handleSelectHome} />
+				<Logo
+					onClick={() => {
+						this.handlePageSelect(-1)
+					}}
+				/>
 				<div className="center">
 					<h1>{this.state.text}</h1>
 				</div>
