@@ -36,3 +36,22 @@ export class Logo extends Component {
 		)
 	}
 }
+
+export class CodePane extends Component {
+	constructor(props) {
+		super(props)
+
+		this.state = {
+			text: '',
+			target: ''
+		}
+	}
+
+	componentWillReceiveProps(newProps) {
+		//console.log(newP)
+	}
+
+	render() {
+		return <div className={'code' + (this.props.expanded ? ' expanded' : '')} />
+	}
+}

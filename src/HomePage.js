@@ -12,7 +12,8 @@ export default class HomePage extends Component {
 		this.state = {
 			text: '|',
 			current: -1,
-			target: ''
+			target: -1,
+			codePaneExpanded: false
 		}
 	}
 
@@ -37,8 +38,19 @@ export default class HomePage extends Component {
 			const current = this.state.text
 			const target = this.state.target
 
+			if (!isNaN(target)) return
+
 			// if theyre the same string don't do anything
-			if (current.substring(0, current.length - 1) == target) return
+			if (current.substring(0, current.length - 1) == target) {
+				if (target == 'terrance\u00a0li') {
+					this.setState({ codePaneExpanded: false })
+				} else {
+					console.log('expand')
+					this.setState({ codePaneExpanded: true })
+				}
+
+				return
+			}
 
 			// if current is longer than target ya kinda hafta delete
 			if (current.length > target.length) {
@@ -106,6 +118,10 @@ export default class HomePage extends Component {
 				<div className="center">
 					<h1>{this.state.text}</h1>
 				</div>
+				<CodePane
+					current={this.state.current}
+					expanded={this.state.codePaneExpanded}
+				/>
 				<BottomBar onClick={this.handlePageSelect} />
 			</div>
 		)
