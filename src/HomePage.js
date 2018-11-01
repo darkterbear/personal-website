@@ -34,7 +34,7 @@ export default class HomePage extends Component {
 		}, 500)
 
 		await sleep(1000)
-		this.typeText('terrance li')
+		this.typeText('terrance\u00a0li')
 	}
 
 	removeText = async () => {
