@@ -42,12 +42,11 @@ export default class HomePage extends Component {
 
 			// if theyre the same string don't do anything
 			if (current.substring(0, current.length - 1) == target) {
-				if (target == 'terrance\u00a0li') {
-					this.setState({ codePaneExpanded: false })
-				} else {
-					console.log('expand')
-					this.setState({ codePaneExpanded: true })
-				}
+				// if (target == 'terrance\u00a0li') {
+				// 	this.setState({ codePaneExpanded: false })
+				// } else {
+				// 	this.setState({ codePaneExpanded: true })
+				// }
 
 				return
 			}
@@ -99,10 +98,14 @@ export default class HomePage extends Component {
 					return 'experience'
 				case 2:
 					return 'honors'
-				case 3:
-					return 'portfolio'
 			}
 		})(page)
+
+		if (page == -1) {
+			this.setState({ codePaneExpanded: false })
+		} else {
+			this.setState({ codePaneExpanded: true })
+		}
 
 		this.setState({ current: page, target })
 	}

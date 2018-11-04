@@ -52,14 +52,14 @@ h1 {
 	margin: 0 auto;
 	margin-top: 2em;
 	white-space: pre-line;
-	max-width: 100%;
+	width: 60%;
 	height: 0em;
 	text-align: left;
 	opacity: 0;
 
 	&.expanded {
 		height: 16em;
-		opacity: 0;
+		opacity: 1;
 		transition: all 1s ease;
 	}
 	transition: all 1s ease;

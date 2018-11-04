@@ -2,12 +2,13 @@ import React, { Component } from 'react'
 
 export class BottomBar extends Component {
 	render() {
-		const pages = ['bio', 'experience', 'honors', 'portfolio']
+		const pages = ['bio', 'experience', 'honors']
 		return (
 			<div className="bottom-bar">
 				{pages.map((text, i) => {
 					return <a onClick={() => this.props.onClick(i)}>{text}</a>
 				})}
+				<a>r&eacute;sum&eacute;</a>
 			</div>
 		)
 	}
@@ -37,21 +38,103 @@ export class Logo extends Component {
 	}
 }
 
+const getYear = () => {
+	const now = new Date()
+	const years = now.getUTCFullYear() - 2000
+	const months = now.getUTCMonth() - 11
+	const days = now.getUTCDate() - 2
+	const hours = now.getUTCHours()
+	const minutes = now.getUTCMinutes()
+	const seconds = now.getUTCSeconds()
+
+	return (
+		years +
+		months / 12 +
+		days / 365.25 +
+		hours / (365.25 * 24) +
+		minutes / (365.25 * 24 * 60) +
+		seconds / (365.25 * 24 * 60 * 60)
+	).toFixed(8)
+}
 export class CodePane extends Component {
 	constructor(props) {
 		super(props)
 
 		this.state = {
 			text: '',
-			target: ''
+			target: '',
+			expanded: false
 		}
 	}
 
+	componentDidMount() {
+		// loop to type/delete characters to match target
+		setInterval(() => {
+			const current = this.state.text
+			const target = this.state.target
+			console.log(current + ' ' + target)
+
+			// if (!isNaN(target)) return
+
+			// if theyre the same string don't do anything
+			if (current == target) return
+
+			// if current is longer than target ya kinda hafta delete
+			if (current.length >= target.length) {
+				this.setState({
+					text: current.slice(0, current.length - 1)
+				})
+			} else {
+				// check if current is the leading substring of target
+				if (current == target.substring(0, current.length)) {
+					// if so, type next character
+					this.setState({
+						text: current + target.charAt(current.length)
+					})
+				} else {
+					// if not, delete a character
+					this.setState({
+						text: current.slice(0, current.length - 1)
+					})
+				}
+			}
+		}, 10)
+	}
+
 	componentWillReceiveProps(newProps) {
-		//console.log(newP)
+		const current = newProps.current
+
+		var newText = (function(c) {
+			switch (c) {
+				case -1:
+					return ''
+				case 0:
+					return (
+						'terrance@li:~$ cat bio.txt\n\n' +
+						"I'm Terrance, a high school senior with a passion for software development and technology. I am an experienced full-stack developer, despite only being " +
+						getYear()
+					)
+				case 1:
+					return (
+						'terrance@li:~$ cat experience.txt\n\n' +
+						'Volunteer Mentor: CodeDay StudentRND\nBellevue, WA - Nov 2018 to Current\n\n' +
+						'Research Assistant: UW CSE Syslab\nSeattle, WA - Jun 2017 to Current\n\n' +
+						'Lead Android Developer: aspace, Inc.\nSeattle, WA - May 2017 to Sep 2017\n\n' +
+						'Full-stack Web Developer: team llambda\nBellevue, WA - Jul 2018 to Current'
+					)
+				case 2:
+					return 'honors'
+			}
+		})(current)
+
+		this.setState({ target: newText })
 	}
 
 	render() {
-		return <div className={'code' + (this.props.expanded ? ' expanded' : '')} />
+		return (
+			<div className={'code' + (this.props.expanded ? ' expanded' : '')}>
+				{this.state.text}
+			</div>
+		)
 	}
 }
