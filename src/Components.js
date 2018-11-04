@@ -135,7 +135,6 @@ export class CodePane extends Component {
 				case 1:
 					return (
 						'terrance@li:~$ cat experience.txt\n\n' +
-						'Volunteer Mentor: CodeDay StudentRND\nBellevue, WA - Nov 2018 to Current\n\n' +
 						'Research Assistant: UW CSE Syslab\nSeattle, WA - Jun 2017 to Current\n\n' +
 						'Lead Android Developer: aspace, Inc.\nSeattle, WA - May 2017 to Sep 2017\n\n' +
 						'Full-stack Web Developer: team llambda\nBellevue, WA - Jul 2018 to Current'
