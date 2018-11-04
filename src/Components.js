@@ -8,7 +8,9 @@ export class BottomBar extends Component {
 				{pages.map((text, i) => {
 					return <a onClick={() => this.props.onClick(i)}>{text}</a>
 				})}
-				<a>r&eacute;sum&eacute;</a>
+				<a href="https://terrance.sfo2.digitaloceanspaces.com/resume.pdf">
+					r&eacute;sum&eacute;
+				</a>
 			</div>
 		)
 	}

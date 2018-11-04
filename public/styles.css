@@ -75,6 +75,8 @@ h1 {
   margin-left: 1em;
   margin-right: 1em;
   cursor: pointer;
+  text-decoration: none;
+  color: white;
   transition: 0.5s;
 }
 .bottom-bar a:hover {
