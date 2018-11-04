@@ -41,7 +41,7 @@ h1 {
   margin: 0 auto;
   margin-top: 2em;
   white-space: pre-line;
-  width: 60%;
+  max-width: 60%;
   height: 0em;
   text-align: left;
   opacity: 0;

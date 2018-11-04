@@ -98,7 +98,7 @@ export class CodePane extends Component {
 					})
 				}
 			}
-		}, 10)
+		}, 30)
 	}
 
 	componentWillReceiveProps(newProps) {
@@ -123,11 +123,19 @@ export class CodePane extends Component {
 						'Full-stack Web Developer: team llambda\nBellevue, WA - Jul 2018 to Current'
 					)
 				case 2:
-					return 'honors'
+					return (
+						'terrance@li:~$ cat honors.txt\n\n' +
+						'Intel International Science & Engineering Fair\nFinalist, 3rd Grand Award, USAF Research Lab Best in Category\nPittsburgh, PA - May 2018\n\n' +
+						'Exsilio Ready Hacker One Hackathon\n2nd Place\nRedmond, WA - June 2018\n\n'
+					)
 			}
 		})(current)
 
 		this.setState({ target: newText })
+	}
+
+	clearCode = () => {
+		this.setState({ text: 'terrance@li:~$' })
 	}
 
 	render() {

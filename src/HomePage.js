@@ -15,6 +15,8 @@ export default class HomePage extends Component {
 			target: -1,
 			codePaneExpanded: false
 		}
+
+		this.codePane = React.createRef()
 	}
 
 	async componentDidMount() {
@@ -105,6 +107,7 @@ export default class HomePage extends Component {
 			this.setState({ codePaneExpanded: false })
 		} else {
 			this.setState({ codePaneExpanded: true })
+			this.codePane.current.clearCode()
 		}
 
 		this.setState({ current: page, target })
@@ -122,6 +125,7 @@ export default class HomePage extends Component {
 					<h1>{this.state.text}</h1>
 				</div>
 				<CodePane
+					ref={this.codePane}
 					current={this.state.current}
 					expanded={this.state.codePaneExpanded}
 				/>
