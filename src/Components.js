@@ -65,10 +65,6 @@ const getYear = () => {
 	const minutes = now.getUTCMinutes()
 	const seconds = now.getUTCSeconds()
 
-	console.log('years ' + years)
-	console.log('month ' + months)
-	console.log('days ' + days)
-
 	return (
 		years +
 		months / 12 +
@@ -94,7 +90,6 @@ export class CodePane extends Component {
 		setInterval(() => {
 			const current = this.state.text
 			const target = this.state.target
-			console.log(current + ' ' + target)
 
 			// if (!isNaN(target)) return
 
