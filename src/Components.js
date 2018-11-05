@@ -59,19 +59,23 @@ export class Logo extends Component {
 const getYear = () => {
 	const now = new Date()
 	const years = now.getUTCFullYear() - 2000
-	const months = now.getUTCMonth() - 11
+	const months = now.getUTCMonth() - 10
 	const days = now.getUTCDate() - 2
 	const hours = now.getUTCHours()
 	const minutes = now.getUTCMinutes()
 	const seconds = now.getUTCSeconds()
 
+	console.log('years ' + years)
+	console.log('month ' + months)
+	console.log('days ' + days)
+
 	return (
 		years +
 		months / 12 +
-		days / 365.25 +
-		hours / (365.25 * 24) +
-		minutes / (365.25 * 24 * 60) +
-		seconds / (365.25 * 24 * 60 * 60)
+		days / 365 +
+		hours / (365 * 24) +
+		minutes / (365 * 24 * 60) +
+		seconds / (365 * 24 * 60 * 60)
 	).toFixed(8)
 }
 export class CodePane extends Component {
