@@ -21,8 +21,14 @@ body {
 	text-align: center;
 
 	color: white;
-	font-size: 24px;
+	font-size: 3vh;
 	font-family: 'Fira Mono', monospace;
+}
+
+@media screen and (orientation: portrait) {
+	body {
+		font-size: 2.5vw;
+	}
 }
 
 h1 {
@@ -97,6 +103,9 @@ h1 {
 	cursor: pointer;
 	position: absolute;
 	top: 2em;
-	left: 50%;
-	transform: translateX(-50%);
+	left: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-content: center;
 }

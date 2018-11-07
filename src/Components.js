@@ -20,16 +20,8 @@ export class Logo extends Component {
 	render() {
 		return (
 			<div className="logo">
-				<a href="https://www.linkedin.com/in/terrance-li/">
-					<img
-						height="48"
-						style={{ marginBottom: '0.25em' }}
-						src="https://terrance.sfo2.digitaloceanspaces.com/linkedin.png"
-					/>
-				</a>
 				<svg
 					onClick={this.props.onClick}
-					style={{ marginLeft: '4em', marginRight: '4em' }}
 					width="64"
 					height="64"
 					viewBox="0 0 64 64"
@@ -44,9 +36,15 @@ export class Logo extends Component {
 						fill="#527AFF"
 					/>
 				</svg>
+				<a href="https://www.linkedin.com/in/terrance-li/">
+					<img
+						height="48"
+						style={{ marginBottom: '2em', marginTop: '2em' }}
+						src="https://terrance.sfo2.digitaloceanspaces.com/linkedin.png"
+					/>
+				</a>
 				<a href="https://github.com/darkterbear">
 					<img
-						style={{ marginBottom: '0.25em' }}
 						height="48"
 						src="https://terrance.sfo2.digitaloceanspaces.com/github.png"
 					/>
