@@ -113,7 +113,7 @@ export class CodePane extends Component {
 					})
 				}
 			}
-		}, 30)
+		}, 10)
 	}
 
 	componentWillReceiveProps(newProps) {
