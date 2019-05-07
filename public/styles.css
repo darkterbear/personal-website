@@ -2,15 +2,53 @@ h1 {
   color: #527aff;
 }
 
+a {
+  color: #527aff;
+  text-decoration: none;
+}
+
 html {
   margin: 0;
   padding: 0;
   overflow-y: scroll;
   color: #333333;
   font-family: "Grantipo Beta 001", sans-serif;
+  font-weight: bold;
 }
 html .content {
-  padding: 48px 48px 48px 48px;
+  padding: 3em;
+}
+html .content .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+html .content .top ul {
+  list-style: none;
+  text-align: center;
+}
+html .content .top ul li {
+  display: inline-block;
+  margin: 0 0 0 2em;
+}
+html .content .page {
+  height: calc(100vh - 6em);
+  position: relative;
+}
+html .content .page:not(:last-of-type) {
+  margin-bottom: 3em;
+}
+html .content .page .page-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+html .content .page .footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
 }
 
 /*# sourceMappingURL=styles.css.map */
