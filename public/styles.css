@@ -1,102 +1,16 @@
-html,
-body {
-  height: 100vh;
-  overflow: hidden;
+h1 {
+  color: #527aff;
+}
+
+html {
   margin: 0;
   padding: 0;
-  background: #222222;
-  text-align: center;
-  color: white;
-  font-size: 3vh;
-  font-family: "Fira Mono", monospace;
+  overflow-y: scroll;
+  color: #333333;
+  font-family: "Grantipo Beta 001", sans-serif;
 }
-
-@media screen and (orientation: portrait) {
-  body {
-    font-size: 2.5vw;
-  }
-}
-h1 {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  color: #527aff;
-  font-size: 4em;
-  margin: 0;
-}
-
-.content {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.content .center {
-  margin: 0 auto;
-}
-.content .center h1 {
-  display: block;
-}
-
-.code {
-  margin: 0 auto;
-  margin-top: 1em;
-  white-space: pre-line;
-  max-width: 60%;
-  height: 0em;
-  text-align: left;
-  opacity: 0;
-  transition: all 0.5s ease;
-}
-.code.expanded {
-  height: 12em;
-  opacity: 1;
-  transition: all 0.5s ease;
-}
-
-.bottom-bar {
-  position: absolute;
-  font-size: 1.5em;
-  bottom: 0;
-  width: 100%;
-  height: 4em;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.bottom-bar a {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  margin-left: 1em;
-  margin-right: 1em;
-  cursor: pointer;
-  text-decoration: none;
-  color: white;
-  transition: 0.5s;
-}
-.bottom-bar a:hover {
-  color: #527aff;
-}
-
-.logo {
-  cursor: pointer;
-  position: absolute;
-  top: 2em;
-  left: 2em;
-  display: flex;
-  flex-direction: column;
-  justify-content: top;
-  align-content: center;
+html .content {
+  padding: 48px 48px 48px 48px;
 }
 
 /*# sourceMappingURL=styles.css.map */
