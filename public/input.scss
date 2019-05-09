@@ -55,6 +55,10 @@ html {
       height: calc(100vh - 6em);
       position: relative;
 
+      &:not(:first-of-type) {
+        height: auto;
+      }
+
       .page-content {
         position: absolute;
         top: 50%;

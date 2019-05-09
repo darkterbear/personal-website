@@ -39,6 +39,16 @@ export default class App extends React.Component {
             </ul>
           </div>
         </div>
+        <div class='page'>
+          <h1>experience</h1>
+          <div class='container-fluid'>
+            <div class='row'>
+              <div class='col-sm'>test</div>
+              <div class='col-sm'>test</div>
+              <div class='col-sm'>test</div>
+            </div>
+          </div>
+        </div>
       </div>
     )
   }

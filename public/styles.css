@@ -38,6 +38,9 @@ html .content .page {
 html .content .page:not(:last-of-type) {
   margin-bottom: 3em;
 }
+html .content .page:not(:first-of-type) {
+  height: auto;
+}
 html .content .page .page-content {
   position: absolute;
   top: 50%;
