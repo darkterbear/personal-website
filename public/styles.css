@@ -6,13 +6,20 @@ a {
   color: #527aff;
   text-decoration: none;
 }
+a:hover {
+  color: #527aff;
+  text-decoration: none;
+}
+
+* {
+  font-family: "Grantipo Beta 001", sans-serif !important;
+}
 
 html {
   margin: 0;
   padding: 0;
   overflow-y: scroll;
   color: #333333;
-  font-family: "Grantipo Beta 001", sans-serif;
   font-weight: bold;
 }
 html .content {
@@ -23,14 +30,6 @@ html .content .top {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-html .content .top ul {
-  list-style: none;
-  text-align: center;
-}
-html .content .top ul li {
-  display: inline-block;
-  margin: 0 0 0 2em;
 }
 html .content .page {
   height: calc(100vh - 6em);
@@ -47,8 +46,20 @@ html .content .page .page-content {
 html .content .page .footer {
   position: absolute;
   bottom: 0;
-  right: 0;
-  text-align: right;
+  width: 100%;
+}
+html .content .page .footer ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+html .content .page .footer ul li {
+  padding: 0 0.5em 0 0.5em;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=styles.css.map */

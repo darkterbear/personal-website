@@ -16,8 +16,17 @@ h1 {
 }
 
 a {
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+
   color: $blue;
   text-decoration: none;
+}
+
+* {
+  font-family: 'Grantipo Beta 001', sans-serif !important;
 }
 
 html {
@@ -26,7 +35,6 @@ html {
   overflow-y: scroll;
 
   color: $darkgray;
-  font-family: 'Grantipo Beta 001', sans-serif;
   font-weight: bold;
 
   .content {
@@ -37,16 +45,6 @@ html {
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-
-      ul {
-        list-style: none;
-        text-align: center;
-
-        li {
-          display: inline-block;
-          margin: 0 0 0 2em;
-        }
-      }
     }
 
     .page {
@@ -66,8 +64,22 @@ html {
       .footer {
         position: absolute;
         bottom: 0;
-        right: 0;
-        text-align: right;
+        width: 100%;
+
+        ul {
+          list-style: none;
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 0;
+
+          li {
+            padding: 0 0.5em 0 0.5em;
+            display: inline-block;
+          }
+        }
       }
     }
   }
