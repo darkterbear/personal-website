@@ -1,7 +1,47 @@
 import React from 'react'
 import { Card } from './Components'
+import AgeCalc from 'full-age-calculator'
+
+const getYear = () => {
+  const now = new Date()
+  const years = now.getUTCFullYear() - 2000
+  const months = now.getUTCMonth() - 10
+  const days = now.getUTCDate() - 2
+  const hours = now.getUTCHours()
+  const minutes = now.getUTCMinutes()
+  const seconds = now.getUTCSeconds()
+
+  return (
+    years +
+    months / 12 +
+    days / 365 +
+    hours / (365 * 24) +
+    minutes / (365 * 24 * 60) +
+    seconds / (365 * 24 * 60 * 60)
+  ).toFixed(8)
+}
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      age: getYear()
+    }
+  }
+
+  componentDidMount() {
+    this.interval = setInterval(() => {
+      this.setState({
+        age: getYear()
+      })
+    })
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval)
+  }
+
   render() {
     return (
       <div class='content'>
@@ -45,8 +85,8 @@ export default class App extends React.Component {
           <div class='container'>
             <h1>experience</h1>
             <h4>
-              I may only be 18.489432 years old, but I’ve got some experience
-              under my belt.
+              I may only be {this.state.age} years old, but I’ve got some
+              experience under my belt.
             </h4>
             <div class='row'>
               <div class='col-sm mb-3'>
