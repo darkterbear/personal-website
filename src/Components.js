@@ -5,7 +5,7 @@ export class Card extends Component {
     return (
       <div class='card'>
         <h3>{this.props.title}</h3>
-        {this.props.children}
+        <p>{this.props.children}</p>
       </div>
     )
   }

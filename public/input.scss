@@ -35,6 +35,10 @@ a {
   padding: 1em;
   border: none;
   box-shadow: $shadow;
+
+  p {
+    margin: 0;
+  }
 }
 
 html {
