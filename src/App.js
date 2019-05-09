@@ -1,6 +1,5 @@
 import React from 'react'
 import { Card } from './Components'
-import AgeCalc from 'full-age-calculator'
 
 const getYear = () => {
   const now = new Date()
