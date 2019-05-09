@@ -44,6 +44,10 @@ export default class App extends React.Component {
         <div class='page'>
           <div class='container'>
             <h1>experience</h1>
+            <h4>
+              I may only be 18.489432 years old, but I’ve got some experience
+              under my belt.
+            </h4>
             <div class='row'>
               <div class='col-sm mb-3'>
                 <Card title={'Lead Android Dev.'}>
@@ -72,6 +76,7 @@ export default class App extends React.Component {
         <div class='page'>
           <div class='container'>
             <h1>projects</h1>
+            <h4>I've been busy!</h4>
             <div class='row'>
               <div class='col mb-3'>
                 <Card title={'Odd'}>
