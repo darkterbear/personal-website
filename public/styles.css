@@ -15,6 +15,13 @@ a:hover {
   font-family: "Grantipo Beta 001", sans-serif !important;
 }
 
+.card {
+  border-radius: 1em;
+  padding: 1em;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
 html {
   margin: 0;
   padding: 0;
