@@ -62,7 +62,6 @@ export default class App extends React.Component {
                 >
                   linkedin
                 </a>
-                : terrance-li
               </li>
               <li>
                 <a
@@ -72,10 +71,14 @@ export default class App extends React.Component {
                 >
                   github
                 </a>
-                : darkterbear
               </li>
               <li>
-                <a href='mailto:tyli@uw.edu'>email</a>: tyli@uw.edu
+                <a href='mailto:tyli@berkeley.edu'>email</a>
+              </li>
+              <li>
+                <a href='https://terrance.sfo2.digitaloceanspaces.com/resume.pdf'>
+                  resume
+                </a>
               </li>
             </ul>
           </div>
