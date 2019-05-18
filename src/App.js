@@ -121,43 +121,54 @@ export default class App extends React.Component {
             <h4>I've been busy!</h4>
             <div class='row'>
               <div class='col mb-3'>
-                <Card title={'Odd'}>
+                <Card
+                  title={'Odd'}
+                  link={'https://github.com/dotTechnopath/odd'}
+                >
                   A gamified approach to financial education. Won{' '}
                   <b>2nd place</b> for Best Use of Even API at{' '}
                   <b>DefHacks Seattle</b>, 2019.
                 </Card>
               </div>
               <div class='col mb-3'>
-                <Card title={'Gradebook'}>
+                <Card
+                  title={'Gradebook'}
+                  link={'https://github.com/team-llambda/gradebook-web'}
+                >
                   A student-led project to craft a more insightful gradebook
                   frontend for our school district.
                 </Card>
               </div>
               <div class='col mb-3'>
-                <Card title={'Newport Math Club'}>
+                <Card
+                  title={'Newport Math Club'}
+                  link={'https://github.com/newport-math-club/web-platform'}
+                >
                   Personal project to overhaul Newport Math Club’s web platform,
                   a production web app handling hundreds of requests daily.
                 </Card>
               </div>
               <div class='w-100' />
               <div class='col mb-3'>
-                <Card title={'Hearts'}>
+                <Card title={'Hearts'} link={'https://hearts.terranceli.com'}>
                   Personal project: recreate the card game “hearts” online using
-                  a Socket.io API. Check it out at{' '}
-                  <a href='https://hearts.terranceli.com'>
-                    hearts.terranceli.com
-                  </a>
-                  !
+                  a Socket.io API. Click here to check it out!
                 </Card>
               </div>
               <div class='col mb-3'>
-                <Card title={'Check.io'}>
+                <Card
+                  title={'Check.io'}
+                  link={'https://github.com/darkterbear/check.io-server'}
+                >
                   Hackathon project for <b>T-Mobile Hacksgiving</b>. A B2B
                   platform for restaurants for seamless transaction handling.
                 </Card>
               </div>
               <div class='col mb-3'>
-                <Card title={'Quizteam'}>
+                <Card
+                  title={'Quizteam'}
+                  link={'https://github.com/darkterbear/quizteam'}
+                >
                   Hackathon project for <b>T-Mobile CodeDay</b>. A quiz-game
                   designed to build teamwork skills, inspired by Quizlet and
                   Spaceteam.

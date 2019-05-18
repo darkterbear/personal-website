@@ -1,6 +1,7 @@
 $darkgray: #333333;
 $blue: #527aff;
 $shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+$largeShadow: 0 6px 12px 0 rgba(0, 0, 0, 0.18), 0 3px 6px 0 rgba(0, 0, 0, 0.12);
 
 @mixin noselect() {
   // disable text highlighting in button
@@ -31,6 +32,7 @@ a {
 }
 
 .card {
+  cursor: pointer;
   border-radius: 1em;
   padding: 1em;
   border: none;
@@ -39,6 +41,13 @@ a {
   p {
     margin: 0;
   }
+
+  &:hover {
+    transition: box-shadow 0.3s;
+    box-shadow: $largeShadow;
+  }
+
+  transition: box-shadow 0.3s;
 }
 
 html {
