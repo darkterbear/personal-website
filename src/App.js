@@ -74,7 +74,7 @@ export default class App extends React.Component {
 								<a href="mailto:tyli@berkeley.edu">email</a>
 							</li>
 							<li>
-								<a href="https://terrance.sfo2.digitaloceanspaces.com/resume.pdf">
+								<a href="https://terrance.sfo2.digitaloceanspaces.com/terrance_li_resume.pdf">
 									resume
 								</a>
 							</li>
