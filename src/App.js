@@ -191,8 +191,10 @@ export default class App extends React.Component {
 						<h4>For what it's worth</h4>
 						<div class="row">
 							<div class="col mb-3">
-								<Card title={'UC Berkeley EECS'}>
-									Incoming freshman to the class of 2023.
+								<Card title={'UC Berkeley'}>
+									Freshman (CO 2023) studying Electrical Engineering and
+									Computer Science. Currently taking CS 61A, EE 16A, MATH 53,
+									and ENGLISH R1B.
 								</Card>
 							</div>
 							<div class="w-100" />
