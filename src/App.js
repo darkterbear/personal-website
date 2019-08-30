@@ -111,7 +111,16 @@ export default class App extends React.Component {
 						<h1>projects</h1>
 						<h4>I've been busy!</h4>
 						<div class="row">
-							<div class="col mb-3">
+							<div class="col mb-4">
+								<Card
+									title={'Clicker101'}
+									link={'https://github.com/darkterbear/clicker101-backend'}>
+									My current WIP personal project. A service that replaces
+									iClickers for more accessible and insightful measurement of
+									student learning.
+								</Card>
+							</div>
+							<div class="col mb-4">
 								<Card
 									title={'Odd'}
 									link={'https://github.com/dotTechnopath/odd'}>
@@ -120,7 +129,7 @@ export default class App extends React.Component {
 									<b>DefHacks Seattle</b>, 2019.
 								</Card>
 							</div>
-							<div class="col mb-3">
+							<div class="col mb-4">
 								<Card
 									title={'Gradebook'}
 									link={'https://github.com/team-llambda/gradebook-web'}>
@@ -128,7 +137,7 @@ export default class App extends React.Component {
 									frontend for our school district.
 								</Card>
 							</div>
-							<div class="col mb-3">
+							<div class="col mb-4">
 								<Card
 									title={'Newport Math Club'}
 									link={'https://github.com/newport-math-club/web-platform'}>
@@ -180,6 +189,13 @@ export default class App extends React.Component {
 									2 years of experience in various hackathon projects, used in
 									production in Newport Math Club (yet again). Well-versed in
 									basic usage and interface with Node.js using Mongoose.
+								</Card>
+							</div>
+							<div class="col mb-3">
+								<Card title={'Java'}>
+									Good ol' Java was my first (real) programming language. I've
+									had significant experience in developing Android apps with
+									Java, and it is still a fluent language of mine.
 								</Card>
 							</div>
 						</div>
