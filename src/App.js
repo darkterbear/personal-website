@@ -47,8 +47,8 @@ export default class App extends React.Component {
 				<div class="page">
 					<div class="container">
 						<div class="page-content">
-							<h1>terrance li</h1>
-							<h2>Hey, I'm Terrance! I design and create web apps :)</h2>
+							<h1>Hey there!</h1>
+							<h2>I'm Terrance, and I design and create web apps :)</h2>
 						</div>
 					</div>
 
@@ -123,7 +123,7 @@ export default class App extends React.Component {
 							<div class="col mb-4">
 								<Card
 									title={'Odd'}
-									link={'https://github.com/dotTechnopath/odd'}>
+									link={'https://github.com/codelastnight/odd'}>
 									A gamified approach to financial education. Won{' '}
 									<b>2nd place</b> for Best Use of Even API at{' '}
 									<b>DefHacks Seattle</b>, 2019.
@@ -153,7 +153,7 @@ export default class App extends React.Component {
 						<h1>skills</h1>
 						<h4>Fear not, I know my $@*#</h4>
 						<div class="row">
-							<div class="col mb-3">
+							<div class="col mb-4">
 								<Card title={'JavaScript/Node.js'}>
 									3 years of experience building full-stack personal, team, and
 									research projects with React.js, Express.js, and D3.js. All
@@ -161,14 +161,14 @@ export default class App extends React.Component {
 									language.
 								</Card>
 							</div>
-							<div class="col mb-3">
+							<div class="col mb-4">
 								<Card title={'React.js'}>
 									2 years of experience in various hackathon projects and the
 									Newport Math Club web platform described above. This website
 									is built with React!
 								</Card>
 							</div>
-							<div class="col mb-3">
+							<div class="col mb-4">
 								<Card title={'Express.js'}>
 									2 years of experience in various hackathon projects in various
 									hackathon projects, also used to build the Newport Math Club

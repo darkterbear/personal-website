@@ -2,6 +2,10 @@ h1 {
   color: #527aff;
 }
 
+h4 {
+  margin-bottom: 1rem;
+}
+
 a {
   color: #527aff;
   text-decoration: none;
