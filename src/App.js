@@ -208,15 +208,14 @@ export default class App extends React.Component {
 						<div class="row">
 							<div class="col mb-3">
 								<Card title={'UC Berkeley'}>
-									Freshman (CO 2023) studying Electrical Engineering and
-									Computer Science. Currently taking CS 61A, EE 16A, MATH 53,
-									and ENGLISH R1B.
+									Freshman first-year studying Electrical Engineering and
+									Computer Science. Member of CodeBase client team. Currently
+									taking CS 61A, EE 16A, MATH 53, and ENGLISH R1B.
 								</Card>
 							</div>
-							<div class="w-100" />
 							<div class="col mb-3">
 								<Card title={'Newport High School'}>
-									Graduating senior from Bellevue, Washington with a 4.0 GPA :)
+									Graduating senior from Bellevue, Washington with a 4.0 GPA.
 									President of Newport Math Club, Tournament Director of the
 									Knights of Pi Math Tournament, member of the Newport
 									Philharmonic and Chamber Orchestra, and manager of the Newport
