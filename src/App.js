@@ -90,10 +90,10 @@ export default class App extends React.Component {
 						</h4>
 						<div class="row">
 							<div class="col-sm mb-3">
-								<Card title={'Lead Android Dev.'}>
-									At <b>aspace Inc.</b>, I developed an Android codebase with
-									the Android SDK using Java and XML, implementing in-house APIs
-									and UI designs.
+								<Card title={'Client Developer'}>
+									At <b>CodeBase Berkeley</b>, I design and develop production
+									applications for client companies such as Postman and
+									Atlassian. This semester, I am working with <b>Storr</b>.
 								</Card>
 							</div>
 							<div class="col-sm mb-3">
@@ -101,6 +101,13 @@ export default class App extends React.Component {
 									At the <b>University of Washington CSE Department’s Syslab</b>
 									, I crafted data visualizations and front-end demos for
 									systems software projects using D3.js.
+								</Card>
+							</div>
+							<div class="col-sm mb-3">
+								<Card title={'Lead Android Dev.'}>
+									At <b>aspace Inc.</b>, I developed an Android codebase with
+									the Android SDK using Java and XML, implementing in-house APIs
+									and UI designs.
 								</Card>
 							</div>
 						</div>
