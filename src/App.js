@@ -97,6 +97,13 @@ export default class App extends React.Component {
 								</Card>
 							</div>
 							<div class="col-sm mb-3">
+								<Card title={'CalHacks Director'}>
+									At <b>CalHacks</b>, I handle logistics and technology for the
+									worlds largest collegiate hackathon with over 2300
+									competitors.
+								</Card>
+							</div>
+							<div class="col-sm mb-3">
 								<Card title={'Research Assistant'}>
 									At the <b>University of Washington CSE Department’s Syslab</b>
 									, I crafted data visualizations and front-end demos for
@@ -104,7 +111,7 @@ export default class App extends React.Component {
 								</Card>
 							</div>
 							<div class="col-sm mb-3">
-								<Card title={'Lead Android Dev.'}>
+								<Card title={'Lead Android Developer'}>
 									At <b>aspace Inc.</b>, I developed an Android codebase with
 									the Android SDK using Java and XML, implementing in-house APIs
 									and UI designs.
@@ -218,6 +225,14 @@ export default class App extends React.Component {
 									Freshman first-year studying Electrical Engineering and
 									Computer Science. Member of CodeBase client team. Currently
 									taking CS 61A, EE 16A, MATH 53, and ENGLISH R1B.
+								</Card>
+							</div>
+							<div class="col mb-3">
+								<Card title={'Google CSSI Coursera'}>
+									Attended and completed the Google CSSI Coursera program for
+									students with advanced CS knowledge. Graduated with
+									certifications on <b>Algorithms on Graphs</b> and{' '}
+									<b>Advanced Algorithms and Complexity</b>.
 								</Card>
 							</div>
 							<div class="col mb-3">
