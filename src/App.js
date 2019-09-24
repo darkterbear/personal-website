@@ -223,8 +223,9 @@ export default class App extends React.Component {
 							<div class="col mb-3">
 								<Card title={'UC Berkeley'}>
 									Freshman first-year studying Electrical Engineering and
-									Computer Science. Member of CodeBase client team. Currently
-									taking CS 61A, EE 16A, MATH 53, and ENGLISH R1B.
+									Computer Science. Member of CodeBase client team and Director
+									of Cal Hacks. Currently taking CS 61A, EE 16A, MATH 53, and
+									ENGLISH R1B.
 								</Card>
 							</div>
 							<div class="col mb-3">
