@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Grantipo;
+  src: url("./fonts/GrantipoBeta001-Regular.ttf");
+}
+@font-face {
+  font-family: Grantipo;
+  font-weight: bold;
+  src: url("./fonts/GrantipoBeta001-Bold.ttf");
+}
+html,
+body {
+  font-family: Grantipo;
+}
+
+h1 {
+  font-size: 24pt;
+  color: #527aff;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 16pt;
+  color: black;
+}
+
+h3 {
+  font-size: 12pt;
+  color: #527aff;
+  font-weight: bold;
+}
+
+p {
+  font-size: 12pt;
+  color: black;
+}
+
+i {
+  color: #527aff;
+}
+
+/*# sourceMappingURL=styles.css.map */
