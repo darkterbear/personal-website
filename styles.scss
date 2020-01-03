@@ -44,6 +44,7 @@ p {
 }
 
 a {
+  color: $blue;
   text-decoration: none;
 }
 
@@ -142,6 +143,57 @@ i {
       #splash-content {
         text-align: center;
         margin: 0 auto;
+      }
+    }
+  }
+}
+
+#frame-2 {
+  width: 70%;
+  max-width: 64rem;
+
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  .section {
+    display: flex;
+    margin-bottom: 4rem;
+
+    .section-img {
+      display: inline-block;
+      width: calc(30% - 2.5rem);
+      margin-right: 2rem;
+
+      img {
+        margin-top: 0.7rem; // offset to line up with text
+        width: 100%;
+      }
+    }
+
+    .section-content {
+      display: inline-block;
+      width: 70%;
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #frame-2 {
+    width: 80%;
+
+    .section {
+      display: block;
+      margin-bottom: 3rem;
+
+      .section-img {
+        margin-right: 0;
+        margin-bottom: 1rem;
+        width: 100%;
+      }
+
+      .section-content {
+        width: 100%;
       }
     }
   }
