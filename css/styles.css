@@ -1,11 +1,11 @@
 @font-face {
   font-family: Grantipo;
-  src: url("./fonts/GrantipoBeta001-Regular.ttf");
+  src: url("../fonts/GrantipoBeta001-Regular.ttf");
 }
 @font-face {
   font-family: Grantipo;
   font-weight: bold;
-  src: url("./fonts/GrantipoBeta001-Bold.ttf");
+  src: url("../fonts/GrantipoBeta001-Bold.ttf");
 }
 html,
 body {
