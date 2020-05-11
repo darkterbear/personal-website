@@ -24,6 +24,11 @@ html *, body * {
   font-weight: bold;
   src: url("../../fonts/GrantipoBeta001-Bold.ttf");
 }
+@font-face {
+  font-family: Fira;
+  font-weight: normal;
+  src: url("../../fonts/FiraCode-Medium.ttf");
+}
 html,
 body {
   font-family: Grantipo;
@@ -61,6 +66,11 @@ p {
 a {
   color: #527aff;
   text-decoration: none;
+}
+
+code {
+  font-family: Fira;
+  color: #959595;
 }
 
 i {
@@ -122,6 +132,13 @@ i {
 #frame-1 #links h3 {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+@media only screen and (max-width: 850px) {
+  #frame-1 #links h3 {
+    font-size: 12px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
 }
 @media only screen and (max-width: 850px) {
   #frame-1 #splash {
