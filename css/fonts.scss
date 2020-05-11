@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Grantipo;
+  src: url('../../fonts/GrantipoBeta001-Regular.ttf');
+}
+
+@font-face {
+  font-family: Grantipo;
+  font-weight: bold;
+  src: url('../../fonts/GrantipoBeta001-Bold.ttf');
+}
+
+@font-face {
+  font-family: Fira;
+  font-weight: normal;
+  src: url('../../fonts/FiraCode-Medium.ttf');
+}
+
+html,
+body {
+  font-family: Grantipo;
+}
+
+h1 {
+  font-size: 28px;
+  color: $blue;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+
+  @media only screen and (max-width: 850px) {
+    font-size: 20px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  color: black;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 16px;
+  color: $blue;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  color: black;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+}
+
+code {
+  font-family: Fira;
+  color: $gray;
+}
+
+i {
+  color: $blue;
+}

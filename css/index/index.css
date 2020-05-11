@@ -1,41 +1,60 @@
+html *, body * {
+  margin: 0;
+}
+
+#header {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.content {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 @font-face {
   font-family: Grantipo;
-  src: url("../fonts/GrantipoBeta001-Regular.ttf");
+  src: url("../../fonts/GrantipoBeta001-Regular.ttf");
 }
 @font-face {
   font-family: Grantipo;
   font-weight: bold;
-  src: url("../fonts/GrantipoBeta001-Bold.ttf");
+  src: url("../../fonts/GrantipoBeta001-Bold.ttf");
 }
 html,
 body {
   font-family: Grantipo;
 }
-html *,
-body * {
-  margin: 0;
-}
 
 h1 {
-  font-size: 24pt;
+  font-size: 28px;
   color: #527aff;
   font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+@media only screen and (max-width: 850px) {
+  h1 {
+    font-size: 20px;
+  }
 }
 
 h2 {
-  font-size: 16pt;
+  font-size: 24px;
   color: black;
   font-weight: normal;
 }
 
 h3 {
-  font-size: 12pt;
+  font-size: 16px;
   color: #527aff;
   font-weight: bold;
 }
 
 p {
-  font-size: 12pt;
+  font-size: 16px;
   color: black;
 }
 
@@ -55,12 +74,6 @@ i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-#frame-1 #header {
-  position: absolute;
-  top: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
 }
 #frame-1 #splash {
   margin: 0 auto;
@@ -110,7 +123,7 @@ i {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 850px) {
   #frame-1 #splash {
     margin: 0 auto;
     display: flex;
@@ -152,7 +165,7 @@ i {
   width: 70%;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 850px) {
   #frame-2 {
     width: 80%;
   }
@@ -170,4 +183,4 @@ i {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=index.css.map */
