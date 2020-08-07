@@ -55,7 +55,8 @@
         An important part of security is to keep your server up to date with the latest security patches. Commonly used
         software on your server and even Linux and Ubuntu themselves have bugs and vulnerabilities that get patched out
         through software updates.
-        <br /><br />
+      </p>
+      <p>
         We want to update the list of available packages and their versions in <code>apt</code>, and then install those
         newer versions of the packages that you already have installed. We can accomplish this with a single command:
       </p>
@@ -113,12 +114,12 @@
         If you're still accessing your server by SSH'ing into root, we want to change that. Allowing root SSH is like
         leaving the your safe open at home. Sure, a burglar needs to break into the home first, but once they do, the
         stuff in your safe is as good as gone.
-        <br /><br />
+      </p>
+      <p>
         The solution is to directly ssh into your user, rather than into root and switching users. To do this, we need
         to add your local machine's public key to the <code>~/.ssh/authorized_keys</code> of the given user.
-        <br /><br />
-        First, switch to the given user
       </p>
+      <p>First, switch to the given user.</p>
       <terminal>
         $ su [USERNAME]
       </terminal>
@@ -153,10 +154,12 @@
         drives, etc. With the advent of cloud computing, most attacks have shifted towards network-based infiltrations.
         Therefore, we must pay special attention to what Internet traffic we allow in and out of our server. We can
         control this with a <b>firewall</b>, which has configurable rules on what traffic to block.
-        <br /><br />
+      </p>
+      <p>
         You need to be a sudo-er to perform these steps. We will use <code>ufw</code>; <code>iptables</code> is another
         program that suits this purpose, but it is more complex.
-        <br /><br />
+      </p>
+      <p>
         By default, <code>ufw</code> denies traffic through ports. You specify what ports you allow traffic through:
       </p>
       <terminal>
@@ -165,7 +168,8 @@
       <p>
         We must allow port 22 (the port that SSH runs on). Depending on what else your server is performing, you may
         want to open other ports as well, such as 80 for HTTP.
-        <br /><br />
+      </p>
+      <p>
         Finally, you must enable the firewall for it to take effect:
       </p>
       <terminal>
