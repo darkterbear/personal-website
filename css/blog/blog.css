@@ -161,4 +161,8 @@ terminal {
   overflow-wrap: break-word;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
 /*# sourceMappingURL=blog.css.map */
