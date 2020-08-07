@@ -34,7 +34,7 @@ h1.section-title {
     box-shadow: $drop-shadow;
   }
   h2{
-    margin: 1rem 0;
+    margin: 2rem 0 1rem;
     font-weight: bold;
   }
   h5 {
@@ -90,5 +90,9 @@ terminal {
 }
 
 p {
+  margin-bottom: 1rem;
+}
+
+ol {
   margin-bottom: 1rem;
 }
