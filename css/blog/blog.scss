@@ -32,6 +32,19 @@ h1.section-title {
     border-radius: 0.5rem;
     padding: 1rem;
     box-shadow: $drop-shadow;
+
+    &.small {
+      max-width: 400px;
+    }
+  }
+  video {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+
+    width: calc(100% - 2rem);
+    max-width: 800px;
   }
   h2{
     margin: 2rem 0 1rem;

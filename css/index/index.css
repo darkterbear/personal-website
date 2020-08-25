@@ -72,6 +72,11 @@ code {
   font-family: Fira;
   color: #959595;
 }
+@media only screen and (min-width: 850px) {
+  code.block {
+    margin-left: 2rem;
+  }
+}
 
 i {
   color: #527aff;
