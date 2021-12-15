@@ -15,6 +15,12 @@ html *, body * {
   margin: 0 auto;
 }
 
+#copyright {
+  text-align: center;
+  padding: 1rem;
+  font-size: 12px;
+}
+
 @font-face {
   font-family: Grantipo;
   src: url("../../fonts/GrantipoBeta001-Regular.ttf");
@@ -71,11 +77,6 @@ a {
 code {
   font-family: Fira;
   color: #959595;
-}
-@media only screen and (min-width: 850px) {
-  code.block {
-    margin-left: 2rem;
-  }
 }
 
 i {
