@@ -26,9 +26,9 @@ h1 {
   font-weight: bold;
   margin-bottom: 0.5rem;
 
-  @media only screen and (max-width: 850px) {
-    font-size: 20px;
-  }
+  // @media only screen and (max-width: 850px) {
+  //   font-size: 20px;
+  // }
 }
 
 h2 {
@@ -54,6 +54,7 @@ a {
 }
 
 code {
+  display: inline-block;
   font-family: Fira;
   color: $gray;
 }

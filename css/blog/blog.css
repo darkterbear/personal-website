@@ -46,11 +46,6 @@ h1 {
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
-@media only screen and (max-width: 850px) {
-  h1 {
-    font-size: 20px;
-  }
-}
 
 h2 {
   font-size: 24px;
@@ -75,6 +70,7 @@ a {
 }
 
 code {
+  display: inline-block;
   font-family: Fira;
   color: #959595;
 }
@@ -184,6 +180,20 @@ p {
 
 ol {
   margin-bottom: 1rem;
+}
+
+.code-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+@media only screen and (max-width: 850px) {
+  .code-section {
+    flex-direction: column;
+    justify-content: start;
+  }
 }
 
 /*# sourceMappingURL=blog.css.map */

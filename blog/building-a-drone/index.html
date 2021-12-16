@@ -240,31 +240,33 @@
         1000-2000, representing <b>aileron, elevator, throttle, rudder, aux1, aux2, aux3, aux4</b>, respectively. You
         can see some of the processing code below:
       </p>
-      <code>
-        # calculate roll, pitch, yaw and throttle from dpad positions <br/>
-        x, y = 0.0, -1.0<br/>
-        if leftStick and leftStick.is_pressed:<br/>
-            x, y = leftStick.position.x, leftStick.position.y<br/>
-        throttle = (y + 1.0) / 2.0<br/>
-        rudder = x<br/>
-        <br/>
-        x, y = 0.0, 0.0<br/>
-        if rightStick and rightStick.is_pressed:<br/>
-            x, y = rightStick.position.x, rightStick.position.y<br/>
-        aileron = x<br/>
-        elevator = y<br/>
-        <br/>
-        # roll, pitch, yaw, throttle, aux1, aux2, aux3, aux4, each from 1000 to 2000<br/>
-        buf = []<br/>
-        push16(buf, int(aileron * 500 + 1500))<br/>
-        push16(buf, int(elevator * 500 + 1500))<br/>
-        push16(buf, int(throttle * 1000 + 1000))<br/>
-        push16(buf, int(rudder * 500 + 1500))<br/>
-        push16(buf, 1500)<br/>
-        push16(buf, 1000)<br/>
-        push16(buf, 1000)<br/>
-        push16(buf, 1000)<br/>
-      </code><br />
+      <div class="code-section">
+        <code>
+          # calculate roll, pitch, yaw and throttle from dpad positions <br/>
+          x, y = 0.0, -1.0<br/>
+          if leftStick and leftStick.is_pressed:<br/>
+              x, y = leftStick.position.x, leftStick.position.y<br/>
+          throttle = (y + 1.0) / 2.0<br/>
+          rudder = x<br/>
+          <br/>
+          x, y = 0.0, 0.0<br/>
+          if rightStick and rightStick.is_pressed:<br/>
+              x, y = rightStick.position.x, rightStick.position.y<br/>
+          aileron = x<br/>
+          elevator = y<br/>
+          <br/>
+          # roll, pitch, yaw, throttle, aux1, aux2, aux3, aux4, each from 1000 to 2000<br/>
+          buf = []<br/>
+          push16(buf, int(aileron * 500 + 1500))<br/>
+          push16(buf, int(elevator * 500 + 1500))<br/>
+          push16(buf, int(throttle * 1000 + 1000))<br/>
+          push16(buf, int(rudder * 500 + 1500))<br/>
+          push16(buf, 1500)<br/>
+          push16(buf, 1000)<br/>
+          push16(buf, 1000)<br/>
+          push16(buf, 1000)<br/>
+        </code>
+      </div>
       <p>
         Finally, to run the script on boot, head into <code>/etc/profile</code> and add the command to start the Python
         script:
