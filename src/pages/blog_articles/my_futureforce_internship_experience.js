@@ -123,7 +123,7 @@ export default (
           from accessibility features.
         </p>
         <img
-          style="max-width: 500px;"
+          style={{ maxWidth: 500 }}
           src="https://files.terranceli.com/blog/my-futureforce-internship-experience/types-of-disabilities.png"
         />
         <h5>Permanent, temporary, and situational disability examples</h5>
