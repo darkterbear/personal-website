@@ -39,9 +39,6 @@ export const HomePage = () => {
           >
             <h3>github</h3>
           </a>
-          <a href="mailto:tyli@berkeley.edu" target="_blank" rel="noreferrer">
-            <h3>email</h3>
-          </a>
           <a
             href="https://files.terranceli.com/ssh.txt"
             target="_blank"
