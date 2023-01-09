@@ -1,6 +1,6 @@
-@import '../common.scss';
-@import '../colors.scss';
-@import '../fonts.scss';
+@import "../common.scss";
+@import "../colors.scss";
+@import "../fonts.scss";
 
 #frame-1 {
   height: 100vh;
@@ -70,8 +70,8 @@
 
       @media only screen and (max-width: 850px) {
         font-size: 12px;
-      margin-left: 0.5rem;
-      margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
       }
     }
   }
