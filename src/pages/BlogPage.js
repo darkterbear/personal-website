@@ -1,5 +1,6 @@
 import React from "react";
 import Copyright from "../components/Copyright";
+import Header from "../components/Header";
 import "./BlogPage.scss";
 import { ARTICLES } from "./blog_articles";
 
@@ -8,11 +9,7 @@ export const BlogPage = () => {
     <div id="blog-page">
       {/* Top Splash */}
       <div id="frame-1">
-        <a href="/">
-          <h3 id="header" class="white">
-            terrance li
-          </h3>
-        </a>
+        <Header white />
         <div class="content">
           <img
             id="illustration"

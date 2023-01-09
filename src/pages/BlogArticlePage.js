@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams, Navigate } from "react-router-dom";
 import Copyright from "../components/Copyright";
+import Header from "../components/Header";
 import "./BlogPage.scss";
 import { getArticleByKey } from "./blog_articles/index";
 
@@ -15,9 +16,7 @@ export const BlogArticlePage = () => {
 
   return (
     <div id="blog-page">
-      <a href="/">
-        <h3 id="header">terrance li</h3>
-      </a>
+      <Header />
       <div class="article-page">
         <div class="content">
           <h1>{article.title}</h1>

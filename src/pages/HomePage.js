@@ -1,5 +1,6 @@
 import React from "react";
 import Copyright from "../components/Copyright";
+import Header from "../components/Header";
 import "./HomePage.scss";
 
 export const HomePage = () => {
@@ -7,7 +8,7 @@ export const HomePage = () => {
     <div id="home-page">
       {/* Frame 1 */}
       <div id="frame-1">
-        <h3 id="header">terrance li</h3>
+        <Header />
         {/* Splash */}
         <div id="splash">
           <img src="https://files.terranceli.com/assets/portrait/bear-square512.png" />
