@@ -1,3 +1,4 @@
+const key = "ubuntu-server-setup-with-do";
 const title = "Ubuntu Server Setup with DigitalOcean";
 const date = "May 10th, 2020";
 const description = `When we talk about the "cloud" and the services that run on the
@@ -194,6 +195,7 @@ const content = (
 );
 
 export default {
+  key,
   title,
   date,
   description,

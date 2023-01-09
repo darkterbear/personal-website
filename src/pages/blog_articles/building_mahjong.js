@@ -1,3 +1,4 @@
+const key = "building-mahjong";
 const title = "Building Mahjong";
 const date = "December 15th, 2021";
 const description = `As the boredom of quarantine sets in, I embarked on a project to build
@@ -308,6 +309,7 @@ const content = (
 );
 
 export default {
+  key,
   title,
   date,
   description,

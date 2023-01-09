@@ -1,3 +1,4 @@
+const key = "basic-ubuntu-server-security";
 const title = "Basic Ubuntu server security";
 const date = "June 6th, 2020";
 const description = `After setting up an Ubuntu server, there are many steps you can take
@@ -220,6 +221,7 @@ const content = (
 );
 
 export default {
+  key,
   title,
   date,
   description,

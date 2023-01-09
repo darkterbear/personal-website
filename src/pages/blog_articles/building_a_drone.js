@@ -1,3 +1,4 @@
+const key = "building-a-drone";
 const title = "Building a drone";
 const date = "August 25th, 2020";
 const description = `Follow along as I take you through my experience of building my own
@@ -403,6 +404,7 @@ const content = (
 );
 
 export default {
+  key,
   title,
   date,
   description,
