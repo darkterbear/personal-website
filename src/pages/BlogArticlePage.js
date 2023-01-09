@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams, Navigate } from "react-router-dom";
+import Copyright from "../components/Copyright";
 import "./BlogPage.scss";
 import { getArticleByKey } from "./blog_articles/index";
 
@@ -26,7 +27,7 @@ export const BlogArticlePage = () => {
           {article.content}
         </div>
       </div>
-      <p id="copyright">Copyright © Terrance Li 2022</p>
+      <Copyright />
     </div>
   );
 };

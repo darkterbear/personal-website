@@ -1,4 +1,5 @@
 import React from "react";
+import Copyright from "../components/Copyright";
 import "./HomePage.scss";
 
 export const HomePage = () => {
@@ -185,7 +186,7 @@ export const HomePage = () => {
           </div>
         </div>
       </div>
-      <p id="copyright">Copyright © Terrance Li 2022</p>
+      <Copyright />
     </div>
   );
 };

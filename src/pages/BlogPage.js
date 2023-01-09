@@ -1,4 +1,5 @@
 import React from "react";
+import Copyright from "../components/Copyright";
 import "./BlogPage.scss";
 import { ARTICLES } from "./blog_articles";
 
@@ -32,7 +33,7 @@ export const BlogPage = () => {
           </div>
         ))}
       </div>
-      <p id="copyright">Copyright © Terrance Li 2022</p>
+      <Copyright />
     </div>
   );
 };

@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   * {
     margin: 0;
   }
@@ -17,10 +18,4 @@ $drop-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-#copyright {
-  text-align: center;
-  padding: 1rem;
-  font-size: 12px;
 }
