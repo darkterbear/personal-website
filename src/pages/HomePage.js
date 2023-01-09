@@ -3,7 +3,7 @@ import "./HomePage.scss";
 
 export const HomePage = () => {
   return (
-    <>
+    <div id="home-page">
       {/* Frame 1 */}
       <div id="frame-1">
         <h3 id="header">terrance li</h3>
@@ -186,6 +186,6 @@ export const HomePage = () => {
         </div>
       </div>
       <p id="copyright">Copyright © Terrance Li 2022</p>
-    </>
+    </div>
   );
 };

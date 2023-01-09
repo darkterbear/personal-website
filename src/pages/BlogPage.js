@@ -3,7 +3,7 @@ import "./BlogPage.scss";
 
 export const BlogPage = () => {
   return (
-    <>
+    <div id="blog-page">
       {/* Top Splash */}
       <div id="frame-1">
         <a href="/">
@@ -89,6 +89,6 @@ export const BlogPage = () => {
         </div>
       </div>
       <p id="copyright">Copyright © Terrance Li 2022</p>
-    </>
+    </div>
   );
 };
