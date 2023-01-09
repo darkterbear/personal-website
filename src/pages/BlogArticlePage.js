@@ -10,22 +10,42 @@ import MyFutureforceInternshipExperienceContent from "./blog_articles/my_futuref
 export const BlogArticlePage = () => {
   const { article } = useParams();
 
-  const getArticleContent = () => {
-    switch (article) {
-      case "building-mahjong":
-        return BuildingMahjongContent;
-      case "building-a-drone":
-        return BuildingADroneContent;
-      case "basic-ubuntu-server-security":
-        return BasicUbuntuServerSecurityContent;
-      case "ubuntu-server-setup-with-do":
-        return UbuntuServerSetupWithDOContent;
-      case "my-futureforce-internship-experience":
-        return MyFutureforceInternshipExperienceContent;
-      default:
-        return <Navigate to={"/blog"} />;
-    }
-  };
+  let articleObject;
+  switch (article) {
+    case "building-mahjong":
+      articleObject = BuildingMahjongContent;
+      break;
+    case "building-a-drone":
+      articleObject = BuildingADroneContent;
+      break;
+    case "basic-ubuntu-server-security":
+      articleObject = BasicUbuntuServerSecurityContent;
+      break;
+    case "ubuntu-server-setup-with-do":
+      articleObject = UbuntuServerSetupWithDOContent;
+      break;
+    case "my-futureforce-internship-experience":
+      articleObject = MyFutureforceInternshipExperienceContent;
+      break;
+    default:
+      articleObject = <Navigate to={"/blog"} />;
+      break;
+  }
 
-  return <div id="blog-page">{getArticleContent()}</div>;
+  return (
+    <div id="blog-page">
+      <a href="/">
+        <h3 id="header">terrance li</h3>
+      </a>
+      <div class="article-page">
+        <div class="content">
+          <h1>{articleObject.title}</h1>
+          <span>Published {articleObject.date}</span>
+          <p class="description">{articleObject.description}</p>
+          {articleObject.content}
+        </div>
+      </div>
+      <p id="copyright">Copyright © Terrance Li 2022</p>
+    </div>
+  );
 };
