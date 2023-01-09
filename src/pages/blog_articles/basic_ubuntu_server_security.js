@@ -38,7 +38,7 @@ const content = (
     <p>
       This tutorial is for those who want to secure their Ubuntu servers after
       setting them up, perhaps coming from my previous{" "}
-      <a href="/blog/ubuntu-server-setup-with-do">
+      <a href="/#/blog/ubuntu-server-setup-with-do">
         tutorial on setting up an Ubuntu server
       </a>
       . Security is incredibly important for obvious reasons, but we acknowledge
@@ -135,7 +135,9 @@ const content = (
     </terminal>
     <p>
       For a refresher on how to get your local machine's public key, visit my{" "}
-      <a href="/blog/ubuntu-server-setup-with-do#ssh-keys">previous tutorial</a>
+      <a href="/#/blog/ubuntu-server-setup-with-do#ssh-keys">
+        previous tutorial
+      </a>
       .
     </p>
     <h1 id="firewall" class="section-title">

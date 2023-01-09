@@ -46,7 +46,7 @@ export const HomePage = () => {
           >
             <h3>ssh</h3>
           </a>
-          <a href="/blog" target="_top">
+          <a href="/#/blog" target="_top">
             <h3>blog</h3>
           </a>
         </div>
@@ -91,7 +91,7 @@ export const HomePage = () => {
               </a>{" "}
               building{" "}
               <a
-                href="/blog/my-futureforce-internship-experience/"
+                href="/#/blog/my-futureforce-internship-experience/"
                 target="blank"
               >
                 accessibility features
@@ -169,13 +169,13 @@ export const HomePage = () => {
                 </li>
                 <li>
                   A 3D-printed custom{" "}
-                  <a href="blog/building-a-drone/" target="_blank">
+                  <a href="/#/blog/building-a-drone/" target="_blank">
                     drone
                   </a>
                 </li>
                 <li>
                   This website and{" "}
-                  <a href="/blog/" target="_blank">
+                  <a href="/#/blog/" target="_blank">
                     blog
                   </a>
                 </li>

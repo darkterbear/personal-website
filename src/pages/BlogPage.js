@@ -24,7 +24,7 @@ export const BlogPage = () => {
           <div class="article">
             <span>{a.publishedDate}</span>
             <h1>
-              <a href={`/blog/${a.key}`}>{a.title}</a>
+              <a href={`/#/blog/${a.key}`}>{a.title}</a>
             </h1>
             <p>{a.description}</p>
           </div>
