@@ -1,6 +1,7 @@
 const key = "basic-ubuntu-server-security";
 const title = "Basic Ubuntu server security";
-const date = "June 6th, 2020";
+const publishedDate = "June 6th, 2020";
+const updatedDate = undefined;
 const description = `After setting up an Ubuntu server, there are many steps you can take
 to lock it down and discourage attacks. We'll go over some of the
 basic steps you can do to improve your server's security.`;
@@ -223,7 +224,8 @@ const content = (
 export default {
   key,
   title,
-  date,
+  publishedDate,
+  updatedDate,
   description,
   content,
 };

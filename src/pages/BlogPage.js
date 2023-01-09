@@ -22,7 +22,7 @@ export const BlogPage = () => {
       <div class="content">
         {ARTICLES.map((a) => (
           <div class="article">
-            <span>{a.date}</span>
+            <span>{a.publishedDate}</span>
             <h1>
               <a href={`/blog/${a.key}`}>{a.title}</a>
             </h1>

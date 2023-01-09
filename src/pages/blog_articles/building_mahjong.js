@@ -1,6 +1,7 @@
 const key = "building-mahjong";
 const title = "Building Mahjong";
-const date = "December 15th, 2021";
+const publishedDate = "December 15th, 2021";
+const updatedDate = undefined;
 const description = `As the boredom of quarantine sets in, I embarked on a project to build
 multiplayer Mahjong as a web app so I can play with my friends. Read
 about the rules, my design, and some challenges of the implementation!`;
@@ -311,7 +312,8 @@ const content = (
 export default {
   key,
   title,
-  date,
+  publishedDate,
+  updatedDate,
   description,
   content,
 };

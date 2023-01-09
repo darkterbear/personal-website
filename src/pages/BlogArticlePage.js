@@ -20,8 +20,14 @@ export const BlogArticlePage = () => {
       <div class="article-page">
         <div class="content">
           <h1>{article.title}</h1>
-          {/* TODO: check for published vs updated dates */}
-          <span>Published {article.date}</span>
+          <span>Published {article.publishedDate}</span>
+
+          {article.updatedDate && (
+            <>
+              <br />
+              <span>Last updated {article.updatedDate}</span>
+            </>
+          )}
           <p class="description">{article.description}</p>
           {article.content}
         </div>

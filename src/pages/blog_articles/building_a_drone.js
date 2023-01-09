@@ -1,6 +1,7 @@
 const key = "building-a-drone";
 const title = "Building a drone";
-const date = "August 25th, 2020";
+const publishedDate = "August 25th, 2020";
+const updatedDate = undefined;
 const description = `Follow along as I take you through my experience of building my own
 drone! This also serves as a tutorial if you want to replicate this
 work.`;
@@ -406,7 +407,8 @@ const content = (
 export default {
   key,
   title,
-  date,
+  publishedDate,
+  updatedDate,
   description,
   content,
 };

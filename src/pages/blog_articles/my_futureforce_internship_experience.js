@@ -1,6 +1,7 @@
 const key = "my-futureforce-internship-experience";
 const title = "My Futureforce internship experience";
-const date = "September 24th, 2020";
+const publishedDate = "August 6th, 2020";
+const updatedDate = "September 24th, 2020";
 const description = `This summer (2020), I worked at Salesforce as a Futureforce intern for
 the Communities Cloud Runtime team! Read about my experience, my
 project, and everything I learned.`;
@@ -347,7 +348,8 @@ const content = (
 export default {
   key,
   title,
-  date,
+  publishedDate,
+  updatedDate,
   description,
   content,
 };
