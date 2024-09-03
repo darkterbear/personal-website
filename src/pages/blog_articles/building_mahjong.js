@@ -1,5 +1,5 @@
 const key = "building-mahjong";
-const title = "Building Mahjong";
+const title = "building mahjong";
 const publishedDate = "December 15th, 2021";
 const updatedDate = undefined;
 const description = `As the boredom of quarantine sets in, I embarked on a project to build
@@ -8,7 +8,7 @@ about the rules, my design, and some challenges of the implementation!`;
 
 const content = (
   <>
-    <h1 class="section-title">Contents</h1>
+    <h1 class="section-title">contents</h1>
     <ol>
       <li>
         <a href="#introduction">Introduction</a>
@@ -24,7 +24,7 @@ const content = (
       </li>
     </ol>
     <h1 id="introduction" class="section-title">
-      Introduction
+      introduction
     </h1>
     <p>
       Mahjong is a tile-based game originating in 19th-century China. It's
@@ -36,7 +36,7 @@ const content = (
       build it myself.
     </p>
     <h1 id="mahjong" class="section-title">
-      How is Mahjong Played?
+      how is mahjong played?
     </h1>
     <p>
       There are countless variations of Mahjong, so my explanation of the rules
@@ -150,7 +150,7 @@ const content = (
     </p>
 
     <h1 id="implementation" class="section-title">
-      Design and Implementation
+      design and implementation
     </h1>
 
     <h2>Architecture</h2>
@@ -288,7 +288,7 @@ const content = (
     </div>
 
     <h1 id="conclusion" class="section-title">
-      Conclusion
+      conclusion
     </h1>
     <p>
       This project has been a great exercise in both design and algorithms :) I

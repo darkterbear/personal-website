@@ -13,9 +13,9 @@ export const BlogPage = () => {
         <div class="content">
           <img
             id="illustration"
-            src="https://files.terranceli.com/server.png"
+            src="https://files.terranceli.com/assets/logo/logowhite.svg"
           />
-          <h1 class="title">terrance's blog</h1>
+          <h1 class="title">my blog</h1>
         </div>
       </div>
 

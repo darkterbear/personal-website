@@ -1,5 +1,5 @@
 const key = "building-a-drone";
-const title = "Building a drone";
+const title = "building a drone";
 const publishedDate = "August 25th, 2020";
 const updatedDate = undefined;
 const description = `Follow along as I take you through my experience of building my own
@@ -8,7 +8,7 @@ work.`;
 
 const content = (
   <>
-    <h1 class="section-title">Contents</h1>
+    <h1 class="section-title">contents</h1>
     <ol>
       <li>
         <a href="#introduction">Introduction</a>
@@ -36,7 +36,7 @@ const content = (
       </li>
     </ol>
     <h1 id="introduction" class="section-title">
-      Introduction
+      introduction
     </h1>
     <p>
       I've always thought it'd be cool to have a drone. Not only to fly around
@@ -48,7 +48,7 @@ const content = (
       food, I must first build a drone (that flies).
     </p>
     <h1 id="disclaimer" class="section-title">
-      Disclaimer
+      disclaimer
     </h1>
     <p>
       This blog post is for educational purposes only. You may attempt to
@@ -58,7 +58,7 @@ const content = (
       this tutorial.
     </p>
     <h1 id="how-a-quadcopter-works" class="section-title">
-      How a Quadcopter Works
+      how a quadcopter works
     </h1>
     <img src="https://files.terranceli.com/blog/building-a-drone/quadcopter-operation.png" />
     <h5>
@@ -98,7 +98,7 @@ const content = (
       connection using the Multiwii Serial Protocol.
     </p>
     <h1 id="parts" class="section-title">
-      Parts
+      parts
     </h1>
     <p>
       After a quick Google search, I've put together a list of parts that will
@@ -226,7 +226,7 @@ const content = (
       <li>XT60 Y-Splitter</li>
     </ul>
     <h1 id="tools" class="section-title">
-      Tools
+      tools
     </h1>
     <p>
       I also had to obtain certain tools in order to assemble the quadcopter.
@@ -244,7 +244,7 @@ const content = (
       <li>Pliers</li>
     </ul>
     <h1 id="assembly" class="section-title">
-      Assembly
+      assembly
     </h1>
     <p>Physically assembling the drone was straightforward, albeit tedious.</p>
     <ol>
@@ -276,7 +276,7 @@ const content = (
     <img src="https://files.terranceli.com/blog/building-a-drone/assembled-drone.jpg" />
     <h5>Assembled drone (without wiring and battery)</h5>
     <h1 id="software" class="section-title">
-      Software
+      software
     </h1>
     <p>
       Now, we have to code our drone! Specifically, we need two pieces of
@@ -384,7 +384,7 @@ const content = (
       python3 /home/pi/Documents/drone/raspberry-pi/remote-control.py
     </terminal>
     <h1 id="conclusion" class="section-title">
-      Conclusion
+      conclusion
     </h1>
     <p>
       If you've been following along and building your own drone, you should

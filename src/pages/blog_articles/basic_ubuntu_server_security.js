@@ -1,5 +1,5 @@
 const key = "basic-ubuntu-server-security";
-const title = "Basic Ubuntu server security";
+const title = "basic ubuntu server security";
 const publishedDate = "June 6th, 2020";
 const updatedDate = undefined;
 const description = `After setting up an Ubuntu server, there are many steps you can take
@@ -8,7 +8,7 @@ basic steps you can do to improve your server's security.`;
 
 const content = (
   <>
-    <h1 class="section-title">Contents</h1>
+    <h1 class="section-title">contents</h1>
     <ol>
       <li>
         <a href="#introduction">Introduction</a>
@@ -33,7 +33,7 @@ const content = (
       </li>
     </ol>
     <h1 id="introduction" class="section-title">
-      Introduction
+      introduction
     </h1>
     <p>
       This tutorial is for those who want to secure their Ubuntu servers after
@@ -49,13 +49,13 @@ const content = (
       advanced procedures and techniques to further secure your server.
     </p>
     <h1 id="prerequisites" class="section-title">
-      Prerequisites
+      prerequisites
     </h1>
     <ul>
       <li>An Ubuntu server that you have SSH access to</li>
     </ul>
     <h1 id="update-and-upgrade" class="section-title">
-      Update and Upgrade
+      update and upgrade
     </h1>
     <p>
       An important part of security is to keep your server up to date with the
@@ -75,7 +75,7 @@ const content = (
       this process if you'd like using crontab, which we won't go over here.
     </p>
     <h1 id="user-management" class="section-title">
-      User Management
+      user management
     </h1>
     <p>
       Separating users from each other is incredibly important for
@@ -141,7 +141,7 @@ const content = (
       .
     </p>
     <h1 id="firewall" class="section-title">
-      Firewall
+      firewall
     </h1>
     <p>
       Back in the olden days, server administrators had to worry about 2 primary
@@ -176,7 +176,7 @@ const content = (
       life very difficult!
     </p>
     <h1 id="locking-down-ssh" class="section-title">
-      Locking Down SSH
+      locking down ssh
     </h1>
     <p>
       Following the theme of the previous section, we must also secure SSH
@@ -202,7 +202,7 @@ const content = (
     </p>
     <terminal>$ sudo service ssh restart</terminal>
     <h1 id="conclusion" class="section-title">
-      Conclusion
+      conclusion
     </h1>
     <p>
       <b>

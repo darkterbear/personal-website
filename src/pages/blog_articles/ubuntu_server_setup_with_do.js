@@ -1,5 +1,5 @@
 const key = "ubuntu-server-setup-with-do";
-const title = "Ubuntu Server Setup with DigitalOcean";
+const title = "ubuntu server setup with digitalocean";
 const publishedDate = "May 10th, 2020";
 const updatedDate = undefined;
 const description = `When we talk about the "cloud" and the services that run on the
@@ -12,7 +12,7 @@ provider!`;
 
 const content = (
   <>
-    <h1 class="section-title">Contents</h1>
+    <h1 class="section-title">contents</h1>
     <ol>
       <li>
         <a href="#introduction">Introduction</a>
@@ -34,7 +34,7 @@ const content = (
       </li>
     </ol>
     <h1 id="introduction" class="section-title">
-      Introduction
+      introduction
     </h1>
     <p>
       Alright, let's rewind. <b>What are servers?</b> Servers are just computers
@@ -53,7 +53,7 @@ const content = (
       screen.
     </p>
     <h1 id="prerequisites" class="section-title">
-      Prerequisites
+      prerequisites
     </h1>
     <ul>
       <li>
@@ -76,7 +76,7 @@ const content = (
       </li>
     </ul>
     <h1 id="ssh-keys" class="section-title">
-      SSH Keys
+      ssh keys
     </h1>
     <p>
       <b>
@@ -127,7 +127,7 @@ const content = (
     <img src="https://files.terranceli.com/blog/ubuntu-server-setup-with-do/ssh.png" />
     <h5>The SSH section in Settings -> Security</h5>
     <h1 id="digitalocean-droplet" class="section-title">
-      DigitalOcean Droplet
+      digitalocean droplet
     </h1>
     <p>
       Now, we will spin up a DigitalOcean "Droplet", which is a virtual private
@@ -165,7 +165,7 @@ const content = (
       Droplet authentication options; make sure you have "SSH keys" selected
     </h5>
     <h1 id="accessing-your-server" class="section-title">
-      Accessing Your Server
+      accessing your server
     </h1>
     <p>
       Once your Droplet is done initializing, you should be able to see its
@@ -185,7 +185,7 @@ const content = (
       this terminal as if it were directly connected to your server.
     </p>
     <h1 id="conclusion" class="section-title">
-      Conclusion
+      conclusion
     </h1>
     <p>
       This concludes my tutorial on setting up an Ubuntu server on DigitalOcean!

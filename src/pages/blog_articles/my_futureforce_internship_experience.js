@@ -1,5 +1,5 @@
 const key = "my-futureforce-internship-experience";
-const title = "My Futureforce internship experience";
+const title = "my futureforce internship experience";
 const publishedDate = "August 6th, 2020";
 const updatedDate = "September 24th, 2020";
 const description = `This summer (2020), I worked at Salesforce as a Futureforce intern for
@@ -8,7 +8,7 @@ project, and everything I learned.`;
 
 const content = (
   <>
-    <h1 class="section-title">Contents</h1>
+    <h1 class="section-title">contents</h1>
     <ol>
       <li>
         <a href="#introduction">Introduction</a>
@@ -30,7 +30,7 @@ const content = (
       </li>
     </ol>
     <h1 id="introduction" class="section-title">
-      Introduction
+      introduction
     </h1>
     <p>
       In the fall semester of 2019, I visited Salesforce Tower with{" "}
@@ -44,7 +44,7 @@ const content = (
       as a Futureforce Intern!
     </p>
     <h1 id="covid" class="section-title">
-      COVID
+      covid
     </h1>
     <p>
       It's worth noting that this internship took place during the height of the
@@ -55,7 +55,7 @@ const content = (
       remotely went smoothly.
     </p>
     <h1 id="team" class="section-title">
-      My Team
+      my team
     </h1>
     <p>
       First, a little about Salesforce. Salesforce is large, and many people
@@ -100,7 +100,7 @@ const content = (
     <h5>Meet my team!</h5>
 
     <h1 id="project" class="section-title">
-      My Project
+      my project
     </h1>
     <p>
       My task for the summer is to build accessibility features into LWR. Being
@@ -213,7 +213,7 @@ const content = (
       simply updating the focus to the top of the page or to the content region.
     </p>
     <h1 id="learning" class="section-title">
-      What I Learned
+      what i learned
     </h1>
     <h2>About WebComponents</h2>
     <p>
@@ -325,7 +325,7 @@ const content = (
       as a core value, and the rigorous testing is a testament to Trust.
     </p>
     <h1 id="acknowledgements" class="section-title">
-      Acknowledgements
+      acknowledgements
     </h1>
     <p>
       There are two people I’d like to thank in particular: Ronak, my manager,
