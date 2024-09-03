@@ -4,6 +4,7 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import { BlogArticlePage } from "./pages/BlogArticlePage";
 import { BlogPage } from "./pages/BlogPage";
 import { HomePage } from "./pages/HomePage";
+import { PhotosPage } from "./pages/PhotosPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -19,6 +20,10 @@ const router = createHashRouter([
   {
     path: "blog/:article",
     element: <BlogArticlePage />,
+  },
+  {
+    path: "photos",
+    element: <PhotosPage />,
   },
 ]);
 
