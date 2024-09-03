@@ -17,6 +17,10 @@ const GALLERIES = [
     title: "jul 2024: iceland",
     s3Prefix: "photography/iceland_2",
   },
+  {
+    title: "feb 2023: yosemite fire falls",
+    s3Prefix: "photography/yosemite_fire_falls",
+  },
 ];
 
 const fetchS3Objects = async (prefix) => {
