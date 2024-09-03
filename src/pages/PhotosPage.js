@@ -91,18 +91,32 @@ export const PhotosPage = () => {
       </div>
 
       <div class="content">
-        {GALLERIES.map((g) => (
-          <>
-            <h1 class="title">{g.title}</h1>
-            <Gallery
-              rowHeight={360}
-              margin={4}
-              images={galleryImages[g.s3Prefix]}
-              onClick={handleClick}
-              enableImageSelection={false}
-            />
-          </>
-        ))}
+        <div class="desktop-content">
+          {GALLERIES.map((g) => (
+            <>
+              <h1 class="title">{g.title}</h1>
+              <Gallery
+                rowHeight={360}
+                margin={4}
+                images={galleryImages[g.s3Prefix]}
+                onClick={handleClick}
+                enableImageSelection={false}
+              />
+            </>
+          ))}
+        </div>
+        <div class="mobile-content">
+          {GALLERIES.map((g) => (
+            <>
+              <h1 class="title">{g.title}</h1>
+              <div class="single-col-gallery">
+                {galleryImages[g.s3Prefix]?.map((i) => {
+                  return <img src={i.src} onClick={() => handleClick(-1, i)} />;
+                })}
+              </div>
+            </>
+          ))}
+        </div>
         {!!image && (
           /* @ts-ignore */
           <Lightbox
