@@ -10,8 +10,12 @@ import Lightbox from "react-image-lightbox";
 const BUCKET_NAME = "terrance-files";
 const GALLERIES = [
   {
-    title: "yosemite: half dome",
+    title: "aug 2024: yosemite half dome",
     s3Prefix: "photography/yosemite_half_dome",
+  },
+  {
+    title: "jul 2024: iceland",
+    s3Prefix: "photography/iceland_2",
   },
 ];
 
