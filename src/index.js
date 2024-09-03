@@ -1,12 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import { BlogArticlePage } from "./pages/BlogArticlePage";
 import { BlogPage } from "./pages/BlogPage";
 import { HomePage } from "./pages/HomePage";
 import { PhotosPage } from "./pages/PhotosPage";
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const router = createHashRouter([
   {
@@ -27,8 +25,9 @@ const router = createHashRouter([
   },
 ]);
 
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <RouterProvider router={router}></RouterProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
