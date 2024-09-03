@@ -49,6 +49,9 @@ export const HomePage = () => {
           <a href="/#/blog" target="_top">
             <h3>blog</h3>
           </a>
+          <a href="/#/photos" target="_top">
+            <h3>photography</h3>
+          </a>
         </div>
       </div>
 
@@ -77,8 +80,9 @@ export const HomePage = () => {
                 </li>
               </ul>
               <br />
-              Feel free to check out my <a href="/#/blog">blog</a> or reach out
-              to me at me@terranceli.com :)
+              Feel free to check out my <a href="/#/blog">blog</a>, my{" "}
+              <a href="/#/photos">photos</a> or reach out to me at
+              me@terranceli.com :)
             </p>
           </div>
         </div>
