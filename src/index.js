@@ -5,6 +5,7 @@ import { BlogArticlePage } from "./pages/BlogArticlePage";
 import { BlogPage } from "./pages/BlogPage";
 import { HomePage } from "./pages/HomePage";
 import { PhotosPage } from "./pages/PhotosPage";
+import { AlbumsPage } from "./pages/AlbumsPage";
 
 const router = createHashRouter([
   {
@@ -21,6 +22,10 @@ const router = createHashRouter([
   },
   {
     path: "photos",
+    element: <AlbumsPage />,
+  },
+  {
+    path: "photos/:album",
     element: <PhotosPage />,
   },
 ]);

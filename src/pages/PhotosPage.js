@@ -6,22 +6,8 @@ import "./PhotosPage.scss";
 import "react-image-lightbox/style.css";
 import { Gallery } from "react-grid-gallery";
 import Lightbox from "react-image-lightbox";
-
-const BUCKET_NAME = "terrance-files";
-const GALLERIES = [
-  {
-    title: "aug 2024: yosemite half dome",
-    s3Prefix: "photography/yosemite_half_dome",
-  },
-  {
-    title: "jul 2024: iceland",
-    s3Prefix: "photography/iceland_2",
-  },
-  {
-    title: "feb 2023: yosemite fire falls",
-    s3Prefix: "photography/yosemite_fire_falls",
-  },
-];
+import { useParams } from "react-router-dom";
+import { ALBUMS, BUCKET_NAME } from "./AlbumsPage";
 
 const fetchS3Objects = async (prefix) => {
   // Construct the S3 URL for the listing request
@@ -52,13 +38,17 @@ const fetchS3Objects = async (prefix) => {
   return urls;
 };
 
-const fetchImagesForGallery = async (galleryBasePath) => {
-  const allImageURLs = new Set(await fetchS3Objects(galleryBasePath));
+const fetchImagesForAlbum = async (albumS3Prefix) => {
+  const allImageURLs = new Set(
+    await fetchS3Objects(`photography/${albumS3Prefix}`)
+  );
   const thumbnailURLs = new Set(
-    await fetchS3Objects(galleryBasePath + "/thumbnails")
+    await fetchS3Objects(`photography/${albumS3Prefix}/thumbnails`)
   );
   const originalURLs = new Set(
-    [...allImageURLs].filter((u) => !thumbnailURLs.has(u))
+    [...allImageURLs].filter(
+      (u) => !thumbnailURLs.has(u) && !u.includes("cover.jpg")
+    )
   );
 
   const sortedThumbnails = [...thumbnailURLs].sort();
@@ -73,57 +63,49 @@ const fetchImagesForGallery = async (galleryBasePath) => {
 };
 
 export const PhotosPage = () => {
+  const { album: albumS3Prefix } = useParams();
+  const album = ALBUMS.filter((a) => a.s3Prefix === albumS3Prefix)[0];
+
   const [image, setImage] = useState();
   const handleClick = (_, item) => {
     setImage(item);
   };
 
-  const [galleryImages, setGalleryImages] = useState({});
+  const [albumImages, setAlbumImages] = useState([]);
 
   useEffect(() => {
     (async () => {
-      const newGalleryImages = {};
-      for (const g of GALLERIES) {
-        newGalleryImages[g.s3Prefix] = await fetchImagesForGallery(g.s3Prefix);
-      }
-      console.log(newGalleryImages);
-      setGalleryImages(newGalleryImages);
+      const a = await fetchImagesForAlbum(albumS3Prefix);
+      console.log(albumS3Prefix, a);
+      setAlbumImages(a);
     })();
-  }, []);
+  }, [albumS3Prefix]);
 
   return (
     <div id="photos-page">
       {/* Top Splash */}
       <div id="frame-1">
-        <Header />
+        <Header white />
       </div>
 
       <div class="content">
         <div class="desktop-content">
-          {GALLERIES.map((g) => (
-            <>
-              <h1 class="title">{g.title}</h1>
-              <Gallery
-                rowHeight={360}
-                margin={4}
-                images={galleryImages[g.s3Prefix]}
-                onClick={handleClick}
-                enableImageSelection={false}
-              />
-            </>
-          ))}
+          <h1 class="title">{album.title}</h1>
+          <Gallery
+            rowHeight={360}
+            margin={4}
+            images={albumImages}
+            onClick={handleClick}
+            enableImageSelection={false}
+          />
         </div>
         <div class="mobile-content">
-          {GALLERIES.map((g) => (
-            <>
-              <h1 class="title">{g.title}</h1>
-              <div class="single-col-gallery">
-                {galleryImages[g.s3Prefix]?.map((i) => {
-                  return <img src={i.src} onClick={() => handleClick(-1, i)} />;
-                })}
-              </div>
-            </>
-          ))}
+          <h1 class="title">{album.title}</h1>
+          <div class="single-col-gallery">
+            {albumImages.map((i) => {
+              return <img src={i.src} onClick={() => handleClick(-1, i)} />;
+            })}
+          </div>
         </div>
         {!!image && (
           /* @ts-ignore */

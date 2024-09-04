@@ -3,6 +3,8 @@
 @import "../fonts.scss";
 
 #photos-page {
+  background-color: #23262a;
+
   #frame-1 {
     margin: 0 auto;
     width: 60%;
@@ -17,6 +19,13 @@
 
   .title {
     margin-top: 8rem;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .content {
+    max-width: 1600px;
   }
 
   .desktop-content {
@@ -43,5 +52,8 @@
 
   .ReactGridGallery {
     margin-top: 2rem;
+    div {
+      justify-content: center;
+    }
   }
 }
