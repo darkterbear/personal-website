@@ -27,7 +27,7 @@ export const AlbumsPage = () => {
     <div id="albums-page">
       {/* Top Splash */}
       <div id="frame-1">
-        <Header />
+        <Header white />
       </div>
 
       <div class="content">
@@ -35,7 +35,7 @@ export const AlbumsPage = () => {
           <Album {...album} />
         ))}
       </div>
-      <Copyright />
+      <Copyright white />
     </div>
   );
 };

@@ -1,8 +1,10 @@
 import "./Copyright.scss";
 
-const Copyright = () => {
+const Copyright = ({ white }) => {
   return (
-    <p id="copyright">Copyright © Terrance Li {new Date().getFullYear()}</p>
+    <p id="copyright" className={white ? "white" : ""}>
+      Copyright © Terrance Li {new Date().getFullYear()}
+    </p>
   );
 };
 

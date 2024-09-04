@@ -115,7 +115,7 @@ export const PhotosPage = () => {
           />
         )}
       </div>
-      <Copyright />
+      <Copyright white />
     </div>
   );
 };
