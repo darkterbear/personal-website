@@ -16,9 +16,34 @@ export const ALBUMS = [
     s3Prefix: "iceland_2",
   },
   {
+    title: "point reyes",
+    subtitle: "nov 2023",
+    s3Prefix: "point_reyes",
+  },
+  {
+    title: "russian ridge",
+    subtitle: "sep 2023",
+    s3Prefix: "russian_ridge",
+  },
+  {
+    title: "iceland 1",
+    subtitle: "jun 2023",
+    s3Prefix: "iceland_1",
+  },
+  {
+    title: "tyresta",
+    subtitle: "may 2023",
+    s3Prefix: "tyresta",
+  },
+  {
     title: "yosemite fire falls",
     subtitle: "feb 2023",
     s3Prefix: "yosemite_fire_falls",
+  },
+  {
+    title: "grand canyon, zion, bryce canyon",
+    subtitle: "jun 2022",
+    s3Prefix: "grand_canyon_zion_bryce_canyon",
   },
 ];
 
