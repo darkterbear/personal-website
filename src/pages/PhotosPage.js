@@ -93,7 +93,7 @@ export const PhotosPage = () => {
           <h1 class="title">{album.title}</h1>
           <Gallery
             rowHeight={360}
-            margin={4}
+            margin={8}
             images={albumImages}
             onClick={handleClick}
             enableImageSelection={false}
