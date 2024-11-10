@@ -6,6 +6,11 @@ import "./AlbumsPage.scss";
 export const BUCKET_NAME = "terrance-files";
 export const ALBUMS = [
   {
+    title: "desolation wilderness: island and twin lakes",
+    subtitle: "oct 2024",
+    s3Prefix: "desolation_wilderness_island_and_twin_lakes",
+  },
+  {
     title: "yosemite half dome",
     subtitle: "aug 2024",
     s3Prefix: "yosemite_half_dome",
