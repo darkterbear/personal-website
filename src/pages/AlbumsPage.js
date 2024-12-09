@@ -6,6 +6,11 @@ import "./AlbumsPage.scss";
 export const BUCKET_NAME = "terrance-files";
 export const ALBUMS = [
   {
+    title: "point reyes 2",
+    subtible: "nov 2024",
+    s3Prefix: "point_reyes_2",
+  },
+  {
     title: "desolation wilderness: island and twin lakes",
     subtitle: "oct 2024",
     s3Prefix: "desolation_wilderness_island_and_twin_lakes",
@@ -21,7 +26,7 @@ export const ALBUMS = [
     s3Prefix: "iceland_2",
   },
   {
-    title: "point reyes",
+    title: "point reyes 1",
     subtitle: "nov 2023",
     s3Prefix: "point_reyes",
   },
