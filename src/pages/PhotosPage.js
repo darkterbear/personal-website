@@ -40,10 +40,10 @@ const fetchS3Objects = async (prefix) => {
 
 const fetchImagesForAlbum = async (albumS3Prefix) => {
   const allImageURLs = new Set(
-    await fetchS3Objects(`photography/${albumS3Prefix}`)
+    await fetchS3Objects(`photography/${albumS3Prefix}/`)
   );
   const thumbnailURLs = new Set(
-    await fetchS3Objects(`photography/${albumS3Prefix}/thumbnails`)
+    await fetchS3Objects(`photography/${albumS3Prefix}/thumbnails/`)
   );
   const originalURLs = new Set(
     [...allImageURLs].filter(
