@@ -7,17 +7,17 @@ export const BUCKET_NAME = "terrance-files";
 export const ALBUMS = [
   {
     title: "trans-catalina trail",
-    subtible: "feb 2025",
+    subtitle: "feb 2025",
     s3Prefix: "trans_catalina_trail",
   },
   {
     title: "pinnacles",
-    subtible: "dec 2024",
+    subtitle: "dec 2024",
     s3Prefix: "pinnacles",
   },
   {
     title: "point reyes 2",
-    subtible: "nov 2024",
+    subtitle: "nov 2024",
     s3Prefix: "point_reyes_2",
   },
   {
