@@ -6,6 +6,11 @@ import "./AlbumsPage.scss";
 export const BUCKET_NAME = "terrance-files";
 export const ALBUMS = [
   {
+    title: "trans-catalina trail",
+    subtible: "feb 2025",
+    s3Prefix: "trans_catalina_trail",
+  },
+  {
     title: "pinnacles",
     subtible: "dec 2024",
     s3Prefix: "pinnacles",
