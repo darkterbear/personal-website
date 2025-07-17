@@ -6,6 +6,16 @@ import "./AlbumsPage.scss";
 export const BUCKET_NAME = "terrance-files";
 export const ALBUMS = [
   {
+    title: "desolation wilderness: lake aloha",
+    subtitle: "july 2025",
+    s3Prefix: "desolation_wilderness_lake_aloha",
+  },
+  {
+    title: "yosemite: pohono trail",
+    subtitle: "june 2025",
+    s3Prefix: "yosemite_pohono_trail",
+  },
+  {
     title: "lost coast trail",
     subtitle: "may 2025",
     s3Prefix: "lost_coast_trail",
@@ -31,7 +41,7 @@ export const ALBUMS = [
     s3Prefix: "desolation_wilderness_island_and_twin_lakes",
   },
   {
-    title: "yosemite half dome",
+    title: "yosemite: half dome",
     subtitle: "aug 2024",
     s3Prefix: "yosemite_half_dome",
   },
@@ -61,7 +71,7 @@ export const ALBUMS = [
     s3Prefix: "tyresta",
   },
   {
-    title: "yosemite fire falls",
+    title: "yosemite: fire falls",
     subtitle: "feb 2023",
     s3Prefix: "yosemite_fire_falls",
   },
