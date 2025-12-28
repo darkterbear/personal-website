@@ -6,6 +6,7 @@ import { BlogPage } from "./pages/BlogPage";
 import { HomePage } from "./pages/HomePage";
 import { PhotosPage } from "./pages/PhotosPage";
 import { AlbumsPage } from "./pages/AlbumsPage";
+import { JMTPage } from "./pages/JMTPage";
 
 const router = createHashRouter([
   {
@@ -19,6 +20,10 @@ const router = createHashRouter([
   {
     path: "blog/:article",
     element: <BlogArticlePage />,
+  },
+  {
+    path: "jmt",
+    element: <JMTPage />,
   },
   {
     path: "photos",

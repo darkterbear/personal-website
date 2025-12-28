@@ -6,13 +6,28 @@ import "./AlbumsPage.scss";
 export const BUCKET_NAME = "terrance-files";
 export const ALBUMS = [
   {
+    title: "banff",
+    subtitle: "aug 2025",
+    s3Prefix: "banff",
+  },
+  {
+    title: "glacier",
+    subtitle: "aug 2025",
+    s3Prefix: "glacier",
+  },
+  {
+    title: "norway",
+    subtitle: "aug 2025",
+    s3Prefix: "norway",
+  },
+  {
     title: "desolation wilderness: lake aloha",
-    subtitle: "july 2025",
+    subtitle: "jul 2025",
     s3Prefix: "desolation_wilderness_lake_aloha",
   },
   {
     title: "yosemite: pohono trail",
-    subtitle: "june 2025",
+    subtitle: "jun 2025",
     s3Prefix: "yosemite_pohono_trail",
   },
   {

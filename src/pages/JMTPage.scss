@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#jmt-page {
+  font-family: 'PT Serif', serif;
+  padding: 20px;
+
+  #jmt-content {
+    margin-top: 4rem;
+
+    .image-grid {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        margin: 0 auto;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+
+        width: calc(100% - 2rem);
+        max-width: 100%;
+        
+        gap: 2rem;
+
+        @media only screen and (max-width: 850px) {
+            gap: 0.5rem;
+        }
+    }
+
+    caption {
+        color: #676767;
+        font-style: italic;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    img {
+      display: block;
+      max-width: 600px;
+      max-height: 300px;
+      object-fit: scale-down;
+
+      @media only screen and (max-width: 850px) {
+        max-width: 360px;
+        max-height: 180px;
+      }
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+      font-weight: bold;
+      font-size: 14pt;
+    }
+  }
+  h1 {
+    color: black;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+}
