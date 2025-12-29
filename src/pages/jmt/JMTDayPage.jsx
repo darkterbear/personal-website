@@ -378,4 +378,63 @@ const CONTENT = {
       </blockquote>
     </>
   ),
+  6: (
+    <>
+      <h1>Day 6: Dan and Char</h1>
+      <p>
+        Pinchot pass was another long slog. It was the largest elevation gain
+        since Whitney, but my legs were getting stronger. I was getting my
+        "trail legs" as they say. I started stretching and drinking my
+        electrolytes first thing in the morning, which helped with the cramps.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0801.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0806.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0812.png" />
+      </div>
+      <caption>View leading up to and atop Pinchot Pass, 12100ft</caption>
+      <p>
+        I chatted with a few folks atop the pass who told me the ferryman at
+        Vermillion Valley Resort had a heart attack and passed away, doing what
+        he loved. He seemed a great guy from the reels I watched where he
+        ferries hikers between the trail and VVR. His passing was a great loss
+        to the community. Any hikers resupplying at VVR felt this immediately as
+        they now needed to hike an extra 8 miles to get to VVR.
+      </p>
+      <p>
+        A ranger checked my permits and talked about the incoming weather during
+        my descent. I once again pushed past the planned stopping point to get
+        closer to the pass tomorrow. I appeared to be hiking alone while
+        trekking up to Upper Basin, and I was anxious at the prospect of
+        cresting Mather Pass alone in the rain, wind, and possible thunder. But
+        to my relief, I encountered the same couple that I met yesterday at
+        Woods Creek.
+      </p>
+      <p>
+        Dan and Char were from Bend, Oregon, and they were also hiking the JMT
+        northbound. We shared stories around dinner, chatted about gear and our
+        experience on trail so far. Dan worked in the Forest Service and Char
+        was a pharmacist, which felt refreshing coming from a world where almost
+        everyone I meet is an engineer. They gave me some extra electrolytes for
+        my cramping, and I let them use my water filter since theirs was clogged
+        to a trickle. I felt my anxiety evaporate as even more hikers, both
+        north- and south-bound, gathered in the area to camp. I learned just how
+        anxious I can become when I'm <i>alone</i> in the wild. But now, we're
+        in this together.
+      </p>
+      <p>
+        We agreed to wake up at 3:30am to try and crest Mather Pass before
+        sunrise. As the sun descended below the mountains, the smoke rolled in
+        and turned the sky orange. We tucked in for an early morning tomorrow.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0827.png" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0833.png" />
+      </div>
+      <caption>
+        Left: Our camp in Upper Basin. Right: Hazy, smoky views from our
+        campsite.
+      </caption>
+    </>
+  ),
 };
