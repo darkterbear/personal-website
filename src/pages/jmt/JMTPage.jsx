@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, Navigate } from "react-router-dom";
 import "./JMTPage.scss";
-import Header from "../components/Header";
+import Header from "../../components/Header";
 
 export const JMTPage = () => {
   return (
@@ -65,7 +65,7 @@ export const JMTPage = () => {
           </p>
           <div className="nav">
             <div></div>
-            <a href="/jmt/day1">Day 1</a>
+            <a href="/#/jmt/0">Day 0</a>
           </div>
         </div>
       </div>
