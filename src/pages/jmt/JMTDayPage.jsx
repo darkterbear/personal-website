@@ -284,13 +284,98 @@ const CONTENT = {
         tomorrow. I found what I would later consider to be one my favorite
         campsites in Lower Vidette Meadow. I had shade from the trees, close
         access to water, a place to dip my feet in, and minimal mosquito
-        presence.
+        presence. Life on trail was becoming routine. The anxiety of the unknown
+        and of novelty was fading, and I got into a rhythm: wake up, walk,
+        sleep, repeat.
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0758.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0761.jpg" />
       </div>
       <caption>My camp at Lower Vidette Meadow, next to Vidette Creek</caption>
+    </>
+  ),
+  5: (
+    <>
+      <h1>Day 5: Cramps and Doubts</h1>
+      <p>
+        The physical exertion from the last several days was catching up to me.
+        My quads started cramping on the way up to Glen Pass. "If I'm cramping
+        on day 5, how will I ever make it past day 10 or 15?" I compensated by
+        putting more weight on my trekking poles and drinking more electrolytes.
+        The cramps went away as the day progressed, but my doubts lingered.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0765.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0766.jpg" />
+      </div>
+      <caption>
+        Left: View on the way to Glen Pass. Right: Note from the Charlotte Lake
+        Ranger.
+      </caption>
+      <p>
+        On the way up, I saw a note from the Charlotte Lake Ranger that there
+        were fires developing both east and west of trail. Although the trail
+        wasn't in danger of fire, the note warned of impending smoke.{" "}
+        <i>That's called foreshadowing.</i>
+      </p>
+      <p>
+        Though not as high as Forester or Whitney, Glen Pass still kicked my
+        ass. It was a steeper climb than most of Forester, I was carrying more
+        stuff than during my Whitney summit, and now my legs felt like they were
+        giving up on me. "One foot in front of the other" once seemed so simple,
+        but it had never felt more difficult.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0778.jpg" />
+      </div>
+      <caption>Glen Pass, 11900ft</caption>
+      <p>
+        The pass itself was a razor's edge with precipitous drops on both sides.
+        I can only imagine how much more difficult navigating this crest would
+        be if it was covered in snow and ice, as it would be for the vast
+        majority of PCT hikers. As I descended down the north face, I was
+        rewarded with the beauty of the Rae Lakes. It was a popular camping spot
+        for those hiking the Rae Lakes Loop. But with the hard uphill out of the
+        way, I kept pushing towards Woods Creek to get closer to Pinchot Pass
+        for tomorrow.
+      </p>
+      <p>
+        After setting up camp, I washed up in the creek, did some laundry, and
+        set up a clothesline between a couple trees using my tent's guy lines.
+        There was a bridge over the creek, which was mentally jarring given I
+        haven't seen any large man-made structures in the last several days.
+        Makes you wonder how they built it in the middle of the mountains.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0795.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0798.jpg" />
+      </div>
+      <caption>Left: Woods Creek Bridge. Right: My camp at Woods Creek</caption>
+      <p>
+        I met another couple who mentioned the weather was not looking too hot
+        the next several days. They pressed further upwards to get a head start
+        on Pinchot pass tomorrow. The strenuous hike was also starting to wear
+        on my equipment. My right hiking pole was missing its carbide tip from
+        an earlier trip so the plastic is wearing out faster than expected, and
+        I discovered a small hole in the bottom of my tent. Nothing a quick
+        patch can't fix.
+      </p>
+      <p>
+        I ended the day with a warm meal, but my thoughts lingered on the
+        troublesome weather ahead.{" "}
+        <i>
+          Where would I bail out if I needed to? I have 1 day of extra food.
+          Would I rather bail immediately if the weather doesn't permit, or use
+          my extra food to wait for better weather and leave myself with no
+          buffer?{" "}
+        </i>
+        The thoughts quietly faded as I dozed off from exhaustion.
+      </p>
+      <blockquote>
+        We are the inheritors of memory and legend. Those who grew alongside sun
+        and wind. Those who forged our own destiny and future. &mdash; Kachina
+      </blockquote>
     </>
   ),
 };
