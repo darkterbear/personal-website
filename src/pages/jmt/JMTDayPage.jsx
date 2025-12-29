@@ -44,11 +44,11 @@ export const JMTDayPage = () => {
 const CONTENT = {
   0: (
     <>
-      <h1>Day 0: Drive to Mammoth</h1>
+      <h1>Day 0: Leaving Home</h1>
       <p>
-        My journey started with a long drive from the bay to Mammoth. I parked
-        my car in the designated area for overnight backpackers, and took a
-        shuttle down to town to stay the night.
+        My journey started with a long 5-hour drive from the Bay Area to
+        Mammoth. I parked my car in the designated area for overnight
+        backpackers, and took a shuttle down into town to stay the night.
       </p>
       <p>
         My thoughts raced with excitement and worry. This was when everything
@@ -69,7 +69,7 @@ const CONTENT = {
   ),
   1: (
     <>
-      <h1>Day 1: A Chaotic Start</h1>
+      <h1>Day 1: No Appetite</h1>
       <p>
         My day started with a 2-hour shuttle ride from Mammoth to Lone Pine,
         just <i>perfect</i> for someone who gets notoriously carsick. I was in
@@ -123,7 +123,7 @@ const CONTENT = {
   ),
   2: (
     <>
-      <h1>Day 2: Anticipation</h1>
+      <h1>Day 2: The Day Before</h1>
       <p>
         My first night's rest was okay, probably due to exhaustion from lack of
         sleep the night before. My legs were sore first half of the night, and
@@ -170,7 +170,7 @@ const CONTENT = {
   ),
   3: (
     <>
-      <h1>Day 3: Mt. Whitney</h1>
+      <h1>Day 3: The Highest I've Ever Walked</h1>
       <p>
         The sound of my alarm wakes me up at 1:45am to the cold nipping at my
         nose. I put in my contacts, stuffed some food, water, and my sleeping
@@ -244,6 +244,53 @@ const CONTENT = {
         and running around maniaclly, swatting the bugs out of my face. Rinse
         and repeat. Won't be making that mistake again.
       </p>
+    </>
+  ),
+  4: (
+    <>
+      <h1>Day 4: Up and Over</h1>
+      <p>
+        I had a good night's sleep despite the freezing cold from the nearby
+        river. Today's challenge was Forester Pass, the highest point on the
+        PCT.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0718.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0732.jpg" />
+      </div>
+      <caption>
+        Views on the way to Forester Pass. You can see Forester Pass in the 2nd
+        picture, slightly left of center
+      </caption>
+      <p>
+        It would prove to be a long, exposed, upward slog. As I got closer, I
+        kept looking at my GPS app to try and visually identify the pass. It
+        felt cool to point into the distance and say "I'm going to walk there
+        today." I filled up on water at the last stream before the pass, and the
+        gradual slope turned into steep switchbacks. Cresting passes is always a
+        magical experience. You can't see what's on the other side until you get
+        to the top, like unlocking a new region in a game.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0750.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0753.jpg" />
+      </div>
+      <caption>
+        Forester Pass, 13200ft. 1st picture faces south, 2nd faces north
+      </caption>
+      <p>
+        I pushed past my planned stop at Center Basin junction since my legs
+        allowed and I had time, and I wanted to get closer to Glen Pass for
+        tomorrow. I found what I would later consider to be one my favorite
+        campsites in Lower Vidette Meadow. I had shade from the trees, close
+        access to water, a place to dip my feet in, and minimal mosquito
+        presence.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0758.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0761.jpg" />
+      </div>
+      <caption>My camp at Lower Vidette Meadow, next to Vidette Creek</caption>
     </>
   ),
 };
