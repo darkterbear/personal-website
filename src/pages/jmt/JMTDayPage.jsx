@@ -300,10 +300,13 @@ const CONTENT = {
       <h1>Day 5: Cramps and Doubts</h1>
       <p>
         The physical exertion from the last several days was catching up to me.
-        My quads started cramping on the way up to Glen Pass. "If I'm cramping
-        on day 5, how will I ever make it past day 10 or 15?" I compensated by
-        putting more weight on my trekking poles and drinking more electrolytes.
-        The cramps went away as the day progressed, but my doubts lingered.
+        My quads started cramping on the way up to Glen Pass.{" "}
+        <i>
+          If I'm cramping on day 5, how will I ever make it past day 10 or 15?
+        </i>{" "}
+        I compensated by putting more weight on my trekking poles and drinking
+        more electrolytes. The cramps went away as the day progressed, but my
+        doubts lingered.
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0765.jpg" />
@@ -316,8 +319,7 @@ const CONTENT = {
       <p>
         On the way up, I saw a note from the Charlotte Lake Ranger that there
         were fires developing both east and west of trail. Although the trail
-        wasn't in danger of fire, the note warned of impending smoke.{" "}
-        <i>That's called foreshadowing.</i>
+        wasn't in danger of fire, the note warned of impending smoke.
       </p>
       <p>
         Though not as high as Forester or Whitney, Glen Pass still kicked my
@@ -374,7 +376,8 @@ const CONTENT = {
       </p>
       <blockquote>
         We are the inheritors of memory and legend. Those who grew alongside sun
-        and wind. Those who forged our own destiny and future. &mdash; Kachina
+        and wind. Those who forged our own destiny and future. &mdash; Kachina,
+        Genshin Impact
       </blockquote>
     </>
   ),
@@ -435,6 +438,77 @@ const CONTENT = {
         Left: Our camp in Upper Basin. Right: Hazy, smoky views from our
         campsite.
       </caption>
+    </>
+  ),
+  7: (
+    <>
+      <h1>Day 7: Rock Bottom</h1>
+      <p>
+        The morning felt like Mt. Whitney all over again. We hauled ass in the
+        dark and cold watching for clouds in the sky, dark splotches against the
+        stars. We swore we saw flashes of lightning in the distance, but we
+        didn't hear any thunder. For all we know, it could have been our own
+        headlamps.
+      </p>
+      <p>
+        Mather pass was far easier than the others so far, given we pretty much
+        camped at its base. The sky revealed numerous wispy clouds as we
+        crested. It's unusual for there to be so many clouds this early in the
+        morning.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_DAY7_0.png" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_DAY7_1.png" />
+      </div>
+      <caption>
+        Views from Mather Pass, 12100ft. First facing south, second facing north
+      </caption>
+      <p>
+        As we descended, the clouds disappeared. "Where's the weather?" we
+        wondered as we descended down Palisade Lakes and the infamous Golden
+        Staircase, known for its long and steep climb. But I would argue it's
+        just as much as a bitch going down. Each step shredded my ankles. This
+        was also the most poorly-maintained section of trail so far, with
+        overgrown shrubs and lack of drainage creating swampy, muddy
+        slip-and-slides. We could also see the alleged plume of smoke coming
+        from the Garnet fire.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_DAY7_2.png" />
+      </div>
+      <caption>Storm clouds rolling in.</caption>
+      <p>
+        And soon enough, thick, dark clouds rolled in. Thunder echoed through
+        the canyon. At first, no rain. Then a light drizzle. Then an absolute
+        downpour of hail. We threw on our rain gear as fast as we could, but no
+        time to put on rain pants. We scurried down the rest of the way to
+        Middle Fork Kings River. The trail itself turned into an ankle-deep
+        stream, our feet splashing in the muddy, rushing water with every step.
+        The lower half of my body was soaked. The lightning and thunder
+        practically coincided, the storm was on top of us. We could see the
+        bolts of light strike the peaks above.
+      </p>
+      <p>
+        We looked for a spot to camp; flat, but not so low that water would
+        pool, or that the river would flood into. We threw up our tents, hopped
+        inside, and dried ourselves off. We were wet, cold, and miserable, and
+        it was only noon. I had a lukewarm double serving of chicken and rice as
+        consolation.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0876.jpg" />
+      </div>
+      <caption>The face of joy and happiness /s</caption>
+      <blockquote>
+        We'll see the sun come up again / We will climb higher than we've been
+        &mdash; TryHardNinja, Dragonhearted
+      </blockquote>
+      <p>
+        Several hours later, the storm passed and the sun appeared once more. We
+        could have packed up and continued hiking, but we were <i>pooped</i>.
+        All our gear was wet and weighed down with water. We were mentally done
+        for the day.
+      </p>
     </>
   ),
 };
