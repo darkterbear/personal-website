@@ -152,13 +152,13 @@ const CONTENT = {
       <p>
         I needed to sleep early. A reliable way to avoid nasty weather is to be{" "}
         <i>early</i>. I wanted to be at the summit by 8am with a 9am turn-around
-        time. I had met another older couple on the way up to Guitar Lake who
-        shared the same weather worries. They planned to start hiking around
-        2:30am, so I figured I would too. Falling asleep was hard. This was,
-        technically, the hardest part of the trail. I was stressed and anxious
-        of what is to come tomorrow, afraid both of failure to even approach the
-        southern terminus of the JMT, and of the dangers of the weather and
-        altitude that lie ahead.
+        time. I met another older couple on the way up to Guitar Lake who shared
+        the same weather worries. They planned to start hiking around 2:30am, so
+        I figured I would too. Falling asleep was hard. This was, technically,
+        the hardest part of the trail. I was stressed and anxious of what is to
+        come tomorrow, afraid both of failure to even approach the southern
+        terminus of the JMT, and of the dangers of the weather and altitude that
+        lie ahead.
       </p>
       <blockquote>
         The brave man is not he who does not feel afraid, but he who conquers
@@ -166,6 +166,84 @@ const CONTENT = {
         <br />
         &mdash; Nelson Mandela
       </blockquote>
+    </>
+  ),
+  3: (
+    <>
+      <h1>Day 3: Mt. Whitney</h1>
+      <p>
+        The sound of my alarm wakes me up at 1:45am to the cold nipping at my
+        nose. I put in my contacts, stuffed some food, water, and my sleeping
+        quilt into my bag, and started hiking. I left my tent set up since I'll
+        be back later, saving me some weight in my pack.
+      </p>
+      <p>
+        There was no moon, and it would have been pitch black if it weren't for
+        my headlamp. It wasn't long until I caught up to the same couple I met
+        yesterday. We slogged our way up the back of the mountain, a black,
+        imposing silhouette against the starts. I popped a few sour patch kids
+        in my mouth every couple switchbacks. The altitude and freezing cold
+        made it hard to breathe, especially with a buff around my face.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0674.jpg" />
+      </div>
+      <caption>Complete darkness on the hike up Mt. Whitney</caption>
+      <p>
+        The horizon brightened to a dark blue as we reached Trail Crest, where
+        the JMT intersects with the trail to Whitney Portal. We were among the
+        first several groups of the day, all taking a break before continuing on
+        the 2-mile long traverse to the summit.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0675.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0676.jpg" />
+      </div>
+      <caption>Trail Crest and the final traverse at dawn</caption>
+      <p>
+        As the air got thinner, the couple in front of me pulled ahead, and
+        eventually out of sight. The last 500 vertical feet were some of the
+        most humbling steps I've ever hiked. I couldn't take a few dozen steps
+        without stopping to catch my breath.
+      </p>
+      <p>
+        I summitted as the sun rose over the horizon. It was an incredible
+        feeling. The thrill of achievement and dreams come true made me forget
+        the shivering cold and biting wind. I dropped my pack, climbed onto the
+        highest frost-covered rock I could find without slipping, held up the
+        icy metal sign, and scribbled my name into the logbook with what little
+        dexterity I had left in my fingers.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0681.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0689.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0695.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0698.jpg" />
+      </div>
+      <caption>Mt. Whitney summit, 14505ft</caption>
+      <p>
+        Returning along the same path in broad daylight revealed many sketchy
+        portions and cliff edges that didn't seem so bad in the dark. The hike
+        down was uneventful, and I packed up my tent upon reaching Guitar Lake.
+        During my planning, I was unsure how far I could make it this day after
+        summitting Whitney. My legs felt fine after reaching Crabtree Meadows,
+        so I just kept going.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0715.jpg" />
+      </div>
+      <caption>
+        Descending from Mt. Whitney, with Guitar Lake in the background
+      </caption>
+      <p>
+        When I neared Wallace Creek, I encountered the same ranger from the day
+        before. She remarked at how long my day had been, and agreed I should
+        get some rest at Wallace Creek. I set up camp way too close to the
+        water, and my tent was soon covered with mosquitos. Impressive, I
+        thought, given it was almost September. My dinner involved taking a bite
+        and running around maniaclly, swatting the bugs out of my face. Rinse
+        and repeat. Won't be making that mistake again.
+      </p>
     </>
   ),
 };
