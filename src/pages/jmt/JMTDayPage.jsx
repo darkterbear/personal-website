@@ -665,7 +665,7 @@ const CONTENT = {
   ),
   10: (
     <>
-      <h1>Day 10: Mortal Reminder</h1>
+      <h1>Day 10: Not Invincible</h1>
       <p>
         I woke up with a massive ant in my tent, which I quickly evicted with
         some precise flicking. I'm usually not a fan of insects, but I was{" "}
@@ -707,7 +707,7 @@ const CONTENT = {
         <i>
           What if my hamstring doesn't feel better tomorrow? I could just end my
           hike at Reds Meadow, take the bus to Mammoth and go home. In just 2
-          days I could take a hot shower and sleep in a soft bed.
+          days I could take a hot shower and sleep in a soft bed.{" "}
         </i>
         A tempting prospect, but I knew I would never forgive myself if I gave
         up so easily. So many things have to go right for a thru-hike like this
@@ -715,6 +715,52 @@ const CONTENT = {
         not throw away this opportunity so lightly. My thoughts quickly faded
         into sleep.
       </p>
+    </>
+  ),
+  11: (
+    <>
+      <h1>Day 11: Cozy Company</h1>
+      <p>
+        Thankfully, my hamstring did feel better. We had a nice, early start to
+        Silver Pass. Being on the west side of the ridge meant we were shaded
+        from the sun well into the day. We ate an early lunch atop Silver Pass.
+        Although "lunch" is really just trail mix and sour patch kids.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0990.jpg" />
+      </div>
+      <caption>Silver Pass, 10800ft</caption>
+      <p>
+        We continued with an uneventful descent down into Fish Creek and back up
+        to Lake Virginia. This lake was one of the most beautiful campsites on
+        trail so far, but it came with its own challenges. The vast open area
+        and lake meant strong winds. My tent blew over once before I hunkered it
+        down with all my available guy lines, and this was in the middle of a
+        grove of trees.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1009.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1007.jpg" />
+      </div>
+      <caption>
+        My tent tucked in a grove of trees, and the view from our campsite
+      </caption>
+      <p>
+        I also overheard a group next to us speaking Chinese, which was a
+        pleasant surprise. I haven't met anyone on trail so far that spoke
+        primarily Chinese. In hindsight, I regret not striking up a conversation
+        with them.
+      </p>
+      <p>
+        We spent the rest of the day telling more stories from our past trips,
+        showing each other cat pictures, and sharing food for dinner. I shared a
+        biscuits and gravy with Dan, and I had another beef stroganoff for
+        myself. Despite our aching feet, everything was looking up again.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1005.jpg" />
+      </div>
+      <caption>Post-dinner selfie with Dan and Char</caption>
     </>
   ),
 };
