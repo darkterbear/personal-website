@@ -763,4 +763,75 @@ const CONTENT = {
       <caption>Post-dinner selfie with Dan and Char</caption>
     </>
   ),
+  12: (
+    <>
+      <h1>Day 12: Going Our Separate Ways</h1>
+      <p>
+        The cold this morning made me wish once again that I brought gloves. By
+        now, the moon stayed up well into the morning, providing
+        much-appreciated light in the early hours.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1015.jpg" />
+      </div>
+      <caption>
+        A full moon in the morning while descending from Lake Virginia
+      </caption>
+      <p>
+        The downhill from Lake Virginia was another ankle shredder and the smoke
+        grew ever thicker, but the allure of real food kept us going. Our
+        conversations faded away and our steps accelerated as we rushed towards
+        Reds Meadow.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1027.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1031.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1036.jpg" />
+      </div>
+      <caption>On the way to Reds Meadow</caption>
+      <p>
+        Reds Meadow has bus service from Mammoth, lodging, a general store,
+        showers, and above all, an actual restaurant with Real Food&trade;. I
+        stuffed myself with two double cheeseburgers, a bag of chips, a mac
+        salad, 2 ice cream bars, and a Coke with other snacks from our
+        resupplies. Gotta make up for the insane calorie deficit somehow.
+      </p>
+      <p>
+        I ate all my food inside the general store to avoid the scavenging wasps
+        and squirrels. I couldn't hold a burger for a few seconds with a bunch
+        of wasps trying to grab a bite for themselves. And leaving your backpack
+        unattended outside is practically inviting a squirrel to chew a hole in
+        it. They tried to get into my pack even when I was <i>right there</i>. I
+        resorted to using my hiking pole to shoo away the squirrels if they
+        tried to get into my pack. It wasn't long before a particularly unlucky
+        squirrel made a dash for my pack and I accidentally whacked it across
+        the head. It squealed and struggled to move, but after many minutes of
+        writhing in pain, we knew it wasn't going to make it. We picked it up
+        with some cardboard and laid it down in the tall grass. Guilt weighed on
+        my conscience for the rest of the day.
+      </p>
+      <p>
+        It was also my last day hiking with Dan and Char. While I was ready to
+        crank out some miles and get the trail over with, they wanted to take
+        more time with the last part. We had a great 6 days hiking and camping
+        together, telling stories, sharing food, and helping each other out. I
+        may never see them again, but I'm glad they were a part of my adventure.
+      </p>
+      <blockquote>
+        Should the day every come that we are not together, you will continue to
+        shine like gold in my memories. &mdash; Zhongli, Genshin Impact
+      </blockquote>
+      <p>
+        They booked the last available cabin for the night and took showers. We
+        chatted over dinner and exchanged a couple last gifts from the general
+        store before I walked to the campsite. The sky is now a darker orange,
+        and the AQI is well into the 200s. Tomorrow was going to be one smoky
+        day, and the anxiety of backpacking alone crept in once more.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1052.jpg" />
+      </div>
+      <caption>Orange, smoky skies above Reds Meadow</caption>
+    </>
+  ),
 };
