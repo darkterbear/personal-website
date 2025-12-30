@@ -313,8 +313,8 @@ const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0766.jpg" />
       </div>
       <caption>
-        Left: View on the way to Glen Pass. Right: Note from the Charlotte Lake
-        Ranger.
+        First: View on the way to Glen Pass. Second: Note from the Charlotte
+        Lake Ranger.
       </caption>
       <p>
         On the way up, I saw a note from the Charlotte Lake Ranger that there
@@ -353,7 +353,9 @@ const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0795.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0798.jpg" />
       </div>
-      <caption>Left: Woods Creek Bridge. Right: My camp at Woods Creek</caption>
+      <caption>
+        First: Woods Creek Bridge. Second: My camp at Woods Creek
+      </caption>
       <p>
         I met another couple who mentioned the weather was not looking too hot
         the next several days. They pressed further upwards to get a head start
@@ -435,7 +437,7 @@ const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0833.png" />
       </div>
       <caption>
-        Left: Our camp in Upper Basin. Right: Hazy, smoky views from our
+        First: Our camp in Upper Basin. Second: Hazy, smoky views from our
         campsite.
       </caption>
     </>
@@ -509,6 +511,96 @@ const CONTENT = {
         All our gear was wet and weighed down with water. We were mentally done
         for the day.
       </p>
+    </>
+  ),
+  8: (
+    <>
+      <h1>Day 8: Full Send</h1>
+      <p>
+        We got up at 4:30am to get an early start in case we encounter good
+        enough weather to make it over Muir Pass. I had left my shoes out to dry
+        overnight. But that progress quickly vanished as I lost my balance when
+        filling up water at the river, and I took a stepped into the water.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0881.jpg" />
+      </div>
+      <caption>Residual fog evaporating in Big Pete Meadow</caption>
+      <p>
+        The initial climb up to Big Pete Meadow was mild, despite one shoe being
+        fully soaked. We continued slogging up towards Starr Camp, the last
+        section below treeline before Muir Pass. If we continued, it's 9 miles
+        of completely exposed terrain until we're below treeline again, and the
+        weather forecast showed possible thunderstorms in the area. Our original
+        plan was to stop early at Starr Camp and get an early start tomorrow.
+      </p>
+      <p>
+        The sky looked promising. The sky was dotted with fluffy clouds, but not
+        too ominous. But the same voice keeps popping up in my head.{" "}
+        <i>
+          What if a storm rolls in halfway through? We'll be several miles from
+          any treeline or cover.
+        </i>{" "}
+        The prospect of getting caught in a thunderstorm in exposed terrain
+        terrified me. But another solo hiker passed us saying "this is the best
+        weather I've seen all week." And he was right, this might be the best
+        chance given there's no guarantee tomorrows weather will be better. And
+        if we stayed put today, I would be eating through my only reserve day of
+        food. So we decided to send it.
+      </p>
+      <blockquote>
+        It's not an adventure if you know how it ends &mdash; Unknown
+      </blockquote>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0891.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0897.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0906.jpg" />
+      </div>
+      <caption>
+        First: Helen Lake. Second: Muir Hut at the crest of Muir Pass, 12000ft.
+        Third: My name in the Muir Hut logbook.
+      </caption>
+      <p>
+        Ominous clouds formed behind us as we climbed the last thousand feet to
+        the Muir Hut. "Lets take 2 minutes, then we skedaddle down." We took a
+        quick gander inside, wrote our names in the log, snapped some pictures,
+        then took off. Although I was still on edge about the weather, Dan and
+        Char were less concerned now. And rightfully so, given we passed a trail
+        crew from the California Conservation Corps working on the trail. It was
+        a reassuring sight; surely they know better than me when it comes to
+        being safe with the weather.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0914.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0925.jpg" />
+      </div>
+      <caption>
+        Dan and Char on the way down from Muir Pass and crossing Evolution Creek
+      </caption>
+      <p>
+        An older guy hiking southbound hit us with an unskippable cutscene. A
+        detailed story about him pooping on a hill and dropping his toilet
+        paper, which promptly rolled down the mountain.
+      </p>
+      <p>
+        We hauled another several miles down below treeline to set up camp. It
+        was a tough 18.6 mile day, the longest day so far for us all. Tomorrow
+        was the resupply at Muir Trail Ranch and I had my extra day of food, a
+        mac and cheese. I turned it into a snack for the crew, and I had another
+        biscuits and gravy for myself. Hiker hunger was hitting hard. The smoke
+        from the nearby fire was thicker than ever. It made the sunsets pretty,
+        but doing 12 hours of cardio a day in 150 AQI started getting
+        uncomfortable. We ended the day with a family of deer approaching our
+        campsite to graze.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0931.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0938.jpg" />
+      </div>
+      <caption>
+        First: Smoky orange sunset from our campsite. Second: Family of deer
+        coming near our camp to graze
+      </caption>
     </>
   ),
 };
