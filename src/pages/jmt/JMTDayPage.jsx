@@ -603,4 +603,64 @@ const CONTENT = {
       </caption>
     </>
   ),
+  9: (
+    <>
+      <h1>Day 9: Checkpoint</h1>
+      <p>
+        This was a big day for me. I started the trip with many doubts, the
+        primary being <i>what if I just can't do it?</i>
+      </p>
+      <p>
+        I knew the first 9 days would be the most difficult. Legs still
+        adjusting, carrying 9 days of food, more difficult passes, and higher
+        elevation in general compared to the rest of the trail. I told myself{" "}
+        <i>if I can make it to MTR, I can finish the JMT.</i> Today is the day
+        to hike to MTR.
+      </p>
+      <p>
+        We started downhill, losing the remaining elevation from Muir Pass
+        yesterday. The downhill took a toll on my ankles and knees, and I relied
+        heavily on my poles to alleviate the stress on my feet. The slow trickle
+        of Evolution Creek above treeline turned into a wide rushing river down
+        low. Our second crossing of this creek required shoes off (or shoes
+        wet).
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0944.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0954.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0957.jpg" />
+      </div>
+      <caption>
+        First: Weather update, likely from the McClure Meadow Ranger. Second:
+        2nd crossing of Evolution Creek. Third: An unnamed feeder creek while
+        hiking to MTR
+      </caption>
+      <p>
+        MTR was a much-needed break. We fetched our resupplies, refilled our
+        bear cans, charged our devices, talked with other hikers, and washed our
+        faces. I made sure to eat my fill before leaving MTR, even finding a
+        couple of sealed packs of spam in the hiker boxes.
+      </p>
+      <p>
+        As much as we would have loved to stay in a cabin at MTR, we had to get
+        going. The slog up from MTR was steep, made worse with the afternoon
+        smoke setting in. We encountered another older couple with a black and
+        white spotted dog named Lucy, who kept us company on the steepest parts.
+      </p>
+      <p>
+        We set up camp at Sallie Keyes lakes to give us a head start on
+        tomorrows climb over Seldon Pass. I felt good: a fresh resupply of food
+        with plenty of reserves, improving weather, easier passes ahead, and a
+        renewed confidence that <i>I can do it</i>.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0964.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0969.jpg" />
+      </div>
+      <caption>
+        First: Hazy view hiking up north from MTR. Second: Our camp at Sallie
+        Keyes.
+      </caption>
+    </>
+  ),
 };
