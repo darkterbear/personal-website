@@ -170,7 +170,7 @@ const CONTENT = {
   ),
   3: (
     <>
-      <h1>Day 3: The Highest I've Ever Walked</h1>
+      <h1>Day 3: The Highest I've Ever Stood</h1>
       <p>
         The sound of my alarm wakes me up at 1:45am to the cold nipping at my
         nose. I put in my contacts, stuffed some food, water, and my sleeping
@@ -661,6 +661,60 @@ const CONTENT = {
         First: Hazy view hiking up north from MTR. Second: Our camp at Sallie
         Keyes.
       </caption>
+    </>
+  ),
+  10: (
+    <>
+      <h1>Day 10: Mortal Reminder</h1>
+      <p>
+        I woke up with a massive ant in my tent, which I quickly evicted with
+        some precise flicking. I'm usually not a fan of insects, but I was{" "}
+        <s>numb</s> used to the grime of camping by now.
+      </p>
+      <p>
+        Remember those spam slices I had at MTR yesterday? In hindsight, I
+        should've thought twice before eating random food out of a hiker box.
+        Sure, it was sealed and not close to expiration, but who knows how long
+        its been sitting in the sun. To spare the details, I had to spend quite
+        some time pooping before my guts calmed down.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0973.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0980.jpg" />
+      </div>
+      <caption>
+        First: View of Sallie Keyes lakes on the way up Seldon Pass, 10800ft.
+        Second: Marie Lakes on the way down.
+      </caption>
+      <p>
+        We made as much progress as we could before the sun came up and the
+        smoke set in. We had a slow lunch at Bear Creek Trail junction, taking
+        our time to dip our feet in the river. Although my anxiety eased after
+        MTR, Char was worried about the worsening fire and smoke. It smelled
+        like we were perpetually hiking through a barbeque.
+      </p>
+      <p>
+        The ascent and descent over Bear Ridge was massive for not being a pass.
+        We also didn't get any signal at the top like we were anticipating based
+        on FarOut reports. There were long sections where we didn't speak at
+        all. My hamstring became extremely tight on the downhill to VVR
+        junction, to the point where I couldn't walk with a normal gait.
+        Stretching did little to help. To top it off, a bird shat on my tent
+        shortly after I set it up. We were exhausted, and morale was low.
+      </p>
+      <p>
+        The same doubts resurfaced.{" "}
+        <i>
+          What if my hamstring doesn't feel better tomorrow? I could just end my
+          hike at Reds Meadow, take the bus to Mammoth and go home. In just 2
+          days I could take a hot shower and sleep in a soft bed.
+        </i>
+        A tempting prospect, but I knew I would never forgive myself if I gave
+        up so easily. So many things have to go right for a thru-hike like this
+        to succeed. I've already made it past the most difficult parts, I would
+        not throw away this opportunity so lightly. My thoughts quickly faded
+        into sleep.
+      </p>
     </>
   ),
 };
