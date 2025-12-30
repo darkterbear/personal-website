@@ -834,4 +834,58 @@ const CONTENT = {
       <caption>Orange, smoky skies above Reds Meadow</caption>
     </>
   ),
+  13: (
+    <>
+      <h1>Day 13: Alone Once More</h1>
+      <p>
+        It was another cold night with heavy condensation inside my tent. Only
+        this time, the outside was also covered in ash. It was the smokiest day
+        so far. Usually the smoke only rolls in in the afternoon, but it was
+        already suffocating in the morning. I started wearing my buff as a mask.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1064.jpg" />
+      </div>
+      <caption>Devil's Postpile</caption>
+      <p>
+        After hiking past Devil's Postpile, a wasp flew into my hair. I
+        reflexively tried to bat it away, and in return it stung me in the head.
+        Despite the sting itself not being that painful, I had never been stung
+        by a bee or wasp before. I could be allergic and just not know it. I ran
+        into another hiker a few minutes later, and he graciously agreed to sit
+        and chat with me for 15 minutes in case I had a reaction.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1074.jpg" />
+      </div>
+      <caption>
+        The smoke was so thick I could barely see across this lake
+      </caption>
+      <p>
+        The smoke thinned out as I regained the elevation I lost yesterday. I
+        was greeted with the majestic views of Garnet Lake and Thousand Island
+        Lake. This was my planned stopping point for the day, but I decided to
+        continue and send it over Island Pass given my legs felt fine. I ended
+        my day at Rush Creek junction. It was nearly as windy as Lake Virginia,
+        so I had to employ all my guy lines once more as I set up my tent under
+        the cover of a few trees. I soaked in the solitude, save for a few
+        southbound hikers who just descended from Donohue Pass.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1097.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1104.jpg" />
+      </div>
+      <caption>
+        Left: Thousand Island Lake. Right: PCT sign at Rush Creek Junction.
+      </caption>
+      <p>
+        I was pretty confident I could do the rest of the trail in 2 days. But I
+        still had a full bear can from the recent resupply. So I ate <i>good</i>
+        . I cooked myself a 3 course dinner: Peak Refuel Chicken Alfredo Pasta,
+        Mountain House Chili Mac w/ Beef, and a Peak Refuel Strawberry Granola
+        for dessert. I went to bed under the howling wind, cozying up in my
+        quilt with a full stomach.
+      </p>
+    </>
+  ),
 };
