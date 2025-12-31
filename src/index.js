@@ -6,7 +6,7 @@ import { BlogPage } from "./pages/BlogPage";
 import { HomePage } from "./pages/HomePage";
 import { PhotosPage } from "./pages/PhotosPage";
 import { AlbumsPage } from "./pages/AlbumsPage";
-import { JMTPage } from "./pages/jmt/JMTPage";
+import { JMTPage, JMTAftermathPage } from "./pages/jmt/JMTPage";
 import { JMTDayPage } from "./pages/jmt/JMTDayPage";
 
 const router = createHashRouter([
@@ -25,6 +25,10 @@ const router = createHashRouter([
   {
     path: "jmt",
     element: <JMTPage />,
+  },
+  {
+    path: "jmt/aftermath",
+    element: <JMTAftermathPage />,
   },
   {
     path: "jmt/:day",
