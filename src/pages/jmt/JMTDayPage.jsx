@@ -888,4 +888,107 @@ const CONTENT = {
       </p>
     </>
   ),
+  14: (
+    <>
+      <h1>Day 14: Double Pass</h1>
+      <p>
+        The day's goal was to get over Donohue Pass and Cathedral Pass, which is
+        over 26 miles of hiking. This would be the hardest day of hiking in the
+        entire trip. I needed to start hiking at 5am, be over Donohue by 7am,
+        and arrive in Tuolumne at noon if I wanted to grab food and still be in
+        time to pitch my tent in Sunrise High Sierra Camp by 4pm. It was a long
+        day ahead of me.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1108.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1109.jpg" />
+      </div>
+      <caption>Views on the way up Donohue Pass</caption>
+      <p>
+        Donohue pass is the border between Ansel Adams Wilderness and Yosemite
+        National Park. Wilderness permits from Yosemite do not allow exiting
+        over Donohue Pass unless specifically stated. Cresting this pass means
+        I'm entering Yosemite, the final public land on this trail. It was home
+        stretch.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1113.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1118.jpg" />
+      </div>
+      <caption>
+        First: Border between Yosemite and Ansel Adams Wilderness atop Donohue
+        Pass, 11000ft. Second: Looking down into Lyell Canyon.
+      </caption>
+      <p>
+        Despite the breathtaking views and crisp fresh air, I was physically and
+        mentally exhausted. It wasn't anxiety or muscle cramps, but a yearning
+        for a hot shower and a warm bed, and the aching tendons and ligaments in
+        my feet. They were feeling the strain of the past 2 weeks of continuous
+        hiking, and the steep, rocky descent down the north face of Donohue pass
+        didn't help. Every step hurt, I felt grimy, and my sleep had been
+        mediocre at best even by camping standards. My sleep relies on pure
+        exhaustion overriding the uncomfortable sleeping pad.{" "}
+        <i>If only I could fast-forward time.</i>
+      </p>
+      <p>
+        Lyell Canyon is 9 miles of relatively flat and boring hiking. I don't
+        listen to music when I hike, but I do play music in my head. It gives me
+        a rhythm to walk to, and motivation to keep going.
+      </p>
+      <p>
+        I wanted hot food at Tuolumne Meadows, but I wasn't sure exactly where
+        to find it. Without cell signal, I resorted to asking other folks on
+        trail who pointed me to Tuolumne Meadows Lodge. This turned out to be a
+        lie, and instead of hot food I only got some snacks. After a 1-mile
+        detour and asking some more kind strangers, I eventually got to the
+        Tuolumne Meadows Grill and ordered my well-deserved burger.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1124.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1127.jpg" />
+      </div>
+      <caption>
+        First: Hiking along Lyell Canyon. Second: Snacks at Tuolumne Meadows
+        Lodge.
+      </caption>
+      <p>
+        Cathedral Pass is the last pass before the northern terminus, and it's
+        also the most tame. You wouldn't know it's a pass just by hiking it.
+        When I got to Sunrise High Sierra Camp, my legs and feet were spent. I
+        met another older guy who also wanted to camp here, but we quickly
+        realized <i>there was no water</i>. All the water sources have dried up
+        this late into the season. I only had a quarter liter of electrolyte
+        water left, neither enough nor suitable for making dinner. Alejandro
+        wanted to backtrack for water, while I wanted to press forward. Not a
+        minute after we headed our separate ways, I hear a sharp whistle pierce
+        the air. "Hello?" "I found water!" He had found a barely-trickling
+        stream with a couple of small puddles. It was the saddest "water source"
+        I had drank from on trail, but it will have to do for tonight. There was
+        no way I could fill my water bladders from the shallow puddle, but
+        Alejandro had a gravity filter with a bag to easily collect the puddle
+        water. He graciously gave me a couple liters of water to fill my bottle
+        and cook dinner. We set up camp next to each other and we spent the rest
+        of the night eating dinner and chatting about our adventures.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1135.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1139.jpg" />
+      </div>
+      <caption>
+        Left: Cathedral Pass, 9700ft. Right: Sunrise High Sierra Camp.
+      </caption>
+      <p>
+        This is my last camp, and tomorrow will be the end of this adventure.
+        I'm a fairly sentimental person, and this is a bittersweet moment.
+        Earlier today I wanted to "fast-forward time," for this to be over. And
+        now, I just soaked in the ambiance of the journey. I reflected on how
+        incredibly lucky I am to embark on this adventure, how far I'd come, and
+        how I surprised myself with my own strength and capability.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1142.jpg" />
+      </div>
+      <caption>Last camp</caption>
+    </>
+  ),
 };
