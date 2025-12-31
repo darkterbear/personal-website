@@ -149,11 +149,180 @@ export const JMTAftermathPage = () => {
             Eventually, this memory will fade from my mind as well. A video
             would have been nice.
           </p>
-
-          <div className="nav">
-            <div></div>
-            <a href="/#/jmt/0">Day 0</a>
-          </div>
+          <p>
+            Finally, I had quite a few friends that made this trip possible.
+            Eric and Neeraj, thanks for keeping in touch with me over satellite
+            messaging. The weather and smoke updates were helpful, but more
+            importantly, knowing you guys had my back gave me the confidence I
+            needed to go forward. Also a huge thanks to Jenny for letting me
+            borrow your bear can, and other Eric for your advice and wisdom from
+            your time working on the JMT :)
+          </p>
+          <h1>Preparation</h1>
+          <p>
+            I put this part at the very end. The main point of this was to tell
+            you my story, not to bore you with the logistics. But in case you're
+            planning a similar adventure of your own, here's how I did it.
+          </p>
+          <h2>Permit</h2>
+          <p>
+            Generally, you need a permit to camp in the American backcountry.
+            There are only a few permits that let you do the entire JMT.
+            <ul>
+              <li>
+                Happy Isles, Donohue Pass Eligible (from Yosemite NP, lottery
+                5mo prior, southbound)
+              </li>
+              <li>
+                Mount Whitney, Overnight (from Inyo NF, lottery Feb.,
+                northbound)
+              </li>
+              <li>
+                Cottonwood Pass (from Inyo NF, FCFS 6mos prior at 7am,
+                northbound)
+              </li>
+              <li>
+                Cottonwood Lakes (from Inyo NF, FCFS 6mos prior at 7am,
+                northbound)
+              </li>
+              <li>
+                PCT Long-Distance Permit (from PCTA, requires you do at least
+                500mi in a single, continuous trip)
+              </li>
+            </ul>
+            There are also some creative alternatives, like day hike from Happy
+            Isles to Tuolumne Meadows the day before, then entering with a Lyell
+            Canyon, Donohue Pass Eligible permit from Yosemite NP.
+          </p>
+          <p>
+            I tried for all the permits (besides the PCT permit), but didn't
+            land any of the lotteries. Luckily the first-come-first-serve
+            permits weren't hard to snag at 7am.
+          </p>
+          <h2>Training</h2>
+          <p>
+            I trained with 3 exercises: stairmaster, incline treadmill, and
+            rucking Mission Peak, a local 3-mile 2200ft peak.
+            <ul>
+              <li>Stairmaster: level 9, 100 floors, 2x/week</li>
+              <li>Incline treadmill: 15% 3mph, 30 minutes, 1x/week</li>
+              <li>Rucking: 25-30lb pack, 2-3 hours, 1x/week</li>
+            </ul>
+            I also had several multi-day backpacking trips under my belt by the
+            time I embarked on the JMT, including the Trans-Catalina Trail (a
+            little under 40 miles) and the Lost Coast Trail (25 miles). Some
+            folks are able to do the JMT without prior training or even
+            backpacking experience, but I found both to be helpful.
+          </p>
+          <h2>Messaging and Bailout Plan</h2>
+          <p>
+            Some hikers like to truly disconnect from the outside world and
+            forgo any satellite messaging. I found it helpful to talk with my
+            friends while on trail. They helped me look up more detailed
+            forecasts for weather and smoke, and reassured me that they can
+            swoop me up in case something goes wrong.
+          </p>
+          <p>
+            I highly recommend carrying a satellite message device like the
+            Garmin Inreach Mini 2. Set up a protocol for when you will check in,
+            when you will start and stop tracking, and under what circumstances
+            your friends should be concerned and contact the authorities (and
+            which authorities). Find all the feasible bailout points (e.g.
+            Kearsarge Pass, Bishop Pass, etc.) and have a plan for
+            transportation once you bail. For me, having these plans in place
+            eased my anxiety and allowed me to focus on the challenge ahead.
+          </p>
+          <h2>Transportation</h2>
+          <p>
+            One-way hikes are always difficult in terms of transportation. The
+            JMT especially so since the start and end are on different sides of
+            the Sierras.
+          </p>
+          <p>
+            I was lucky enough to be driving distance from the area, so I drove
+            and parked in Mammoth, up the mountain in area B which is designated
+            for overnight backpackers. I took an ESTA shuttle from Mammoth to
+            Lone Pine, then I hired "Lone Pine Kurt" to shuttle me to the
+            trailhead. After I finished, I took a YARTS bus from there to
+            Mammoth. Both ESTA and YARTS are reservable in advance.
+          </p>
+          <p>
+            But if I were to do this again, I would park at the Happy Isles
+            overnight parking lot and take the YARTS to Mammoth beforehand. I
+            would still stay a night in Mammoth for acclimation, then take the
+            ESTA to Lone Pine, etc. This would save me from going over Tioga
+            Pass twice, about an hour of time.
+          </p>
+          <h2>Resupplies</h2>
+          <p>
+            I resupplied twice, once at MTR and once at Reds Meadow. Both
+            involved paying online and shipping a 5-gallon bucket full of your
+            stuff. I included food, electrolytes, toilet paper, contact lenses,
+            first aid materials, and some treats. Keep in mind that you can't
+            ship cannisters of fuel. I shipped my buckets 3 weeks in advance.
+          </p>
+          <h2>Gear</h2>
+          <p>
+            Big 4:
+            <ul>
+              <li>Backpack: REI Flash 55 Medium</li>
+              <li>Quilt: Katabatic Flex 30 Long 850fp</li>
+              <li>Pad: Nemo Tensor Insulated Long Wide</li>
+              <li>
+                Tent: Durston X-Mid 1 Pro Woven, with MSR Groundhog and
+                Sea-to-Summit Ground Control stakes
+              </li>
+            </ul>
+            Toiletries:
+            <ul>
+              <li>Contacts</li>
+              <li>Toothbrush, toothpaste, and floss</li>
+              <li>Trowel</li>
+              <li>Toilet paper</li>
+              <li>Hand sanitizer</li>
+              <li>SPF lipbalm and sunscreen</li>
+            </ul>
+            Food & Water:
+            <ul>
+              <li>Fuel cannister 110g</li>
+              <li>Bear can: BearVault BV475</li>
+              <li>Stove: Soto Amicus</li>
+              <li>Pot: TOAKS 750</li>
+              <li>Filter: Sawyer Squeeze</li>
+              <li>Smartwater bottle + 2x Sawyer 1L plastic bladder</li>
+              <li>Titanium spork</li>
+            </ul>
+            Clothing:
+            <ul>
+              <li>Sunglasses</li>
+              <li>2x REI Sahara Shade sun hoodie</li>
+              <li>Smartwool base layer</li>
+              <li>Patagonia Polartech Powerstretch fleece</li>
+              <li>Decathlon Forclaz MT100 Puffer</li>
+              <li>Montbell Peak Shell</li>
+              <li>2x Exofficio Give-n-Go</li>
+              <li>Patagonia Terrebone trail joggers</li>
+              <li>Montbell Super Dry-Tec pants</li>
+              <li>2x Darn Tough socks</li>
+              <li>Altra Lone Peak 8 shoes</li>
+            </ul>
+            Accessories:
+            <ul>
+              <li>Garmin InReach Mini 2</li>
+              <li>Durston Iceline trekking poles</li>
+              <li>Nitecore NU20 Classic headlamp</li>
+              <li>Merino wool buff</li>
+              <li>Extra gallon ziploc bags</li>
+              <li>Battery bank, cables, wall adapter</li>
+              <li>
+                First Aid Kit (bandaids, KT tape, blister kit, gauze, small pair
+                of scissors, etc.)
+              </li>
+              <li>Prescription glasses</li>
+              <li>Phone</li>
+              <li>Permit</li>
+            </ul>
+          </p>
         </div>
       </div>
     </>
