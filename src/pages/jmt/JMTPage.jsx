@@ -10,6 +10,10 @@ export const JMTPage = () => {
       <div id="jmt-page">
         <Header />
         <div id="jmt-content" class="content">
+          <div className="nav">
+            <div></div>
+            <a href="/#/jmt/0">Day 0</a>
+          </div>
           <h1>Hiking the John Muir Trail</h1>
           <p>
             My first time backpacking was August 2024 when my friends and I
@@ -80,6 +84,10 @@ export const JMTAftermathPage = () => {
       <div id="jmt-page">
         <Header />
         <div id="jmt-content" class="content">
+          <div className="nav">
+            <a href="/#/jmt/15">Day 15</a>
+            <div></div>
+          </div>
           <h1>Aftermath</h1>
           <p>
             I took a free shuttle from the trailhead to Yosemite Village where I
@@ -323,6 +331,10 @@ export const JMTAftermathPage = () => {
               <li>Permit</li>
             </ul>
           </p>
+          <div className="nav">
+            <a href="/#/jmt/15">Day 15</a>
+            <div></div>
+          </div>
         </div>
       </div>
     </>
