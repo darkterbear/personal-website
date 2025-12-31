@@ -991,4 +991,64 @@ const CONTENT = {
       <caption>Last camp</caption>
     </>
   ),
+  15: (
+    <>
+      <h1>Day 15: The Last Step</h1>
+      <p>
+        It was an especially cold night despite being lower in elevation. I was
+        well-adjusted to the feeling of waking up with a cold nose. My bear can
+        was covered in a thin case of ice, frozen from condenstation. My hands
+        went numb as I tore down and packed up my tent for the last time.
+        Alejandro had cowboy camped, and he mentioned some mice were trying to
+        get into his backpack last night. We bid our farewells, and I embarked
+        on the last day of hiking. Part of my didn't want it to end, but another
+        part of me was ready to be done with the trail.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1152.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1153.jpg" />
+      </div>
+      <caption>
+        Sunrise views on the way down to Little Yosemite Valley.
+      </caption>
+      <p>
+        The scenery gradually became more familiar as I descended past Clouds
+        Rest towards Little Yosemite Valley. More day hikers spawned in; mostly
+        Half Dome day hikers at first, then more folks simply hiking the Mist
+        Trail.
+      </p>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1158.jpg" />
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1163.jpg" />
+      </div>
+      <caption>
+        First: View of Half Dome from the north. Second: Liberty Cap and Nevada
+        Falls
+      </caption>
+      <p>
+        I felt an overwhelming sense of pride. The Mist Trail is no joke and
+        Half Dome a great feat, but my journey was extraordinary in comparison.
+        One of these day-hikers saw my backpack and asked where I hiked from,
+        and I gave my most nonchalant "I'm just wrapping up my northbound
+        thru-hike of the JMT." His eyes widen, "oh <i>wow</i>, you're all the
+        way from Whitney? That's incredible, congratulations!" It was a
+        confidence I've hardly felt before, bordering on uncomfortable
+        arrogance.
+      </p>
+      <p>
+        I always imagined my last steps on the JMT would be strongly emotional.
+        This was a moment I rehearsed in my head a thousand times. For the
+        better part of the past year, this was what I dreamed of and trained
+        for. In reality, I was not overwhelmed with tears like I always
+        imagined. It was a mixture of awe, pride, relief, and a healthy dose of{" "}
+        <i>I can't believe I just fucking did that</i>.
+      </p>
+      <blockquote>
+        Don't call me lucky. I failed more times than you tried.
+      </blockquote>
+      <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1166.jpg" />
+      </div>
+    </>
+  ),
 };
