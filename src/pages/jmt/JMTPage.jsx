@@ -14,7 +14,7 @@ export const JMTPage = () => {
         <div id="jmt-content" class="content">
           <div className="nav">
             <div></div>
-            <a href="/#/jmt/0">Day 0</a>
+            <a href="/#/jmt/0">Next</a>
           </div>
           <h1>Hiking the John Muir Trail</h1>
           <p>
@@ -71,7 +71,7 @@ export const JMTPage = () => {
           </p>
           <div className="nav">
             <div></div>
-            <a href="/#/jmt/0">Day 0</a>
+            <a href="/#/jmt/0">Next</a>
           </div>
         </div>
       </div>
@@ -88,20 +88,27 @@ export const JMTAftermathPage = () => {
         <Header />
         <div id="jmt-content" class="content">
           <div className="nav">
-            <a href="/#/jmt/15">Day 15</a>
+            <a href="/#/jmt/15">Prev</a>
             <div></div>
           </div>
           <h1>Aftermath</h1>
           <p>
             I took a free shuttle from the trailhead to Yosemite Village where I
             gorged on burgers, fries, soups, sandwiches, coffee, and snacks
-            galore. I was practically <i>inhaling</i> food during the hours
-            before my shuttle ride back to Mammoth, to the point of being
-            uncomfortably bloated on the YARTS bus. Thank god for dramamine,
-            front-row seats, and short breaks at each stop because there was no
-            way all that food was staying down otherwise. We also saw 2 bears on
-            the bus ride up, despite not seeing any bears on trail the entire
-            trip. I bought a souvenir and a Yerba Mate for the drive home.
+            galore. While I was eating, I met a guy who was starting his
+            southbound thru-hike of the JMT, only he was planning to do it in{" "}
+            <i>5 days</i>. For context, the fastest known time for the
+            southbound JMT is just over 3 days. Goes to show how there's always
+            someone a little crazier than you.
+          </p>
+          <p>
+            I was practically <i>inhaling</i> food during the hours before my
+            shuttle ride back to Mammoth, to the point of being uncomfortably
+            bloated on the YARTS bus. Thank god for dramamine, front-row seats,
+            and short breaks at each stop because there was no way all that food
+            was staying down otherwise. We also saw 2 bears on the bus ride up,
+            despite not seeing any bears on trail the entire trip. I bought a
+            souvenir and a Yerba Mate for the drive home.
           </p>
           <p>
             But once I got to Mammoth and hopped in my car, the exhaustion hit
@@ -335,7 +342,7 @@ export const JMTAftermathPage = () => {
             </ul>
           </p>
           <div className="nav">
-            <a href="/#/jmt/15">Day 15</a>
+            <a href="/#/jmt/15">Prev</a>
             <div></div>
           </div>
         </div>

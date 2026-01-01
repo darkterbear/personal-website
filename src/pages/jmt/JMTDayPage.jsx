@@ -15,14 +15,14 @@ export const JMTDayPage = () => {
   const nav = (
     <div className="nav">
       {dayInt == 0 ? (
-        <a href={"/#/jmt/"}>Prelude</a>
+        <a href={"/#/jmt/"}>Prev</a>
       ) : (
-        <a href={"/#/jmt/" + (dayInt - 1)}>Day {dayInt - 1}</a>
+        <a href={"/#/jmt/" + (dayInt - 1)}>Prev</a>
       )}
       {dayInt == 15 ? (
-        <a href={"/#/jmt/aftermath"}>Aftermath</a>
+        <a href={"/#/jmt/aftermath"}>Next</a>
       ) : (
-        <a href={"/#/jmt/" + (dayInt + 1)}>Day {dayInt + 1}</a>
+        <a href={"/#/jmt/" + (dayInt + 1)}>Next</a>
       )}
     </div>
   );
@@ -72,6 +72,13 @@ const CONTENT = {
   1: (
     <>
       <h1>Day 1: No Appetite</h1>
+      <h4>12.2mi +2600/-2200ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/00SeeaHrR82AmqLI5CoctE5N/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         My day started with a 2-hour shuttle ride from Mammoth to Lone Pine,
         just <i>perfect</i> for someone who gets notoriously carsick. I was in
@@ -126,6 +133,13 @@ const CONTENT = {
   2: (
     <>
       <h1>Day 2: The Day Before</h1>
+      <h4>13.5mi +3200/-2100ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/A9osOLGtoPjS2IyhgxCzNUeV/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         My first night's rest was okay, probably due to exhaustion from lack of
         sleep the night before. My legs were sore first half of the night, and
@@ -173,6 +187,13 @@ const CONTENT = {
   3: (
     <>
       <h1>Day 3: The Highest I've Ever Stood</h1>
+      <h4>16.3mi +5100/-6200ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/lngphe45YLALxCRe5yI6H4rU/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         The sound of my alarm wakes me up at 1:45am to the cold nipping at my
         nose. I put in my contacts, stuffed some food, water, and my sleeping
@@ -251,6 +272,13 @@ const CONTENT = {
   4: (
     <>
       <h1>Day 4: Up and Over</h1>
+      <h4>16.0mi +3500/-3900ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/XELzllNUEV6Q4ayUgjPH2hEi/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         I had a good night's sleep despite the freezing cold from the nearby
         river. Today's challenge was Forester Pass, the highest point on the
@@ -300,6 +328,13 @@ const CONTENT = {
   5: (
     <>
       <h1>Day 5: Cramps and Doubts</h1>
+      <h4>14.2mi +3400/-4900ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/YDnj71P62TaLbjcIrvj8FVhZ/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         The physical exertion from the last several days was catching up to me.
         My quads started cramping on the way up to Glen Pass.{" "}
@@ -388,6 +423,13 @@ const CONTENT = {
   6: (
     <>
       <h1>Day 6: Dan and Char</h1>
+      <h4>14.1mi +5100/-2800ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/EY92aQ8LHc1n7Q98o0wY8DAS/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         Pinchot pass was another long slog. It was the largest elevation gain
         since Whitney, but my legs were getting stronger. I was getting my
@@ -447,6 +489,13 @@ const CONTENT = {
   7: (
     <>
       <h1>Day 7: Rock Bottom</h1>
+      <h4>14.0mi +1900/-4700ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/CIyl6FsGK7bx6zYhftSfLHtV/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         The morning felt like Mt. Whitney all over again. We hauled ass in the
         dark and cold watching for clouds in the sky, dark splotches against the
@@ -518,6 +567,13 @@ const CONTENT = {
   8: (
     <>
       <h1>Day 8: Full Send</h1>
+      <h4>18.9mi +5100/-3200ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/1033CQpejJMyT0y9dMcxezR5/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         We got up at 4:30am to get an early start in case we encounter good
         enough weather to make it over Muir Pass. I had left my shoes out to dry
@@ -608,6 +664,13 @@ const CONTENT = {
   9: (
     <>
       <h1>Day 9: Checkpoint</h1>
+      <h4>18.3mi +3800/-3500ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/toFYJogYsuXJA4WHDYXQuBrb/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         This was a big day for me. I started the trip with many doubts, the
         primary being <i>what if I just can't do it?</i>
@@ -668,6 +731,13 @@ const CONTENT = {
   10: (
     <>
       <h1>Day 10: Not Invincible</h1>
+      <h4>15.0mi +2300/-4600ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/8POWousO2SW5VBc0QWASBxI1/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         I woke up with a massive ant in my tent, which I quickly evicted with
         some precise flicking. I'm usually not a fan of insects, but I was{" "}
@@ -722,6 +792,13 @@ const CONTENT = {
   11: (
     <>
       <h1>Day 11: Cozy Company</h1>
+      <h4>13.4mi +5100/-2700ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/HHGnZpiq5EvHc53k06gFBh24/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         Thankfully, my hamstring did feel better. We had a nice, early start to
         Silver Pass. Being on the west side of the ridge meant we were shaded
@@ -768,6 +845,13 @@ const CONTENT = {
   12: (
     <>
       <h1>Day 12: Going Our Separate Ways</h1>
+      <h4>15.7mi +1800/-4500ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/L7urW6sSxHIQIn5lSpOKkpxR/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         The cold this morning made me wish once again that I brought gloves. By
         now, the moon stayed up well into the morning, providing
@@ -820,7 +904,7 @@ const CONTENT = {
         may never see them again, but I'm glad they were a part of my adventure.
       </p>
       <blockquote>
-        Should the day every come that we are not together, you will continue to
+        Should the day ever come that we are not together, you will continue to
         shine like gold in my memories. &mdash; Zhongli, Genshin Impact
       </blockquote>
       <p>
@@ -839,6 +923,13 @@ const CONTENT = {
   13: (
     <>
       <h1>Day 13: Alone Once More</h1>
+      <h4>18.2mi +5200/-3100ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/mHH82YG1E0O8ZH257VcCn1Cb/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         It was another cold night with heavy condensation inside my tent. Only
         this time, the outside was also covered in ash. It was the smokiest day
@@ -893,6 +984,13 @@ const CONTENT = {
   14: (
     <>
       <h1>Day 14: Double Pass</h1>
+      <h4>26.8mi +3700/-4000ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/TDvROlnZo0713mCYKvtjRis8/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         The day's goal was to get over Donohue Pass and Cathedral Pass, which is
         over 26 miles of hiking. This would be the hardest day of hiking in the
@@ -996,6 +1094,13 @@ const CONTENT = {
   15: (
     <>
       <h1>Day 15: The Last Step</h1>
+      <h4>13.5mi +2000/-7300ft</h4>
+      <iframe
+        className="map-frame"
+        src="https://www.gaiagps.com/public/j2OG2rCiQo7x31YReIQuwxIn/?embed=True"
+        seamless
+      ></iframe>
+      <div className="map-blocker" />
       <p>
         It was an especially cold night despite being lower in elevation. I was
         well-adjusted to the feeling of waking up with a cold nose. My bear can
