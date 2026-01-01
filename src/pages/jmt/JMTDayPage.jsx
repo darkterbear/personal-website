@@ -46,32 +46,34 @@ export const JMTDayPage = () => {
 const CONTENT = {
   0: (
     <>
-      <h1>Day 0: Leaving Home</h1>
+      <h1>Day 0: Vigil</h1>
       <p>
         My journey started with a long 5-hour drive from the Bay Area to
         Mammoth. I parked my car in the designated area for overnight
         backpackers, and took a shuttle down into town to stay the night.
       </p>
-      <p>
-        My thoughts raced with excitement and worry. This was when everything
-        felt <i>real</i>. This was no longer "something that I'll do soon", it
-        is <i>happening</i>. I forced down a sub sandwich for dinner despite my
-        lack of appetite with my eyes glued to the weather forecast. 30% chance
-        of thunderstorms over New Army Pass in the afternoon.
-      </p>
-      <p>
-        Needless to say, I didn't sleep well that night. I typically don't sleep
-        well on the first night of anything new, only this time was my last
-        night on a real bed for a while.
-      </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0621.jpg" />
       </div>
+      <caption>Walking to the shuttle from the parking lot to town</caption>
+      <p>
+        My thoughts raced with excitement and worry. This was when everything
+        felt real. This was no longer{" "}
+        <i>something that I'll do in the future</i>, it is <i>happening</i>. I
+        forced down a sub sandwich for dinner despite my lack of appetite, while
+        my eyes were glued to the weather forecast: 30% chance of thunderstorms
+        over New Army Pass tomorrow afternoon.
+      </p>
+      <p>
+        I didn't sleep well that night. I typically don't sleep well on the
+        first night of anything new, only this time was my last night on a real
+        bed for a while.
+      </p>
     </>
   ),
   1: (
     <>
-      <h1>Day 1: No Appetite</h1>
+      <h1>Day 1: In the Deep End</h1>
       <h4>12.2mi +2600/-2200ft</h4>
       <iframe
         className="map-frame"
@@ -90,11 +92,11 @@ const CONTENT = {
         thousand calories into my system despite the nausea. There is no public
         shuttle service from Lone Pine to Horseshoe Meadows, the start of my
         hike. Instead, theres a group of individuals that offer private shuttle
-        services. Perhaps the most well know of these is "Lone Pine Kurt". He
-        picked up me and two others, and we made our way up the eastern slopes
-        of the Sierra. The other folks were a couple, also doing the JMT but on
-        a leisurely 25-day pace. They would have their wedding shortly after.
-        One of them serves in Cal Fire.
+        services. Perhaps the most well known is "Lone Pine Kurt". He picked up
+        me and two others, and we made our way up the eastern slopes of the
+        Sierras. The other folks were a couple, also doing the JMT but on a
+        leisurely 25-day pace. They would have their wedding shortly after. One
+        of them serves in Cal Fire.
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0631.jpg" />
@@ -110,7 +112,7 @@ const CONTENT = {
       <p>
         At an elevation of over 12000ft, New Army Pass was no joke, especially
         for my first day on trail. Dark, fluffy clouds formed as I trekked up
-        the face of the pass, <s>motivating</s> scaring me to hike faster.
+        the face of the pass, <s>motivating</s> scaring me into hiking faster.
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0633.jpg" />
@@ -127,12 +129,11 @@ const CONTENT = {
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0643.jpg" />
       </div>
-      <caption>Trying to eat a meal with no appetite</caption>
     </>
   ),
   2: (
     <>
-      <h1>Day 2: The Day Before</h1>
+      <h1>Day 2: Quiet Before Battle</h1>
       <h4>13.5mi +3200/-2100ft</h4>
       <iframe
         className="map-frame"
@@ -152,8 +153,8 @@ const CONTENT = {
       </div>
       <caption>View from Guyot Pass, 10900ft</caption>
       <p>
-        As I passed Crabtree Meadows towards Guitar Lake, I met a park ranger
-        who warned the weather around Whitney was not looking good the next few
+        As I passed Crabtree Meadows towards Guitar Lake, I met a ranger who
+        warned that the weather around Whitney was not looking good the next few
         days. She told me to watch the clouds and come down if it gets sketchy.
         Like clockwork, it started raining and hailing while I set up camp.
         There were a dozen other tents and the wind was quite manageable, but it
@@ -271,7 +272,7 @@ const CONTENT = {
   ),
   4: (
     <>
-      <h1>Day 4: Up and Over</h1>
+      <h1>Day 4: Just Keep Swimming</h1>
       <h4>16.0mi +3500/-3900ft</h4>
       <iframe
         className="map-frame"
@@ -844,7 +845,7 @@ const CONTENT = {
   ),
   12: (
     <>
-      <h1>Day 12: Going Our Separate Ways</h1>
+      <h1>Day 12: Bidding Farewell</h1>
       <h4>15.7mi +1800/-4500ft</h4>
       <iframe
         className="map-frame"
@@ -1093,7 +1094,7 @@ const CONTENT = {
   ),
   15: (
     <>
-      <h1>Day 15: The Last Step</h1>
+      <h1>Day 15: The Final Step</h1>
       <h4>13.5mi +2000/-7300ft</h4>
       <iframe
         className="map-frame"

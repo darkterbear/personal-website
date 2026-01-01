@@ -18,8 +18,9 @@ export const JMTPage = () => {
           </div>
           <h1>Hiking the John Muir Trail</h1>
           <p>
-            My first time backpacking was August 2024 when my friends and I
-            camped at Little Yosemite Valley and summited Half Dome.
+            I embarked on my first backpacking trip with my friends in August
+            2024 when we camped at Little Yosemite Valley and summited Half
+            Dome.
           </p>
           <div className="image-grid">
             <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/KIOH1887.jpg" />
@@ -28,26 +29,26 @@ export const JMTPage = () => {
           </div>
 
           <p>
-            Not only was I already horribly out of shape, I had also never hiked
-            such a distance and elevation gain with weight on my back. I
-            struggled the entire trip with headaches from altitude and hamstring
-            cramps on the way down.
+            Not only was I horribly out of shape, I had also never hiked such a
+            distance and elevation with weight on my back. I struggled the
+            entire trip with headaches from altitude and hamstring cramps on the
+            way down.
           </p>
           <p>
             I thought this would be a one-time adventure, but we went on more
             trips to Desolation Wilderness, Catalina Island, and the Lost Coast.
             YouTube started recommending me PCT documentaries, and I fell down a
             rabbit hole of thru-hiking reels. I never thought of myself as
-            outdoorsy, but I thought it was one of the coolest things ever.
-            Hiking hundreds of miles alone in the mountains, carrying everything
-            you needed along the way, it would be the experience of a lifetime.
+            outdoorsy, but the idea of hiking hundreds of miles alone in the
+            mountains and carrying everything you needed along the way just
+            seemed cool to me.
           </p>
           <p>
-            The decision to hike the JMT came with many doubts. I had never
-            spent a night in the wilderness alone, let alone weeks. That 20-mile
-            trip over 3 days was the longest I've ever done, and the JMT would
-            be an order of magnitude longer and more difficult. My mom would
-            freak out if she knew about my plans (she still doesn't know I
+            The decision to hike the JMT came with many doubts. I have never
+            spent a night in the wilderness alone, never mind weeks. That
+            20-mile trip over 3 days was the longest I've ever hiked, and the
+            JMT would be an order of magnitude longer and more difficult. My mom
+            would freak out if she knew about my plans (she still doesn't know I
             completed it). If you told 15-year-old Terrance he would one day
             hike hundreds of miles alone through the Sierra, he wouldn't believe
             you. I was anxious as much as I was excited.
