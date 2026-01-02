@@ -555,7 +555,7 @@ const CONTENT = {
       <caption>The face of joy and happiness /s</caption>
       <blockquote>
         We'll see the sun come up again / We will climb higher than we've been
-        &mdash; TryHardNinja, Dragonhearted
+        &mdash; Dragonhearted
       </blockquote>
       <p>
         Several hours later, the storm passed and the sun appeared once more. We
@@ -1152,7 +1152,7 @@ const CONTENT = {
         <i>I can't believe I just fucking did that</i>.
       </p>
       <blockquote>
-        Don't call me lucky. I failed more times than you tried.
+        Don't call me lucky. I failed more times than you tried. &mdash; Unknown
       </blockquote>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1166.jpg" />
