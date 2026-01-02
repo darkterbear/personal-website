@@ -91,9 +91,9 @@ const CONTENT = {
         The bus dropped me off at McDonalds in Lone Pine, where I stuffed a
         thousand calories into my system despite the nausea. There is no public
         shuttle service from Lone Pine to Horseshoe Meadows, the start of my
-        hike. Instead, theres a group of individuals that offer private shuttle
-        services. Perhaps the most well known is "Lone Pine Kurt". He picked up
-        me and two others, and we made our way up the eastern slopes of the
+        hike. Instead, there's a group of individuals that offer private shuttle
+        services. Perhaps the most well-known is "Lone Pine Kurt". He picked me
+        up and two others, and we made our way up the eastern slopes of the
         Sierras. The other folks were a couple, also doing the JMT but on a
         leisurely 25-day pace. They would have their wedding shortly after. One
         of them serves in Cal Fire.
@@ -121,7 +121,7 @@ const CONTENT = {
       <caption>New Army Pass, 12350ft</caption>
       <p>
         In the end, no thunderstorm came to pass. I made my way down to Rock
-        Creek where I met a nice German couple who were here to summit Mount
+        Creek where I met a nice German couple who were here to summit Mt.
         Whitney. We set up camp and ate dinner together. I tried to eat my
         repackaged double-serving of Mountain House Biscuits and Gravy, but
         despite my efforts I could not force down the entire meal.
@@ -129,6 +129,7 @@ const CONTENT = {
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0643.jpg" />
       </div>
+      <caption>Trying to eat with no appetite</caption>
     </>
   ),
   2: (
@@ -143,8 +144,8 @@ const CONTENT = {
       <div className="map-blocker" />
       <p>
         My first night's rest was okay, probably due to exhaustion from lack of
-        sleep the night before. My legs were sore first half of the night, and
-        it got chilly in the second. The right side of my tent was wet from
+        sleep the night before. My legs were sore the first half of the night,
+        and it got chilly in the second. The right side of my tent was wet from
         condensation. I packed up at 7:30am and hit the trail. My legs were
         still adjusting as I joined the PCT and trekked up Guyot Pass.
       </p>
@@ -167,15 +168,14 @@ const CONTENT = {
       </div>
       <caption>View from my tent in Guitar Lake after hail and rain</caption>
       <p>
-        I needed to sleep early. A reliable way to avoid nasty weather is to be{" "}
-        <i>early</i>. I wanted to be at the summit by 8am with a 9am turn-around
-        time. I met another older couple on the way up to Guitar Lake who shared
-        the same weather worries. They planned to start hiking around 2:30am, so
-        I figured I would too. Falling asleep was hard. This was, technically,
-        the hardest part of the trail. I was stressed and anxious of what is to
-        come tomorrow, afraid both of failure to even approach the southern
-        terminus of the JMT, and of the dangers of the weather and altitude that
-        lie ahead.
+        A reliable way to avoid nasty weather is to be early. I wanted to be at
+        the summit by 8am with a 9am turn-around time. I met another older
+        couple on the way up to Guitar Lake who shared the same weather worries.
+        They planned to start hiking around 2:30am, so I figured I would too.
+        Falling asleep was hard. This was, technically, the hardest part of the
+        trail. I was stressed and anxious of what was to come tomorrow, afraid
+        both of failing to even approach the southern terminus of the JMT, and
+        of the dangers of weather and altitude that lie ahead.
       </p>
       <blockquote>
         The brave man is not he who does not feel afraid, but he who conquers
@@ -196,18 +196,18 @@ const CONTENT = {
       ></iframe>
       <div className="map-blocker" />
       <p>
-        The sound of my alarm wakes me up at 1:45am to the cold nipping at my
+        The sound of my alarm woke me up at 1:45am to the cold nipping at my
         nose. I put in my contacts, stuffed some food, water, and my sleeping
         quilt into my bag, and started hiking. I left my tent set up since I'll
-        be back later, saving me some weight in my pack.
+        be back later, saving me some weight.
       </p>
       <p>
         There was no moon, and it would have been pitch black if it weren't for
         my headlamp. It wasn't long until I caught up to the same couple I met
         yesterday. We slogged our way up the back of the mountain, a black,
-        imposing silhouette against the starts. I popped a few sour patch kids
-        in my mouth every couple switchbacks. The altitude and freezing cold
-        made it hard to breathe, especially with a buff around my face.
+        imposing silhouette against the stars. I popped a few sour patch kids in
+        my mouth every couple switchbacks. The altitude and freezing cold made
+        it hard to breathe, especially with a buff around my face.
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0674.jpg" />
@@ -231,7 +231,7 @@ const CONTENT = {
         without stopping to catch my breath.
       </p>
       <p>
-        I summitted as the sun rose over the horizon. It was an incredible
+        I summited as the sun rose over the horizon. It was an incredible
         feeling. The thrill of achievement and dreams come true made me forget
         the shivering cold and biting wind. I dropped my pack, climbed onto the
         highest frost-covered rock I could find without slipping, held up the
@@ -263,9 +263,9 @@ const CONTENT = {
         When I neared Wallace Creek, I encountered the same ranger from the day
         before. She remarked at how long my day had been, and agreed I should
         get some rest at Wallace Creek. I set up camp way too close to the
-        water, and my tent was soon covered with mosquitos. Impressive, I
+        water, and my tent was soon covered with mosquitoes. Impressive, I
         thought, given it was almost September. My dinner involved taking a bite
-        and running around maniaclly, swatting the bugs out of my face. Rinse
+        and running around maniacally, swatting the bugs out of my face. Rinse
         and repeat. Won't be making that mistake again.
       </p>
     </>
@@ -312,7 +312,7 @@ const CONTENT = {
       <p>
         I pushed past my planned stop at Center Basin junction since my legs
         allowed and I had time, and I wanted to get closer to Glen Pass for
-        tomorrow. I found what I would later consider to be one my favorite
+        tomorrow. I found what I would later consider to be one of my favorite
         campsites in Lower Vidette Meadow. I had shade from the trees, close
         access to water, a place to dip my feet in, and minimal mosquito
         presence. Life on trail was becoming routine. The anxiety of the unknown
@@ -356,8 +356,8 @@ const CONTENT = {
       </caption>
       <p>
         On the way up, I saw a note from the Charlotte Lake Ranger that there
-        were fires developing both east and west of trail. Although the trail
-        wasn't in danger of fire, the note warned of impending smoke.
+        were fires developing both east and west of the trail. Although the
+        trail wasn't in danger of fire, the note warned of impending smoke.
       </p>
       <p>
         Though not as high as Forester or Whitney, Glen Pass still kicked my
@@ -375,17 +375,17 @@ const CONTENT = {
         I can only imagine how much more difficult navigating this crest would
         be if it was covered in snow and ice, as it would be for the vast
         majority of PCT hikers. As I descended down the north face, I was
-        rewarded with the beauty of the Rae Lakes. It was a popular camping spot
-        for those hiking the Rae Lakes Loop. But with the hard uphill out of the
+        rewarded with the beauty of Rae Lakes. It was a popular camping spot for
+        those hiking the Rae Lakes Loop. But with the hard uphill out of the
         way, I kept pushing towards Woods Creek to get closer to Pinchot Pass
         for tomorrow.
       </p>
       <p>
         After setting up camp, I washed up in the creek, did some laundry, and
-        set up a clothesline between a couple trees using my tent's guy lines.
-        There was a bridge over the creek, which was mentally jarring given I
-        haven't seen any large man-made structures in the last several days.
-        Makes you wonder how they built it in the middle of the mountains.
+        set up a clothesline between a couple of trees using my tent's guy
+        lines. There was a bridge over the creek, which was mentally jarring
+        given I haven't seen any large man-made structures in the last several
+        days. Makes you wonder how they built it in the middle of the mountains.
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0795.jpg" />
@@ -397,7 +397,7 @@ const CONTENT = {
       <p>
         I met another couple who mentioned the weather was not looking too hot
         the next several days. They pressed further upwards to get a head start
-        on Pinchot pass tomorrow. The strenuous hike was also starting to wear
+        on Pinchot Pass tomorrow. The strenuous hike was also starting to wear
         on my equipment. My right hiking pole was missing its carbide tip from
         an earlier trip so the plastic is wearing out faster than expected, and
         I discovered a small hole in the bottom of my tent. Nothing a quick
@@ -410,7 +410,7 @@ const CONTENT = {
           Where would I bail out if I needed to? I have 1 day of extra food.
           Would I rather bail immediately if the weather doesn't permit, or use
           my extra food to wait for better weather and leave myself with no
-          buffer?{" "}
+          reserve?{" "}
         </i>
         The thoughts quietly faded as I dozed off from exhaustion.
       </p>
@@ -432,7 +432,7 @@ const CONTENT = {
       ></iframe>
       <div className="map-blocker" />
       <p>
-        Pinchot pass was another long slog. It was the largest elevation gain
+        Pinchot Pass was another long slog. It was the largest elevation gain
         since Whitney, but my legs were getting stronger. I was getting my
         "trail legs" as they say. I started stretching and drinking my
         electrolytes first thing in the morning, which helped with the cramps.
@@ -446,7 +446,7 @@ const CONTENT = {
       <p>
         I chatted with a few folks atop the pass who told me the ferryman at
         Vermillion Valley Resort had a heart attack and passed away, doing what
-        he loved. He seemed a great guy from the reels I watched where he
+        he loved. He seemed like a great guy from the reels I watched where he
         ferries hikers between the trail and VVR. His passing was a great loss
         to the community. Any hikers resupplying at VVR felt this immediately as
         they now needed to hike an extra 8 miles to get to VVR.
@@ -456,19 +456,19 @@ const CONTENT = {
         my descent. I once again pushed past the planned stopping point to get
         closer to the pass tomorrow. I appeared to be hiking alone while
         trekking up to Upper Basin, and I was anxious at the prospect of
-        cresting Mather Pass alone in the rain, wind, and possible thunder. But
+        cresting Mather Pass alone in the wind, rain, and possible thunder. But
         to my relief, I encountered the same couple that I met yesterday at
         Woods Creek.
       </p>
       <p>
-        Dan and Char were from Bend, Oregon, and they were also hiking the JMT
+        Dan and Char are from Bend, Oregon, and they were also hiking the JMT
         northbound. We shared stories around dinner, chatted about gear and our
         experience on trail so far. Dan worked in the Forest Service and Char
         was a pharmacist, which felt refreshing coming from a world where almost
         everyone I meet is an engineer. They gave me some extra electrolytes for
         my cramping, and I let them use my water filter since theirs was clogged
         to a trickle. I felt my anxiety evaporate as even more hikers, both
-        north- and south-bound, gathered in the area to camp. I learned just how
+        north- and southbound, gathered in the area to camp. I learned just how
         anxious I can become when I'm <i>alone</i> in the wild. But now, we're
         in this together.
       </p>
@@ -505,7 +505,7 @@ const CONTENT = {
         headlamps.
       </p>
       <p>
-        Mather pass was far easier than the others so far, given we pretty much
+        Mather Pass was far easier than the others so far, given we pretty much
         camped at its base. The sky revealed numerous wispy clouds as we
         crested. It's unusual for there to be so many clouds this early in the
         morning.
@@ -521,7 +521,7 @@ const CONTENT = {
         As we descended, the clouds disappeared. "Where's the weather?" we
         wondered as we descended down Palisade Lakes and the infamous Golden
         Staircase, known for its long and steep climb. But I would argue it's
-        just as much as a bitch going down. Each step shredded my ankles. This
+        just as much of a bitch going down. Each step shredded my ankles. This
         was also the most poorly-maintained section of trail so far, with
         overgrown shrubs and lack of drainage creating swampy, muddy
         slip-and-slides. We could also see the alleged plume of smoke coming
@@ -579,7 +579,7 @@ const CONTENT = {
         We got up at 4:30am to get an early start in case we encounter good
         enough weather to make it over Muir Pass. I had left my shoes out to dry
         overnight. But that progress quickly vanished as I lost my balance when
-        filling up water at the river, and I took a stepped into the water.
+        filling up water at the river and stepped into the water.
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0881.jpg" />
@@ -588,7 +588,7 @@ const CONTENT = {
       <p>
         The initial climb up to Big Pete Meadow was mild, despite one shoe being
         fully soaked. We continued slogging up towards Starr Camp, the last
-        section below treeline before Muir Pass. If we continued, it's 9 miles
+        section below treeline before Muir Pass. If we continued, it was 9 miles
         of completely exposed terrain until we're below treeline again, and the
         weather forecast showed possible thunderstorms in the area. Our original
         plan was to stop early at Starr Camp and get an early start tomorrow.
@@ -603,7 +603,7 @@ const CONTENT = {
         The prospect of getting caught in a thunderstorm in exposed terrain
         terrified me. But another solo hiker passed us saying "this is the best
         weather I've seen all week." And he was right, this might be the best
-        chance given there's no guarantee tomorrows weather will be better. And
+        chance given there's no guarantee tomorrow's weather will be better. And
         if we stayed put today, I would be eating through my only reserve day of
         food. So we decided to send it.
       </p>
@@ -621,7 +621,7 @@ const CONTENT = {
       </caption>
       <p>
         Ominous clouds formed behind us as we climbed the last thousand feet to
-        the Muir Hut. "Lets take 2 minutes, then we skedaddle down." We took a
+        the Muir Hut. "Let's take 2 minutes, then we skedaddle down." We took a
         quick gander inside, wrote our names in the log, snapped some pictures,
         then took off. Although I was still on edge about the weather, Dan and
         Char were less concerned now. And rightfully so, given we passed a trail
@@ -673,8 +673,8 @@ const CONTENT = {
       ></iframe>
       <div className="map-blocker" />
       <p>
-        This was a big day for me. I started the trip with many doubts, the
-        primary being <i>what if I just can't do it?</i>
+        This was a big day for me. I started the entire trip with many doubts,
+        the primary being <i>what if I just can't do it?</i>
       </p>
       <p>
         I knew the first 9 days would be the most difficult. Legs still
@@ -714,8 +714,8 @@ const CONTENT = {
         white spotted dog named Lucy, who kept us company on the steepest parts.
       </p>
       <p>
-        We set up camp at Sallie Keyes lakes to give us a head start on
-        tomorrows climb over Seldon Pass. I felt good: a fresh resupply of food
+        We set up camp at Sallie Keyes Lakes to give us a head start on
+        tomorrows climb over Selden Pass. I felt good: a fresh resupply of food
         with plenty of reserves, improving weather, easier passes ahead, and a
         renewed confidence that <i>I can do it</i>.
       </p>
@@ -742,21 +742,21 @@ const CONTENT = {
       <p>
         I woke up with a massive ant in my tent, which I quickly evicted with
         some precise flicking. I'm usually not a fan of insects, but I was{" "}
-        <s>numb</s> used to the grime of camping by now.
+        <s>numb</s> 1 grime of camping by now.
       </p>
       <p>
         Remember those spam slices I had at MTR yesterday? In hindsight, I
         should've thought twice before eating random food out of a hiker box.
         Sure, it was sealed and not close to expiration, but who knows how long
-        its been sitting in the sun. To spare the details, I had to spend quite
-        some time pooping before my guts calmed down.
+        it has been sitting in the sun. To spare the details, I had to spend
+        quite some time in the bushes before my guts calmed down.
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0973.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0980.jpg" />
       </div>
       <caption>
-        First: View of Sallie Keyes lakes on the way up Seldon Pass, 10800ft.
+        First: View of Sallie Keyes Lakes on the way up Selden Pass, 10800ft.
         Second: Marie Lakes on the way down.
       </caption>
       <p>
@@ -764,7 +764,7 @@ const CONTENT = {
         smoke set in. We had a slow lunch at Bear Creek Trail junction, taking
         our time to dip our feet in the river. Although my anxiety eased after
         MTR, Char was worried about the worsening fire and smoke. It smelled
-        like we were perpetually hiking through a barbeque.
+        like we were perpetually hiking through a barbecue.
       </p>
       <p>
         The ascent and descent over Bear Ridge was massive for not being a pass.
@@ -934,7 +934,7 @@ const CONTENT = {
       <p>
         It was another cold night with heavy condensation inside my tent. Only
         this time, the outside was also covered in ash. It was the smokiest day
-        so far. Usually the smoke only rolls in in the afternoon, but it was
+        so far. Usually the smoke only rolls in during the afternoon, but it was
         already suffocating in the morning. I started wearing my buff as a mask.
       </p>
       <div className="image-grid">
@@ -1006,7 +1006,7 @@ const CONTENT = {
       </div>
       <caption>Views on the way up Donohue Pass</caption>
       <p>
-        Donohue pass is the border between Ansel Adams Wilderness and Yosemite
+        Donohue Pass is the border between Ansel Adams Wilderness and Yosemite
         National Park. Wilderness permits from Yosemite do not allow exiting
         over Donohue Pass unless specifically stated. Cresting this pass means
         I'm entering Yosemite, the final public land on this trail. It was home
@@ -1024,11 +1024,11 @@ const CONTENT = {
         Despite the breathtaking views and crisp fresh air, I was physically and
         mentally exhausted. It wasn't anxiety or muscle cramps, but a yearning
         for a hot shower and a warm bed, and the aching tendons and ligaments in
-        my feet. They were feeling the strain of the past 2 weeks of continuous
-        hiking, and the steep, rocky descent down the north face of Donohue pass
-        didn't help. Every step hurt, I felt grimy, and my sleep had been
-        mediocre at best even by camping standards. My sleep relies on pure
-        exhaustion overriding the uncomfortable sleeping pad.{" "}
+        my feet. They were feeling the strain of the past two weeks of
+        continuous hiking, and the steep, rocky descent down the north face of
+        Donohue Pass didn't help. Every step hurt, I felt grimy, and my sleep
+        had been mediocre at best even by camping standards. My sleep relies on
+        pure exhaustion overriding the uncomfortable sleeping pad.{" "}
         <i>If only I could fast-forward time.</i>
       </p>
       <p>
@@ -1064,8 +1064,8 @@ const CONTENT = {
         minute after we headed our separate ways, I hear a sharp whistle pierce
         the air. "Hello?" "I found water!" He had found a barely-trickling
         stream with a couple of small puddles. It was the saddest "water source"
-        I had drank from on trail, but it will have to do for tonight. There was
-        no way I could fill my water bladders from the shallow puddle, but
+        I drank from on trail, but it will have to do for tonight. There was no
+        way I could fill my water bladders from the shallow puddle, but
         Alejandro had a gravity filter with a bag to easily collect the puddle
         water. He graciously gave me a couple liters of water to fill my bottle
         and cook dinner. We set up camp next to each other and we spent the rest
@@ -1105,11 +1105,11 @@ const CONTENT = {
       <p>
         It was an especially cold night despite being lower in elevation. I was
         well-adjusted to the feeling of waking up with a cold nose. My bear can
-        was covered in a thin case of ice, frozen from condenstation. My hands
+        was covered in a thin case of ice, frozen from condensation. My hands
         went numb as I tore down and packed up my tent for the last time.
         Alejandro had cowboy camped, and he mentioned some mice were trying to
         get into his backpack last night. We bid our farewells, and I embarked
-        on the last day of hiking. Part of my didn't want it to end, but another
+        on the last day of hiking. Part of me didn't want it to end, but another
         part of me was ready to be done with the trail.
       </p>
       <div className="image-grid">
@@ -1135,12 +1135,12 @@ const CONTENT = {
       </caption>
       <p>
         I felt an overwhelming sense of pride. The Mist Trail is no joke and
-        Half Dome a great feat, but my journey was extraordinary in comparison.
-        One of these day-hikers saw my backpack and asked where I hiked from,
-        and I gave my most nonchalant "I'm just wrapping up my northbound
-        thru-hike of the JMT." His eyes widen, "oh <i>wow</i>, you're all the
-        way from Whitney? That's incredible, congratulations!" It was a
-        confidence I've hardly felt before, bordering on uncomfortable
+        Half Dome is a great feat, but my journey was extraordinary in
+        comparison. One of these day-hikers saw my backpack and asked where I
+        hiked from, and I gave my most nonchalant "I'm just wrapping up my
+        northbound thru-hike of the JMT." His eyes widened, "oh <i>wow</i>,
+        you're all the way from Whitney? That's incredible, congratulations!" It
+        was a confidence I've hardly felt before, bordering on uncomfortable
         arrogance.
       </p>
       <p>
