@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.da2b1629.css",
-    "main.js": "/static/js/main.5bc77ec4.js",
+    "main.css": "/static/css/main.6cc95abe.css",
+    "main.js": "/static/js/main.9facb60c.js",
     "static/media/FiraCode-Medium.ttf": "/static/media/FiraCode-Medium.9349115197f4268b9c30.ttf",
     "static/media/GrantipoBeta001-Regular.ttf": "/static/media/GrantipoBeta001-Regular.1ee2ba0f35b9ee97547f.ttf",
     "static/media/GrantipoBeta001-Bold.ttf": "/static/media/GrantipoBeta001-Bold.46b062ccafd0529a976f.ttf",
     "index.html": "/index.html",
-    "main.da2b1629.css.map": "/static/css/main.da2b1629.css.map",
-    "main.5bc77ec4.js.map": "/static/js/main.5bc77ec4.js.map"
+    "main.6cc95abe.css.map": "/static/css/main.6cc95abe.css.map",
+    "main.9facb60c.js.map": "/static/js/main.9facb60c.js.map"
   },
   "entrypoints": [
-    "static/css/main.da2b1629.css",
-    "static/js/main.5bc77ec4.js"
+    "static/css/main.6cc95abe.css",
+    "static/js/main.9facb60c.js"
   ]
 }
