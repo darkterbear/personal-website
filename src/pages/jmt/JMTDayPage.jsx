@@ -58,11 +58,10 @@ const CONTENT = {
       <caption>Walking to the shuttle from the parking lot to town</caption>
       <p>
         My thoughts raced with excitement and worry. This was when everything
-        felt real. This was no longer{" "}
-        <i>something that I'll do in the future</i>, it is <i>happening</i>. I
-        forced down a sub sandwich for dinner despite my lack of appetite, while
-        my eyes were glued to the weather forecast: 30% chance of thunderstorms
-        over New Army Pass tomorrow afternoon.
+        felt real. This was no longer something that I'll do in the future, it
+        is <i>happening</i>. I forced down a sub sandwich for dinner despite my
+        lack of appetite, while my eyes were glued to the weather forecast: 30%
+        chance of thunderstorms over New Army Pass tomorrow afternoon.
       </p>
       <p>
         I didn't sleep well that night. I typically don't sleep well on the
@@ -82,10 +81,10 @@ const CONTENT = {
       ></iframe>
       <div className="map-blocker" />
       <p>
-        My day started with a 2-hour shuttle ride from Mammoth to Lone Pine,
-        just <i>perfect</i> for someone who gets notoriously carsick. I was in
-        terrible shape and nearly threw up, despite being on an empty stomach.
-        "You need potassium," the driver remarked as I stumbled my way off.
+        My day started with a 2-hour shuttle ride from Mammoth to Lone Pine, a
+        rough start for someone who gets notoriously carsick. I was in terrible
+        shape and nearly threw up, despite being on an empty stomach. "You need
+        potassium," the driver remarked as I stumbled my way off.
       </p>
       <p>
         The bus dropped me off at McDonalds in Lone Pine, where I stuffed a
