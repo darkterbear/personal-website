@@ -16,19 +16,19 @@ export const BlogArticlePage = () => {
 
   return (
     <div id="blog-page">
-      <Header />
-      <div class="article-page">
-        <div class="content">
-          <h1>{article.title}</h1>
-          <span>Published {article.publishedDate}</span>
-
+      <div className="content">
+        <Header to="/#/blog" label="blog" />
+        <div className="blog-header">
+          <span className="article-date">{article.publishedDate}</span>
           {article.updatedDate && (
-            <>
-              <br />
-              <span>Last updated {article.updatedDate}</span>
-            </>
+            <span className="article-date updated">
+              {" · "}Last updated {article.updatedDate}
+            </span>
           )}
-          <p class="description">{article.description}</p>
+          <h1 className="blog-title">{article.title}</h1>
+          <div className="accent-rule" />
+        </div>
+        <div className="article-page">
           {article.content}
         </div>
       </div>

@@ -3,153 +3,153 @@
 @import "../fonts.scss";
 
 #home-page {
-  #frame-1 {
-    height: 100vh;
-    width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: $background;
+}
 
+// ── Desktop layout ──────────────────────────────────────────────────────────
+
+#home-layout {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding: 4rem 8%;
+
+  // Prevent the layout from overflowing on very short viewports
+  min-height: 0;
+}
+
+#home-left {
+  flex: 1;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+
+  .home-name {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: $text;
+    margin: 0;
+  }
+
+  .home-rule {
+    width: 40px;
+    height: 2px;
+    background-color: $accent;
+    flex-shrink: 0;
+  }
+
+  .home-identity {
+    font-size: 16px;
+    color: $body;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .home-work {
+    font-size: 15px;
+    color: $muted;
+    margin: 0;
+
+    .home-work-link {
+      color: $blue;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .home-links {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+
+    .home-link {
+      font-family: 'Lora', serif;
+      font-size: 15px;
+      font-weight: 600;
+      color: $accent;
+      text-decoration: none;
+      letter-spacing: 0.01em;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+#home-right {
+  flex-shrink: 0;
+
+  .home-portrait {
+    display: block;
+    width: 300px;
+    // 3:4 ratio
+    height: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  }
+}
+
+// ── Footer ───────────────────────────────────────────────────────────────────
+
+#home-footer {
+  padding-bottom: 0.5rem;
+}
+
+// ── Mobile (< 850px) ─────────────────────────────────────────────────────────
+
+@media only screen and (max-width: 850px) {
+  #home-layout {
+    flex-direction: column;
     align-items: center;
+    padding: 3rem 6%;
+    gap: 1.75rem;
+  }
 
-    #splash {
-      margin: 0 auto;
+  // Photo moves above text, circular crop
+  #home-right {
+    order: -1;
 
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-
-      img {
-        height: 128px;
-        border-radius: 50%;
-      }
-
-      #splash-content {
-        margin-left: 2rem;
-      }
-    }
-
-    i {
-      @-webkit-keyframes action {
-        0% {
-          transform: translateY(0);
-        }
-        100% {
-          transform: translateY(-10px);
-        }
-      }
-
-      @keyframes action {
-        0% {
-          transform: translateY(0);
-        }
-        100% {
-          transform: translateY(-10px);
-        }
-      }
-
-      position: absolute;
-      bottom: 5rem;
-
-      -webkit-animation: action 0.7s infinite alternate;
-      animation: action 0.7s infinite alternate;
-    }
-
-    #links {
-      position: absolute;
-      bottom: 2rem;
-
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-
-      h3 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-
-        @media only screen and (max-width: 850px) {
-          font-size: 12px;
-          margin-left: 0.5rem;
-          margin-right: 0.5rem;
-        }
-      }
-    }
-
-    @media only screen and (max-width: 850px) {
-      #splash {
-        margin: 0 auto;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        img {
-          margin-bottom: 1rem;
-        }
-
-        #splash-content {
-          text-align: center;
-          margin: 0 auto;
-        }
-      }
+    .home-portrait {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
     }
   }
 
-  #frame-2 {
-    width: 70%;
-    max-width: 64rem;
+  #home-left {
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
 
-    margin: 0 auto;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    .home-rule {
+      // center the rule when text is centered
+      align-self: center;
+    }
 
-    .section {
-      display: flex;
+    .home-links {
       align-items: center;
-      margin-bottom: 4rem;
-
-      .section-img {
-        display: inline-block;
-        width: calc(20% - 2.5rem);
-        margin-right: 2rem;
-
-        img {
-          width: 100%;
-        }
-      }
-
-      .section-content {
-        display: inline-block;
-        width: 70%;
-      }
     }
   }
 
-  @media only screen and (max-width: 850px) {
-    #frame-2 {
-      width: 80%;
-
-      .section {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 3rem;
-
-        .section-img {
-          margin: 0 auto 1rem;
-          width: 50%;
-        }
-
-        .section-content {
-          width: 100%;
-
-          ul {
-            margin: 1rem 0;
-          }
-        }
-      }
-    }
+  #home-footer {
+    border-top: 1px solid $border;
+    padding-top: 0.75rem;
   }
 }

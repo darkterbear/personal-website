@@ -83,14 +83,15 @@ export const PhotosPage = () => {
 
   return (
     <div id="photos-page">
-      {/* Top Splash */}
-      <div id="frame-1">
-        <Header white />
+      <Header to="/#/photos" label="albums" />
+      <div className="page-header">
+        <h1 className="album-title">{album.title}</h1>
+        <p className="album-date">{album.subtitle}</p>
+        <div className="accent-rule" />
       </div>
 
-      <div class="content">
-        <div class="desktop-content">
-          <h1 class="title">{album.title}</h1>
+      <div className="content">
+        <div className="desktop-content">
           <Gallery
             rowHeight={360}
             margin={8}
@@ -99,11 +100,10 @@ export const PhotosPage = () => {
             enableImageSelection={false}
           />
         </div>
-        <div class="mobile-content">
-          <h1 class="title">{album.title}</h1>
-          <div class="single-col-gallery">
+        <div className="mobile-content">
+          <div className="single-col-gallery">
             {albumImages.map((i) => {
-              return <img src={i.src} onClick={() => handleClick(-1, i)} />;
+              return <img key={i.src} src={i.src} onClick={() => handleClick(-1, i)} />;
             })}
           </div>
         </div>

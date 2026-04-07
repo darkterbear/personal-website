@@ -7,28 +7,23 @@ import { ARTICLES } from "./blog_articles";
 export const BlogPage = () => {
   return (
     <div id="blog-page">
-      {/* Top Splash */}
-      <div id="frame-1">
-        <Header white />
-        <div class="content">
-          <img
-            id="illustration"
-            src="https://files.terranceli.com/assets/logo/logowhite.svg"
-          />
-          <h1 class="title">my blog</h1>
+      <div className="content">
+        <Header to="/#/" label="home" />
+        <div className="blog-header">
+          <h1 className="blog-title">Blog</h1>
+          <div className="accent-rule" />
         </div>
-      </div>
-
-      <div class="content">
-        {ARTICLES.map((a) => (
-          <div class="article">
-            <span>{a.publishedDate}</span>
-            <h1>
-              <a href={`/#/blog/${a.key}`}>{a.title}</a>
-            </h1>
-            <p>{a.description}</p>
-          </div>
-        ))}
+        <div className="article-list">
+          {ARTICLES.map((a) => (
+            <div className="article" key={a.key}>
+              <span className="article-date">{a.publishedDate}</span>
+              <h2 className="article-title">
+                <a href={`/#/blog/${a.key}`}>{a.title}</a>
+              </h2>
+              <p className="article-description">{a.description}</p>
+            </div>
+          ))}
+        </div>
       </div>
       <Copyright />
     </div>

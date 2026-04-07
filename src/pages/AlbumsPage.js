@@ -100,14 +100,14 @@ export const ALBUMS = [
 export const AlbumsPage = () => {
   return (
     <div id="albums-page">
-      {/* Top Splash */}
-      <div id="frame-1">
-        <Header white />
+      <Header to="/#/" label="home" />
+      <div className="page-header">
+        <h1 className="page-title">Photography</h1>
+        <div className="accent-rule" />
       </div>
-
-      <div class="content">
+      <div className="content">
         {ALBUMS.map((album) => (
-          <Album {...album} />
+          <Album key={album.s3Prefix} {...album} />
         ))}
       </div>
       <Copyright white />

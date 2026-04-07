@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams, Navigate } from "react-router-dom";
 import "./JMTPage.scss";
-import Header from "../../components/Header";
 import { ScrollToTop } from "./ScrollToTop";
 
 export const JMTPage = () => {
@@ -10,7 +9,6 @@ export const JMTPage = () => {
       <meta name="robots" content="noindex, nofollow" />
       <ScrollToTop />
       <div id="jmt-page">
-        <Header />
         <div id="jmt-content" class="content">
           <div className="nav">
             <div></div>
@@ -86,7 +84,6 @@ export const JMTAftermathPage = () => {
       <meta name="robots" content="noindex, nofollow" />
       <ScrollToTop />
       <div id="jmt-page">
-        <Header />
         <div id="jmt-content" class="content">
           <div className="nav">
             <a href="/#/jmt/15">Prev</a>

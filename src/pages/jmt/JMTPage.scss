@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import '../../colors.scss';
 
 #jmt-page {
-  font-family: 'PT Serif', serif;
+  font-family: 'Lora', serif;
+  background-color: $background;
   padding: 20px;
 
   p {
@@ -63,7 +64,7 @@
     }
 
     caption {
-        color: #676767;
+        color: $muted;
         font-style: italic;
         margin: 0 auto;
         text-align: center;
@@ -89,6 +90,10 @@
       margin: 2rem 0;
       font-weight: bold;
       font-size: 14pt;
+
+      a {
+        color: $accent;
+      }
     }
 
     i {
@@ -105,7 +110,7 @@
     }
   }
   h1 {
-    color: black;
+    color: $text;
   }
   p {
     margin-bottom: 1rem;
