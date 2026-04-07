@@ -1,9 +1,13 @@
+@import "../colors.scss";
+
 #copyright {
   text-align: center;
   padding: 1rem;
-  font-size: 12px;
+  font-size: 11px;
+  color: $muted;
+  font-family: 'Lora', serif;
 
   &.white {
-    color: white;
+    color: $dark-muted;
   }
 }

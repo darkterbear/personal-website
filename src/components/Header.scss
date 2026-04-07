@@ -1,10 +1,12 @@
-#header {
-  position: absolute;
-  top: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
+@import "../colors.scss";
 
-  &.white {
-    color: white;
+#header {
+  padding: 2rem 0;
+
+  a {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    color: $accent;
+    text-decoration: none;
   }
 }

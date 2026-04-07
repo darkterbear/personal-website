@@ -1,12 +1,10 @@
 import "./Header.scss";
 
-const Header = ({ white }) => {
+const Header = ({ to, label }) => {
   return (
-    <a href="/#/">
-      <h3 id="header" class={white ? "white" : ""}>
-        terrance li
-      </h3>
-    </a>
+    <div id="header">
+      <a href={to}>← {label}</a>
+    </div>
   );
 };
 
