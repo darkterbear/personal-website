@@ -5,7 +5,13 @@
 #photos-page {
   background-color: $dark-bg;
   min-height: 100vh;
-  padding: 0 2rem 4rem;
+
+  > .inner {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+  }
 
   .page-header {
     padding: 3rem 0 2rem;

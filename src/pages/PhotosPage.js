@@ -83,14 +83,15 @@ export const PhotosPage = () => {
 
   return (
     <div id="photos-page">
-      <Header to="/#/photos" label="albums" />
-      <div className="page-header">
-        <h1 className="album-title">{album.title}</h1>
-        <p className="album-date">{album.subtitle}</p>
-        <div className="accent-rule" />
-      </div>
+      <div className="inner">
+        <Header to="/#/photos" label="Albums" />
+        <div className="page-header">
+          <h1 className="album-title">{album.title}</h1>
+          <p className="album-date">{album.subtitle}</p>
+          <div className="accent-rule" />
+        </div>
 
-      <div className="content">
+        <div className="content">
         <div className="desktop-content">
           <Gallery
             rowHeight={360}
@@ -115,7 +116,8 @@ export const PhotosPage = () => {
           />
         )}
       </div>
-      <Copyright white />
+        <Copyright white />
+      </div>
     </div>
   );
 };

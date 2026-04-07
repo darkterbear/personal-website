@@ -8,7 +8,7 @@ export const BlogPage = () => {
   return (
     <div id="blog-page">
       <div className="content">
-        <Header to="/#/" label="home" />
+        <Header to="/#/" label="Home" />
         <div className="blog-header">
           <h1 className="blog-title">Blog</h1>
           <div className="accent-rule" />

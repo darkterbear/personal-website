@@ -17,7 +17,7 @@ export const BlogArticlePage = () => {
   return (
     <div id="blog-page">
       <div className="content">
-        <Header to="/#/blog" label="blog" />
+        <Header to="/#/blog" label="Blog" />
         <div className="blog-header">
           <span className="article-date">{article.publishedDate}</span>
           {article.updatedDate && (

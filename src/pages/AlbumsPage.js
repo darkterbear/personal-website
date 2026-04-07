@@ -6,93 +6,93 @@ import "./AlbumsPage.scss";
 export const BUCKET_NAME = "terrance-files";
 export const ALBUMS = [
   {
-    title: "banff",
-    subtitle: "aug 2025",
+    title: "Banff",
+    subtitle: "Aug 2025",
     s3Prefix: "banff",
   },
   {
-    title: "glacier",
-    subtitle: "aug 2025",
+    title: "Glacier",
+    subtitle: "Aug 2025",
     s3Prefix: "glacier",
   },
   {
-    title: "norway",
-    subtitle: "aug 2025",
+    title: "Norway",
+    subtitle: "Aug 2025",
     s3Prefix: "norway",
   },
   {
-    title: "desolation wilderness: lake aloha",
-    subtitle: "jul 2025",
+    title: "Desolation Wilderness: Lake Aloha",
+    subtitle: "Jul 2025",
     s3Prefix: "desolation_wilderness_lake_aloha",
   },
   {
-    title: "yosemite: pohono trail",
-    subtitle: "jun 2025",
+    title: "Yosemite: Pohono Trail",
+    subtitle: "Jun 2025",
     s3Prefix: "yosemite_pohono_trail",
   },
   {
-    title: "lost coast trail",
-    subtitle: "may 2025",
+    title: "Lost Coast Trail",
+    subtitle: "May 2025",
     s3Prefix: "lost_coast_trail",
   },
   {
-    title: "trans-catalina trail",
-    subtitle: "feb 2025",
+    title: "Trans-Catalina Trail",
+    subtitle: "Feb 2025",
     s3Prefix: "trans_catalina_trail",
   },
   {
-    title: "pinnacles",
-    subtitle: "dec 2024",
+    title: "Pinnacles",
+    subtitle: "Dec 2024",
     s3Prefix: "pinnacles",
   },
   {
-    title: "point reyes 2",
-    subtitle: "nov 2024",
+    title: "Point Reyes 2",
+    subtitle: "Nov 2024",
     s3Prefix: "point_reyes_2",
   },
   {
-    title: "desolation wilderness: island and twin lakes",
-    subtitle: "oct 2024",
+    title: "Desolation Wilderness: Island and Twin Lakes",
+    subtitle: "Oct 2024",
     s3Prefix: "desolation_wilderness_island_and_twin_lakes",
   },
   {
-    title: "yosemite: half dome",
-    subtitle: "aug 2024",
+    title: "Yosemite: Half Dome",
+    subtitle: "Aug 2024",
     s3Prefix: "yosemite_half_dome",
   },
   {
-    title: "iceland 2",
-    subtitle: "jul 2024",
+    title: "Iceland 2",
+    subtitle: "Jul 2024",
     s3Prefix: "iceland_2",
   },
   {
-    title: "point reyes 1",
-    subtitle: "nov 2023",
+    title: "Point Reyes 1",
+    subtitle: "Nov 2023",
     s3Prefix: "point_reyes",
   },
   {
-    title: "russian ridge",
-    subtitle: "sep 2023",
+    title: "Russian Ridge",
+    subtitle: "Sep 2023",
     s3Prefix: "russian_ridge",
   },
   {
-    title: "iceland 1",
-    subtitle: "jun 2023",
+    title: "Iceland 1",
+    subtitle: "Jun 2023",
     s3Prefix: "iceland_1",
   },
   {
-    title: "tyresta",
-    subtitle: "may 2023",
+    title: "Tyresta",
+    subtitle: "May 2023",
     s3Prefix: "tyresta",
   },
   {
-    title: "yosemite: fire falls",
-    subtitle: "feb 2023",
+    title: "Yosemite: Fire Falls",
+    subtitle: "Feb 2023",
     s3Prefix: "yosemite_fire_falls",
   },
   {
-    title: "grand canyon, zion, bryce canyon",
-    subtitle: "jun 2022",
+    title: "Grand Canyon, Zion, Bryce Canyon",
+    subtitle: "Jun 2022",
     s3Prefix: "grand_canyon_zion_bryce_canyon",
   },
 ];
@@ -100,17 +100,19 @@ export const ALBUMS = [
 export const AlbumsPage = () => {
   return (
     <div id="albums-page">
-      <Header to="/#/" label="home" />
-      <div className="page-header">
-        <h1 className="page-title">Photography</h1>
-        <div className="accent-rule" />
+      <div className="inner">
+        <Header to="/#/" label="Home" />
+        <div className="page-header">
+          <h1 className="page-title">Photography</h1>
+          <div className="accent-rule" />
+        </div>
+        <div className="content">
+          {ALBUMS.map((album) => (
+            <Album key={album.s3Prefix} {...album} />
+          ))}
+        </div>
+        <Copyright white />
       </div>
-      <div className="content">
-        {ALBUMS.map((album) => (
-          <Album key={album.s3Prefix} {...album} />
-        ))}
-      </div>
-      <Copyright white />
     </div>
   );
 };

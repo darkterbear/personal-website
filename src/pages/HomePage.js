@@ -10,10 +10,10 @@ export const HomePage = () => {
           <h1 className="home-name">Terrance Li</h1>
           <div className="home-rule" />
           <p className="home-identity">
-            Engineer by trade. Photographer, backpacker, adventurer &amp; gamer at heart.
+            Engineer by trade. Photographer, adventurer, and gamer at heart.
           </p>
           <p className="home-work">
-            Building data infra at{" "}
+            Special projects at{" "}
             <a
               href="https://applied.co/"
               target="_blank"
@@ -25,34 +25,18 @@ export const HomePage = () => {
           </p>
           <nav className="home-links">
             <a
-              href="https://www.linkedin.com/in/terrance-li/"
-              target="_blank"
-              rel="noreferrer"
-              className="home-link"
-            >
-              linkedin →
-            </a>
-            <a
               href="https://github.com/darkterbear"
               target="_blank"
               rel="noreferrer"
               className="home-link"
             >
-              github →
-            </a>
-            <a
-              href="https://files.terranceli.com/ssh.txt"
-              target="_blank"
-              rel="noreferrer"
-              className="home-link"
-            >
-              ssh →
+              GitHub →
             </a>
             <a href="/#/blog" className="home-link">
-              blog →
+              Blog →
             </a>
             <a href="/#/photos" className="home-link">
-              photography →
+              Photography →
             </a>
           </nav>
         </div>
