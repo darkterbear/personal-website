@@ -235,7 +235,7 @@
     font-family: 'Lora', serif;
     font-size: 13px;
     cursor: pointer;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
     transition: background 0.2s ease;
 
     &:active {
@@ -254,7 +254,7 @@
     padding: 6px 0;
     max-height: 60vh;
     overflow-y: auto;
-    min-width: 140px;
+    min-width: 240px;
 
     button {
       display: block;
