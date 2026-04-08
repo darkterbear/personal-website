@@ -126,7 +126,7 @@ export const AFTERMATH_CONTENT = (
     <p>
       There were also plenty of things that went well, things that often{" "}
       <i>don't</i> go well for others. I didn't get any blisters in my
-      feet, thanks for nice socks, well-fit shoes, and frequent washing. I
+      feet, thanks to nice socks, well-fit shoes, and frequent washing. I
       also didn't twist or sprain my ankle, thanks to my ankle flexibility
       and stability. These are things that could have easily ended a hike.
     </p>
@@ -134,8 +134,7 @@ export const AFTERMATH_CONTENT = (
       The trip was not without regrets, and there were things I would have
       done differently. Logistically, I wish I brought gloves, a larger
       battery bank, more Liquid IV, and a wider variety of food. But my
-      biggest regret was not filming the journey. I'm not a great writer,
-      and it's hard to convey what it felt like on trail with words.
+      biggest regret was not filming the journey. Words don't fully capture life on trail.
       Eventually, this memory will fade from my mind as well. A video
       would have been nice.
     </p>
@@ -249,7 +248,7 @@ export const AFTERMATH_CONTENT = (
       involved paying online and shipping a 5-gallon bucket full of your
       stuff. I included food, electrolytes, toilet paper, contact lenses,
       first aid materials, and some treats. Keep in mind that you can't
-      ship cannisters of fuel. I shipped my buckets 3 weeks in advance.
+      ship canisters of fuel. I shipped my buckets 3 weeks in advance.
     </p>
     <h2>Gear</h2>
     <p>

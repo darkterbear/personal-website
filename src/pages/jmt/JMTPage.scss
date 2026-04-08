@@ -15,11 +15,15 @@
     max-width: 1000px;
 
     section {
-      padding-top: 2rem;
+      padding-top: 4rem;
       margin-bottom: 2rem;
 
       &:first-child {
         padding-top: 0;
+      }
+
+      & + section {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
       }
     }
 
@@ -132,8 +136,7 @@
 .jmt-toc-desktop {
   position: fixed;
   left: 1.5rem;
-  top: 50%;
-  transform: translateY(-50%);
+  top: calc(4rem + 20px);
   z-index: 10;
 
   @media only screen and (max-width: 850px) {
@@ -158,7 +161,7 @@
     background: none;
     border: none;
     cursor: pointer;
-    padding: 5px 0;
+    padding: 8px 0;
     width: 28px;
     z-index: 1;
 
@@ -179,12 +182,13 @@
       font-size: 11px;
       color: $muted;
       opacity: 0;
-      transition: opacity 0.2s ease;
+      transition: opacity 0.2s ease, font-size 0.2s ease;
       pointer-events: none;
     }
 
     &:hover .toc-label {
       opacity: 1;
+      font-size: 13px;
     }
 
     &:hover .toc-dot {
@@ -200,7 +204,8 @@
 
       .toc-label {
         opacity: 1;
-        color: $accent;
+        color: $text;
+        font-size: 13px;
         font-weight: 600;
       }
     }

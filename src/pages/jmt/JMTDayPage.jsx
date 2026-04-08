@@ -63,7 +63,7 @@ export const CONTENT = {
       </p>
       <p>
         I didn't sleep well that night. I typically don't sleep well on the
-        first night of anything new, only this time was my last night on a real
+        first night of anything new, only this time it was my last night on a real
         bed for a while.
       </p>
     </>
@@ -117,7 +117,7 @@ export const CONTENT = {
       </div>
       <caption>New Army Pass, 12350ft</caption>
       <p>
-        In the end, no thunderstorm came to pass. I made my way down to Rock
+        In the end, the thunderstorm never came. I made my way down to Rock
         Creek where I met a nice German couple who were here to summit Mt.
         Whitney. We set up camp and ate dinner together. I tried to eat my
         repackaged double-serving of Mountain House Biscuits and Gravy, but
@@ -169,8 +169,8 @@ export const CONTENT = {
         the summit by 8am with a 9am turn-around time. I met another older
         couple on the way up to Guitar Lake who shared the same weather worries.
         They planned to start hiking around 2:30am, so I figured I would too.
-        Falling asleep was hard. This was, technically, the hardest part of the
-        trail. I was stressed and anxious of what was to come tomorrow, afraid
+        Falling asleep was hard. Technically, this was the hardest part of the
+        trail. I was stressed and anxious about what was to come tomorrow, afraid
         both of failing to even approach the southern terminus of the JMT, and
         of the dangers of weather and altitude that lie ahead.
       </p>
@@ -227,7 +227,7 @@ export const CONTENT = {
       </p>
       <p>
         I summited as the sun rose over the horizon. It was an incredible
-        feeling. The thrill of achievement and dreams come true made me forget
+        feeling. The thrill of standing on the summit of my dreams made me forget
         the shivering cold and biting wind. I dropped my pack, climbed onto the
         highest frost-covered rock I could find without slipping, held up the
         icy metal sign, and scribbled my name into the logbook with what little
@@ -245,7 +245,7 @@ export const CONTENT = {
         portions and cliff edges that didn't seem so bad in the dark. The hike
         down was uneventful, and I packed up my tent upon reaching Guitar Lake.
         During my planning, I was unsure how far I could make it this day after
-        summitting Whitney. My legs felt fine after reaching Crabtree Meadows,
+        summiting Whitney. My legs felt fine after reaching Crabtree Meadows,
         so I just kept going.
       </p>
       <div className="image-grid">
@@ -256,7 +256,7 @@ export const CONTENT = {
       </caption>
       <p>
         When I neared Wallace Creek, I encountered the same ranger from the day
-        before. She remarked at how long my day had been, and agreed I should
+        before. She remarked on how long my day had been, and agreed I should
         get some rest at Wallace Creek. I set up camp way too close to the
         water, and my tent was soon covered with mosquitoes. Impressive, I
         thought, given it was almost September. My dinner involved taking a bite
@@ -289,7 +289,7 @@ export const CONTENT = {
         picture, slightly left of center
       </caption>
       <p>
-        It would prove to be a long, exposed, upward slog. As I got closer, I
+        It was a long, exposed, upward slog. As I got closer, I
         kept looking at my GPS app to try and visually identify the pass. It
         felt cool to point into the distance and say "I'm going to walk there
         today." I filled up on water at the last stream before the pass, and the
@@ -369,7 +369,7 @@ export const CONTENT = {
         The pass itself was a razor's edge with precipitous drops on both sides.
         I can only imagine how much more difficult navigating this crest would
         be if it was covered in snow and ice, as it would be for the vast
-        majority of PCT hikers. As I descended down the north face, I was
+        majority of PCT hikers. As I descended the north face, I was
         rewarded with the beauty of Rae Lakes. It was a popular camping spot for
         those hiking the Rae Lakes Loop. But with the hard uphill out of the
         way, I kept pushing towards Woods Creek to get closer to Pinchot Pass
@@ -379,7 +379,7 @@ export const CONTENT = {
         After setting up camp, I washed up in the creek, did some laundry, and
         set up a clothesline between a couple of trees using my tent's guy
         lines. There was a bridge over the creek, which was mentally jarring
-        given I haven't seen any large man-made structures in the last several
+        given I hadn't seen any large man-made structures in the last several
         days. Makes you wonder how they built it in the middle of the mountains.
       </p>
       <div className="image-grid">
@@ -513,7 +513,7 @@ export const CONTENT = {
       </caption>
       <p>
         As we descended, the clouds disappeared. "Where's the weather?" we
-        wondered as we descended down Palisade Lakes and the infamous Golden
+        wondered as we descended past Palisade Lakes and the infamous Golden
         Staircase, known for its long and steep climb. But I would argue it's
         just as much of a bitch going down. Each step shredded my ankles. This
         was also the most poorly-maintained section of trail so far, with
@@ -538,7 +538,7 @@ export const CONTENT = {
       </p>
       <p>
         We looked for a spot to camp; flat, but not so low that water would
-        pool, or that the river would flood into. We threw up our tents, hopped
+        pool, or that the river would flood into. We scrambled to pitch our tents, hopped
         inside, and dried ourselves off. We were wet, cold, and miserable, and
         it was only noon. I had a lukewarm double serving of chicken and rice as
         consolation.
@@ -587,7 +587,7 @@ export const CONTENT = {
         plan was to stop early at Starr Camp and get an early start tomorrow.
       </p>
       <p>
-        The sky looked promising. The sky was dotted with fluffy clouds, but not
+        The sky looked promising, dotted with fluffy clouds but not
         too ominous. But the same voice keeps popping up in my head.{" "}
         <i>
           What if a storm rolls in halfway through? We'll be several miles from
@@ -636,7 +636,7 @@ export const CONTENT = {
       </p>
       <p>
         We hauled another several miles down below treeline to set up camp. It
-        was a tough 18.6 mile day, the longest day so far for us all. Tomorrow
+        was a tough 18.6-mile day, the longest day so far for us all. Tomorrow
         was the resupply at Muir Trail Ranch and I had my extra day of food, a
         mac and cheese. I turned it into a snack for the crew, and I had another
         biscuits and gravy for myself. Hiker hunger was hitting hard. The smoke
@@ -708,7 +708,7 @@ export const CONTENT = {
       </p>
       <p>
         We set up camp at Sallie Keyes Lakes to give us a head start on
-        tomorrows climb over Selden Pass. I felt good: a fresh resupply of food
+        tomorrow's climb over Selden Pass. I felt good: a fresh resupply of food
         with plenty of reserves, improving weather, easier passes ahead, and a
         renewed confidence that <i>I can do it</i>.
       </p>
@@ -741,7 +741,7 @@ export const CONTENT = {
         Remember those spam slices I had at MTR yesterday? In hindsight, I
         should've thought twice before eating random food out of a hiker box.
         Sure, it was sealed and not close to expiration, but who knows how long
-        it has been sitting in the sun. To spare the details, I had to spend
+        it has been sitting in the sun. To spare you the details, I had to spend
         quite some time in the bushes before my guts calmed down.
       </p>
       <div className="image-grid">
@@ -878,7 +878,7 @@ export const CONTENT = {
       </p>
       <p>
         I ate all my food inside the general store to avoid the scavenging wasps
-        and squirrels. I couldn't hold a burger for a few seconds with a bunch
+        and squirrels. I couldn't hold a burger for a few seconds without a bunch
         of wasps trying to grab a bite for themselves. And leaving your backpack
         unattended outside is practically inviting a squirrel to chew a hole in
         it. They tried to get into my pack even when I was <i>right there</i>. I
@@ -904,8 +904,8 @@ export const CONTENT = {
       <p>
         They booked the last available cabin for the night and took showers. We
         chatted over dinner and exchanged a couple last gifts from the general
-        store before I walked to the campsite. The sky is now a darker orange,
-        and the AQI is well into the 200s. Tomorrow was going to be one smoky
+        store before I walked to the campsite. The sky was now a darker orange,
+        and the AQI was well into the 200s. Tomorrow was going to be one smoky
         day, and the anxiety of backpacking alone crept in once more.
       </p>
       <div className="image-grid">
@@ -968,7 +968,7 @@ export const CONTENT = {
       <p>
         I was pretty confident I could do the rest of the trail in 2 days. But I
         still had a full bear can from the recent resupply. So I ate <i>good</i>
-        . I cooked myself a 3 course dinner: Peak Refuel Chicken Alfredo Pasta,
+        . I cooked myself a 3-course dinner: Peak Refuel Chicken Alfredo Pasta,
         Mountain House Chili Mac w/ Beef, and a Peak Refuel Strawberry Granola
         for dessert. I went to bed under the howling wind, cozying up in my
         quilt with a full stomach.
@@ -1002,7 +1002,7 @@ export const CONTENT = {
         Donohue Pass is the border between Ansel Adams Wilderness and Yosemite
         National Park. Wilderness permits from Yosemite do not allow exiting
         over Donohue Pass unless specifically stated. Cresting this pass means
-        I'm entering Yosemite, the final public land on this trail. It was home
+        I'm entering Yosemite, the final public land on this trail. It was the home
         stretch.
       </p>
       <div className="image-grid">
@@ -1062,7 +1062,7 @@ export const CONTENT = {
         Alejandro had a gravity filter with a bag to easily collect the puddle
         water. He graciously gave me a couple liters of water to fill my bottle
         and cook dinner. We set up camp next to each other and we spent the rest
-        of the night eating dinner and chatting about our adventures.
+        of the evening eating dinner and chatting about our adventures.
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1135.jpg" />
