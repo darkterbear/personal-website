@@ -94,7 +94,7 @@ export const PhotosPage = () => {
         <div className="content">
         <div className="desktop-content">
           <Gallery
-            rowHeight={360}
+            rowHeight={320}
             margin={8}
             images={albumImages}
             onClick={handleClick}
