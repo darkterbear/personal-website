@@ -44,7 +44,7 @@ export const JMTDayPage = () => {
 export const CONTENT = {
   0: (
     <>
-      <h1>Day 0: Vigil</h1>
+      <h1>Day 0: Sleepless in Mammoth</h1>
       <p>
         My journey started with a long 5-hour drive from the Bay Area to
         Mammoth. I parked my car in the designated area for overnight
@@ -70,7 +70,7 @@ export const CONTENT = {
   ),
   1: (
     <>
-      <h1>Day 1: In the Deep End</h1>
+      <h1>Day 1: First Steps</h1>
       <h4>12.2mi +2600/-2200ft</h4>
       <iframe
         className="map-frame"
@@ -131,7 +131,7 @@ export const CONTENT = {
   ),
   2: (
     <>
-      <h1>Day 2: Quiet Before Battle</h1>
+      <h1>Day 2: Whitney Eve</h1>
       <h4>13.5mi +3200/-2100ft</h4>
       <iframe
         className="map-frame"
@@ -177,14 +177,12 @@ export const CONTENT = {
       <blockquote>
         The brave man is not he who does not feel afraid, but he who conquers
         that fear
-        <br />
-        &mdash; Nelson Mandela
       </blockquote>
     </>
   ),
   3: (
     <>
-      <h1>Day 3: The Highest I've Ever Stood</h1>
+      <h1>Day 3: Fourteen Five</h1>
       <h4>16.3mi +5100/-6200ft</h4>
       <iframe
         className="map-frame"
@@ -269,7 +267,7 @@ export const CONTENT = {
   ),
   4: (
     <>
-      <h1>Day 4: Just Keep Swimming</h1>
+      <h1>Day 4: Finding My Rhythm</h1>
       <h4>16.0mi +3500/-3900ft</h4>
       <iframe
         className="map-frame"
@@ -304,7 +302,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0753.jpg" />
       </div>
       <caption>
-        Forester Pass, 13200ft. 1st picture faces south, 2nd faces north
+        Forester Pass, 13200ft. First faces south, second faces north
       </caption>
       <p>
         I pushed past my planned stop at Center Basin junction since my legs
@@ -325,7 +323,7 @@ export const CONTENT = {
   ),
   5: (
     <>
-      <h1>Day 5: Cramps and Doubts</h1>
+      <h1>Day 5: Just Keep Swimming</h1>
       <h4>14.2mi +3400/-4900ft</h4>
       <iframe
         className="map-frame"
@@ -413,8 +411,7 @@ export const CONTENT = {
       </p>
       <blockquote>
         We are the inheritors of memory and legend. Those who grew alongside sun
-        and wind. Those who forged our own destiny and future. &mdash; Kachina,
-        Genshin Impact
+        and wind. Those who forged our own destiny and future.
       </blockquote>
     </>
   ),
@@ -551,8 +548,7 @@ export const CONTENT = {
       </div>
       <caption>The face of joy and happiness /s</caption>
       <blockquote>
-        We'll see the sun come up again / We will climb higher than we've been
-        &mdash; Dragonhearted
+        We'll see the sun come up again
       </blockquote>
       <p>
         Several hours later, the storm passed and the sun appeared once more. We
@@ -605,7 +601,7 @@ export const CONTENT = {
         food. So we decided to send it.
       </p>
       <blockquote>
-        It's not an adventure if you know how it ends &mdash; Unknown
+        It's not an adventure if you know how it ends
       </blockquote>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0891.jpg" />
@@ -728,7 +724,7 @@ export const CONTENT = {
   ),
   10: (
     <>
-      <h1>Day 10: Not Invincible</h1>
+      <h1>Day 10: Revenge of the Spam</h1>
       <h4>15.0mi +2300/-4600ft</h4>
       <iframe
         className="map-frame"
@@ -739,7 +735,7 @@ export const CONTENT = {
       <p>
         I woke up with a massive ant in my tent, which I quickly evicted with
         some precise flicking. I'm usually not a fan of insects, but I was{" "}
-        <s>numb</s> 1 grime of camping by now.
+        numb to the grime of camping by now.
       </p>
       <p>
         Remember those spam slices I had at MTR yesterday? In hindsight, I
@@ -789,7 +785,7 @@ export const CONTENT = {
   ),
   11: (
     <>
-      <h1>Day 11: Cozy Company</h1>
+      <h1>Day 11: Good Company</h1>
       <h4>13.4mi +5100/-2700ft</h4>
       <iframe
         className="map-frame"
@@ -842,7 +838,7 @@ export const CONTENT = {
   ),
   12: (
     <>
-      <h1>Day 12: Bidding Farewell</h1>
+      <h1>Day 12: Parting Ways</h1>
       <h4>15.7mi +1800/-4500ft</h4>
       <iframe
         className="map-frame"
@@ -903,7 +899,7 @@ export const CONTENT = {
       </p>
       <blockquote>
         Should the day ever come that we are not together, you will continue to
-        shine like gold in my memories. &mdash; Zhongli, Genshin Impact
+        shine like gold in my memories.
       </blockquote>
       <p>
         They booked the last available cabin for the night and took showers. We
@@ -920,7 +916,7 @@ export const CONTENT = {
   ),
   13: (
     <>
-      <h1>Day 13: Alone Once More</h1>
+      <h1>Day 13: Solo Again</h1>
       <h4>18.2mi +5200/-3100ft</h4>
       <iframe
         className="map-frame"
@@ -967,7 +963,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1104.jpg" />
       </div>
       <caption>
-        Left: Thousand Island Lake. Right: PCT sign at Rush Creek Junction.
+        First: Thousand Island Lake. Second: PCT sign at Rush Creek Junction.
       </caption>
       <p>
         I was pretty confident I could do the rest of the trail in 2 days. But I
@@ -1073,7 +1069,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1139.jpg" />
       </div>
       <caption>
-        Left: Cathedral Pass, 9700ft. Right: Sunrise High Sierra Camp.
+        First: Cathedral Pass, 9700ft. Second: Sunrise High Sierra Camp.
       </caption>
       <p>
         This is my last camp, and tomorrow will be the end of this adventure.
@@ -1149,7 +1145,7 @@ export const CONTENT = {
         <i>I can't believe I just fucking did that</i>.
       </p>
       <blockquote>
-        Don't call me lucky. I failed more times than you tried. &mdash; Unknown
+        Don't call me lucky. I failed more times than you tried.
       </blockquote>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1166.jpg" />
