@@ -11,8 +11,17 @@
   }
 
   #jmt-content {
-    margin-top: 4rem;
+    margin: 4rem auto 0;
     max-width: 1000px;
+
+    section {
+      padding-top: 2rem;
+      margin-bottom: 2rem;
+
+      &:first-child {
+        padding-top: 0;
+      }
+    }
 
     .map-frame {
       border: none;
@@ -27,14 +36,17 @@
       height: 100px;
       position: relative;
       top: -120px;
-      background: white;
+      background: $background;
       border-top: 1px solid #ddd;
       margin-bottom: calc(-220px + 2rem);
       z-index: 1;
     }
 
     h4 {
-      font-family: monospace;
+      font-family: 'Lora', serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: $muted;
       margin-top: -0.5rem;
       margin-bottom: 1rem;
     }
@@ -51,7 +63,7 @@
 
         width: calc(100% - 2rem);
         max-width: 100%;
-        
+
         gap: 1rem;
 
         @media only screen and (max-width: 850px) {
@@ -101,7 +113,6 @@
     }
 
     blockquote {
-      // background: #f9f9f9;
       border-left: 4px solid #ccc;
       margin: 2rem;
       padding: 0.7rem;
@@ -114,5 +125,148 @@
   }
   p {
     margin-bottom: 1rem;
+  }
+}
+
+// Desktop TOC - slim left-edge tickmarks
+.jmt-toc-desktop {
+  position: fixed;
+  left: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+
+  @media only screen and (max-width: 850px) {
+    display: none;
+  }
+
+  .toc-track {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .toc-tick {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 0;
+    width: 28px;
+    z-index: 1;
+
+    .toc-dot {
+      display: block;
+      width: 20px;
+      height: 2px;
+      border-radius: 1px;
+      background: rgba(0, 0, 0, 0.4);
+      transition: width 0.2s ease, background 0.2s ease;
+    }
+
+    .toc-label {
+      position: absolute;
+      left: 36px;
+      white-space: nowrap;
+      font-family: 'Lora', serif;
+      font-size: 11px;
+      color: $muted;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+      pointer-events: none;
+    }
+
+    &:hover .toc-label {
+      opacity: 1;
+    }
+
+    &:hover .toc-dot {
+      background: $accent;
+    }
+
+    &.active {
+      .toc-dot {
+        width: 28px;
+        height: 2px;
+        background: $accent;
+      }
+
+      .toc-label {
+        opacity: 1;
+        color: $accent;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+// Mobile TOC - floating pill
+.jmt-toc-mobile {
+  display: none;
+
+  @media only screen and (max-width: 850px) {
+    display: block;
+  }
+
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+
+  .toc-pill {
+    background: $accent;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-family: 'Lora', serif;
+    font-size: 13px;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    transition: background 0.2s ease;
+
+    &:active {
+      background: darken($accent, 10%);
+    }
+  }
+
+  .toc-dropdown {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+    padding: 6px 0;
+    max-height: 60vh;
+    overflow-y: auto;
+    min-width: 140px;
+
+    button {
+      display: block;
+      width: 100%;
+      text-align: left;
+      background: none;
+      border: none;
+      padding: 8px 16px;
+      font-family: 'Lora', serif;
+      font-size: 13px;
+      color: $text;
+      cursor: pointer;
+
+      &.active {
+        color: $accent;
+        font-weight: 600;
+      }
+    }
   }
 }

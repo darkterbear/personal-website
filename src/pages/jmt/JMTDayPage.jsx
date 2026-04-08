@@ -41,7 +41,7 @@ export const JMTDayPage = () => {
   );
 };
 
-const CONTENT = {
+export const CONTENT = {
   0: (
     <>
       <h1>Day 0: Vigil</h1>
