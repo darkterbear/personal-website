@@ -95,10 +95,6 @@ export const CONTENT = {
         leisurely 25-day pace. They would have their wedding shortly after. One
         of them serves in Cal Fire.
       </p>
-      <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0631.jpg" />
-      </div>
-      <caption>Sign at the Cottonwood Lakes trailhead</caption>
       <p>
         I bid Kurt and the two other hikers farewell, applied some sunscreen,
         and started hiking at 11:30am. I kept a wary eye on the sky, watching
@@ -112,7 +108,6 @@ export const CONTENT = {
         the face of the pass, <s>motivating</s> scaring me into hiking faster.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0633.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0635.jpg" />
       </div>
       <caption>New Army Pass, 12350ft</caption>
@@ -124,6 +119,7 @@ export const CONTENT = {
         despite my efforts I could not force down the entire meal.
       </p>
       <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0631.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0643.jpg" />
       </div>
       <caption>Trying to eat with no appetite</caption>
@@ -146,10 +142,6 @@ export const CONTENT = {
         condensation. I packed up at 7:30am and hit the trail. My legs were
         still adjusting as I joined the PCT and trekked up Guyot Pass.
       </p>
-      <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0651.jpg" />
-      </div>
-      <caption>View from Guyot Pass, 10900ft</caption>
       <p>
         As I passed Crabtree Meadows towards Guitar Lake, I met a ranger who
         warned that the weather around Whitney was not looking good the next few
@@ -204,10 +196,6 @@ export const CONTENT = {
         my mouth every couple switchbacks. The altitude and freezing cold made
         it hard to breathe, especially with a buff around my face.
       </p>
-      <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0674.jpg" />
-      </div>
-      <caption>Complete darkness on the hike up Mt. Whitney</caption>
       <p>
         The horizon brightened to a dark blue as we reached Trail Crest, where
         the JMT intersects with the trail to Whitney Portal. We were among the
@@ -215,7 +203,6 @@ export const CONTENT = {
         the 2-mile long traverse to the summit.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0675.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0676.jpg" />
       </div>
       <caption>Trail Crest and the final traverse at dawn</caption>
@@ -234,10 +221,7 @@ export const CONTENT = {
         dexterity I had left in my fingers.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0681.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0689.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0695.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0698.jpg" />
       </div>
       <caption>Mt. Whitney summit, 14505ft</caption>
       <p>
@@ -248,12 +232,6 @@ export const CONTENT = {
         summiting Whitney. My legs felt fine after reaching Crabtree Meadows,
         so I just kept going.
       </p>
-      <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0715.jpg" />
-      </div>
-      <caption>
-        Descending from Mt. Whitney, with Guitar Lake in the background
-      </caption>
       <p>
         When I neared Wallace Creek, I encountered the same ranger from the day
         before. She remarked on how long my day had been, and agreed I should
@@ -281,7 +259,6 @@ export const CONTENT = {
         PCT.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0718.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0732.jpg" />
       </div>
       <caption>
@@ -299,7 +276,6 @@ export const CONTENT = {
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0750.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0753.jpg" />
       </div>
       <caption>
         Forester Pass, 13200ft. First faces south, second faces north
@@ -316,7 +292,6 @@ export const CONTENT = {
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0758.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0761.jpg" />
       </div>
       <caption>My camp at Lower Vidette Meadow, next to Vidette Creek</caption>
     </>
@@ -343,7 +318,7 @@ export const CONTENT = {
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0765.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0766.jpg" />
+
       </div>
       <caption>
         First: View on the way to Glen Pass. Second: Note from the Charlotte
@@ -362,6 +337,7 @@ export const CONTENT = {
         but it had never felt more difficult.
       </p>
       <div className="image-grid">
+        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0766.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0778.jpg" />
       </div>
       <caption>Glen Pass, 11900ft</caption>
@@ -383,7 +359,6 @@ export const CONTENT = {
         days. Makes you wonder how they built it in the middle of the mountains.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0795.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0798.jpg" />
       </div>
       <caption>
@@ -432,8 +407,6 @@ export const CONTENT = {
         electrolytes first thing in the morning, which helped with the cramps.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0801.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0806.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0812.png" />
       </div>
       <caption>View leading up to and atop Pinchot Pass, 12100ft</caption>
@@ -472,7 +445,6 @@ export const CONTENT = {
         and turned the sky orange. We tucked in for an early morning tomorrow.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0827.png" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0833.png" />
       </div>
       <caption>
@@ -506,7 +478,6 @@ export const CONTENT = {
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_DAY7_0.png" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_DAY7_1.png" />
       </div>
       <caption>
         Views from Mather Pass, 12100ft. First facing south, second facing north
@@ -604,9 +575,7 @@ export const CONTENT = {
         It's not an adventure if you know how it ends
       </blockquote>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0891.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0897.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0906.jpg" />
       </div>
       <caption>
         First: Helen Lake. Second: Muir Hut at the crest of Muir Pass, 12000ft.
@@ -624,7 +593,6 @@ export const CONTENT = {
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0914.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0925.jpg" />
       </div>
       <caption>
         Dan and Char on the way down from Muir Pass and crossing Evolution Creek
@@ -647,7 +615,6 @@ export const CONTENT = {
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0931.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0938.jpg" />
       </div>
       <caption>
         First: Smoky orange sunset from our campsite. Second: Family of deer
@@ -685,7 +652,6 @@ export const CONTENT = {
         wet).
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0944.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0954.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0957.jpg" />
       </div>
@@ -713,7 +679,6 @@ export const CONTENT = {
         renewed confidence that <i>I can do it</i>.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0964.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0969.jpg" />
       </div>
       <caption>
@@ -745,7 +710,6 @@ export const CONTENT = {
         quite some time in the bushes before my guts calmed down.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0973.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0980.jpg" />
       </div>
       <caption>
@@ -799,10 +763,6 @@ export const CONTENT = {
         from the sun well into the day. We ate an early lunch atop Silver Pass.
         Although "lunch" is really just trail mix and sour patch kids.
       </p>
-      <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0990.jpg" />
-      </div>
-      <caption>Silver Pass, 10800ft</caption>
       <p>
         We continued with an uneventful descent down into Fish Creek and back up
         to Lake Virginia. This lake was one of the most beautiful campsites on
@@ -812,7 +772,6 @@ export const CONTENT = {
         grove of trees.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1009.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1007.jpg" />
       </div>
       <caption>
@@ -864,8 +823,6 @@ export const CONTENT = {
         Reds Meadow.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1027.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1031.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1036.jpg" />
       </div>
       <caption>On the way to Reds Meadow</caption>
@@ -930,10 +887,6 @@ export const CONTENT = {
         so far. Usually the smoke only rolls in during the afternoon, but it was
         already suffocating in the morning. I started wearing my buff as a mask.
       </p>
-      <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1064.jpg" />
-      </div>
-      <caption>Devil's Postpile</caption>
       <p>
         After hiking past Devil's Postpile, a wasp flew into my hair. I
         reflexively tried to bat it away, and in return it stung me in the head.
@@ -960,7 +913,6 @@ export const CONTENT = {
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1097.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1104.jpg" />
       </div>
       <caption>
         First: Thousand Island Lake. Second: PCT sign at Rush Creek Junction.
@@ -994,7 +946,6 @@ export const CONTENT = {
         day ahead of me.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1108.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1109.jpg" />
       </div>
       <caption>Views on the way up Donohue Pass</caption>
@@ -1006,7 +957,6 @@ export const CONTENT = {
         stretch.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1113.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1118.jpg" />
       </div>
       <caption>
@@ -1039,7 +989,6 @@ export const CONTENT = {
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1124.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1127.jpg" />
       </div>
       <caption>
         First: Hiking along Lyell Canyon. Second: Snacks at Tuolumne Meadows
@@ -1064,13 +1013,6 @@ export const CONTENT = {
         and cook dinner. We set up camp next to each other and we spent the rest
         of the evening eating dinner and chatting about our adventures.
       </p>
-      <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1135.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1139.jpg" />
-      </div>
-      <caption>
-        First: Cathedral Pass, 9700ft. Second: Sunrise High Sierra Camp.
-      </caption>
       <p>
         This is my last camp, and tomorrow will be the end of this adventure.
         I'm a fairly sentimental person, and this is a bittersweet moment.
@@ -1106,7 +1048,6 @@ export const CONTENT = {
         part of me was ready to be done with the trail.
       </p>
       <div className="image-grid">
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1152.jpg" />
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1153.jpg" />
       </div>
       <caption>
@@ -1120,7 +1061,6 @@ export const CONTENT = {
       </p>
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1158.jpg" />
-        <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1163.jpg" />
       </div>
       <caption>
         First: View of Half Dome from the north. Second: Liberty Cap and Nevada

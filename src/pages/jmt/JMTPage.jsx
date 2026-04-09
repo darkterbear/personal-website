@@ -11,8 +11,6 @@ export const INTRO_CONTENT = (
       Dome.
     </p>
     <div className="image-grid">
-      <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/KIOH1887.jpg" />
-      <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/KIOH1995.jpg" />
       <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/KIOH1917-Enhanced-NR.jpg" />
     </div>
 
