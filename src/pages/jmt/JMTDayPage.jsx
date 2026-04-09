@@ -55,7 +55,7 @@ export const CONTENT = {
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0621.jpg" />
       </div>
-      <caption>Walking to the shuttle from the parking lot to town</caption>
+      <caption>Walking to the Mammoth parking lot shuttle to town</caption>
       <p>
         My thoughts raced with excitement and worry. This was when everything
         felt real. This was no longer something that I'll do in the future, it
@@ -64,9 +64,8 @@ export const CONTENT = {
         chance of thunderstorms over New Army Pass tomorrow afternoon.
       </p>
       <p>
-        I didn't sleep well that night. I typically don't sleep well on the
-        first night of anything new, only this time it was my last night on a real
-        bed for a while.
+        I didn't get much sleep that night, which is pretty common for me on any night of
+        anything new. Only this time, it was my last night on a real bed for a while.
       </p>
     </>
   ),
