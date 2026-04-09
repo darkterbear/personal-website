@@ -105,8 +105,8 @@ export const AFTERMATH_CONTENT = (
     <p>
       The second motivator is that the JMT is <i>hard</i>. I wanted proof
       that I was strong and can do hard things. It is an accomplishment
-      that can fuel my confidence that nobody can take away from me,
-      permanently. And yes, there are plenty of even harder trails out
+      and confidence boost that nobody can take away from me. And yes, 
+      there are plenty of even harder trails out
       there. But I wasn't ready to commit 4 months of my life to hiking
       the PCT, for example. The JMT was hard and ambitious, but not a
       life-changing commitment.

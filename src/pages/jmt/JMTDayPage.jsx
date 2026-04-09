@@ -213,7 +213,7 @@ export const CONTENT = {
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0676.jpg" />
       </div>
-      <caption>Trail Crest and the final traverse at dawn</caption>
+      <caption>Final traverse at dawn</caption>
       <p>
         As the air got thinner, the couple in front of me pulled ahead, and
         eventually out of sight. The last 500 vertical feet were some of the
@@ -272,8 +272,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0732.jpg" />
       </div>
       <caption>
-        Views on the way to Forester Pass. You can see Forester Pass in the 2nd
-        picture, slightly left of center
+        View hiking towards Forester Pass. You can see the pass, slightly left of center
       </caption>
       <p>
         It was a long, exposed, upward slog. As I got closer, I
@@ -288,7 +287,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0750.jpg" />
       </div>
       <caption>
-        Forester Pass, 13200ft. First faces south, second faces north
+        Forester Pass, 13200ft
       </caption>
       <p>
         I pushed past my planned stop at Center Basin junction since my legs
@@ -333,8 +332,7 @@ export const CONTENT = {
 
       </div>
       <caption>
-        First: View on the way to Glen Pass. Second: Note from the Charlotte
-        Lake Ranger.
+        View on the way to Glen Pass
       </caption>
       <p>
         On the way up, I saw a note from the Charlotte Lake Ranger that there
@@ -374,7 +372,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0798.jpg" />
       </div>
       <caption>
-        First: Woods Creek Bridge. Second: My camp at Woods Creek
+        My camp at Woods Creek
       </caption>
       <p>
         I met another couple who mentioned the weather was not looking too hot
@@ -423,7 +421,7 @@ export const CONTENT = {
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0812.png" />
       </div>
-      <caption>View leading up to and atop Pinchot Pass, 12100ft</caption>
+      <caption>View atop Pinchot Pass, 12100ft</caption>
       <p>
         I chatted with a few folks atop the pass who told me the ferryman at
         Vermillion Valley Resort had a heart attack and passed away, doing what
@@ -462,8 +460,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0833.png" />
       </div>
       <caption>
-        First: Our camp in Upper Basin. Second: Hazy, smoky views from our
-        campsite.
+        Hazy, smoky views from our campsite.
       </caption>
     </>
   ),
@@ -496,7 +493,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_DAY7_0.png" />
       </div>
       <caption>
-        Views from Mather Pass, 12100ft. First facing south, second facing north
+        View from Mather Pass, 12100ft
       </caption>
       <p>
         As we descended, the clouds disappeared. "Where's the weather?" we
@@ -511,7 +508,7 @@ export const CONTENT = {
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_DAY7_2.png" />
       </div>
-      <caption>Storm clouds rolling in.</caption>
+      <caption>Storm clouds rolling in</caption>
       <p>
         And soon enough, thick, dark clouds rolled in. Thunder echoed through
         the canyon. At first, no rain. Then a light drizzle. Then an absolute
@@ -533,7 +530,7 @@ export const CONTENT = {
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0876.jpg" />
       </div>
-      <caption>The face of joy and happiness /s</caption>
+      <caption>The face of joy and happiness</caption>
       <blockquote>
         We'll see the sun come up again
       </blockquote>
@@ -596,8 +593,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0897.jpg" />
       </div>
       <caption>
-        First: Helen Lake. Second: Muir Hut at the crest of Muir Pass, 12000ft.
-        Third: My name in the Muir Hut logbook.
+        Muir Hut atop Muir Pass, 12000ft
       </caption>
       <p>
         Ominous clouds formed behind us as we climbed the last thousand feet to
@@ -613,7 +609,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0914.jpg" />
       </div>
       <caption>
-        Dan and Char on the way down from Muir Pass and crossing Evolution Creek
+        Dan and Char on the way down from Muir Pass
       </caption>
       <p>
         An older guy hiking southbound hit us with an unskippable cutscene. A
@@ -635,8 +631,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0931.jpg" />
       </div>
       <caption>
-        First: Smoky orange sunset from our campsite. Second: Family of deer
-        coming near our camp to graze
+        Smoky orange sunset from our campsite
       </caption>
     </>
   ),
@@ -676,9 +671,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0957.jpg" />
       </div>
       <caption>
-        First: Weather update, likely from the McClure Meadow Ranger. Second:
-        2nd crossing of Evolution Creek. Third: An unnamed feeder creek while
-        hiking to MTR
+        Our second crossing of Evolution Creek
       </caption>
       <p>
         MTR was a much-needed break. We fetched our resupplies, refilled our
@@ -702,8 +695,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0969.jpg" />
       </div>
       <caption>
-        First: Hazy view hiking up north from MTR. Second: Our camp at Sallie
-        Keyes.
+        Our camp at Sallie Keyes
       </caption>
     </>
   ),
@@ -735,8 +727,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_0980.jpg" />
       </div>
       <caption>
-        First: View of Sallie Keyes Lakes on the way up Selden Pass, 10800ft.
-        Second: Marie Lakes on the way down.
+        Marie Lakes on the way down from Selden Pass, 10800ft
       </caption>
       <p>
         We made as much progress as we could before the sun came up and the
@@ -799,7 +790,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1007.jpg" />
       </div>
       <caption>
-        My tent tucked in a grove of trees, and the view from our campsite
+        View from our campsite at Lake Virginia
       </caption>
       <p>
         I also overheard a group next to us speaking Chinese, which was a
@@ -816,7 +807,7 @@ export const CONTENT = {
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1005.jpg" />
       </div>
-      <caption>Post-dinner selfie with Dan and Char</caption>
+      <caption>Group dinner</caption>
     </>
   ),
   12: (
@@ -943,7 +934,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1097.jpg" />
       </div>
       <caption>
-        First: Thousand Island Lake. Second: PCT sign at Rush Creek Junction.
+        Thousand Island Lake
       </caption>
       <p>
         I was pretty confident I could do the rest of the trail in 2 days. But I
@@ -990,8 +981,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1118.jpg" />
       </div>
       <caption>
-        First: Border between Yosemite and Ansel Adams Wilderness atop Donohue
-        Pass, 11000ft. Second: Looking down into Lyell Canyon.
+        Looking down into Lyell Canyon from Donohue Pass, 11000ft
       </caption>
       <p>
         Despite the breathtaking views and crisp fresh air, I was physically and
@@ -1021,8 +1011,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1124.jpg" />
       </div>
       <caption>
-        First: Hiking along Lyell Canyon. Second: Snacks at Tuolumne Meadows
-        Lodge.
+        Hiking along Lyell Canyon
       </caption>
       <p>
         Cathedral Pass is the last pass before the northern terminus, and it's
@@ -1095,8 +1084,7 @@ export const CONTENT = {
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1158.jpg" />
       </div>
       <caption>
-        First: View of Half Dome from the north. Second: Liberty Cap and Nevada
-        Falls
+        View of Half Dome from the north
       </caption>
       <p>
         I felt an overwhelming sense of pride. The Mist Trail is no joke and
@@ -1122,6 +1110,7 @@ export const CONTENT = {
       <div className="image-grid">
         <img src="https://terrance-files.s3.us-west-2.amazonaws.com/jmt/IMG_1166.jpg" />
       </div>
+      <caption>I once said to myself, "who's out here hiking a 211-mile trail?"</caption>
     </>
   ),
 };
