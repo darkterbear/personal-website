@@ -161,6 +161,36 @@
     }
   }
 
+  .jmt-trail-viz {
+    margin-top: 1.5rem;
+
+    .viz-section {
+      margin-bottom: 0.75rem;
+
+      .viz-label {
+        display: block;
+        font-family: 'Lora', serif;
+        font-size: 11px;
+        color: $muted;
+        text-align: center;
+        margin-top: 2px;
+      }
+
+      svg {
+        display: block;
+      }
+    }
+
+    .trail-pulse {
+      animation: trailPulse 2s ease-in-out infinite;
+    }
+  }
+
+  @keyframes trailPulse {
+    0%, 100% { opacity: 0.1; }
+    50% { opacity: 1; }
+  }
+
   .toc-tick {
     position: relative;
     display: flex;

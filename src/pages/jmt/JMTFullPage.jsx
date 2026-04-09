@@ -3,6 +3,7 @@ import { useParams, useLocation } from "react-router-dom";
 import "./JMTPage.scss";
 import { INTRO_CONTENT, AFTERMATH_CONTENT } from "./JMTPage";
 import { CONTENT as DAY_CONTENT } from "./JMTDayPage";
+import { JMTTrailViz } from "./JMTTrailViz";
 
 const SECTIONS = [
   { id: "intro", label: "Intro" },
@@ -92,6 +93,7 @@ export const JMTFullPage = () => {
               </button>
             ))}
           </div>
+          <JMTTrailViz activeSection={activeSection} />
         </nav>
 
         <div className={`jmt-toc-mobile${tocExpanded ? " expanded" : ""}`}>
