@@ -15,18 +15,15 @@ const minLon = Math.min(...lons);
 const maxLon = Math.max(...lons);
 const totalMi = points[points.length - 1].mi;
 
-// Compute SVG coordinates for each point
-const computeEleCoords = (pts, width, height, padding = 4) => {
-  return pts.map((p) => ({
-    x: width - padding - (p.mi / totalMi) * (width - 2 * padding),
-    y:
-      height -
-      padding -
-      ((p.ele - minEle) / (maxEle - minEle)) * (height - 2 * padding),
-  }));
-};
+const eleCoord = (p, width, height, padding = 4) => ({
+  x: width - padding - (p.mi / totalMi) * (width - 2 * padding),
+  y:
+    height -
+    padding -
+    ((p.ele - minEle) / (maxEle - minEle)) * (height - 2 * padding),
+});
 
-const computeMapCoords = (pts, width, height, padding = 4) => {
+const mapCoord = (p, width, height, padding = 4) => {
   const lonRange = maxLon - minLon || 1;
   const latRange = maxLat - minLat || 1;
   const scale = Math.min(
@@ -35,72 +32,66 @@ const computeMapCoords = (pts, width, height, padding = 4) => {
   );
   const cx = (width - lonRange * scale) / 2;
   const cy = (height - latRange * scale) / 2;
-
-  return pts.map((p) => ({
+  return {
     x: cx + (p.lon - minLon) * scale,
     y: cy + (maxLat - p.lat) * scale,
-  }));
+  };
 };
 
-const coordsToPath = (coords) =>
-  coords.map((c, i) => `${i === 0 ? "M" : "L"}${c.x},${c.y}`).join(" ");
+const toSvgPath = (coords) =>
+  coords.length === 0
+    ? ""
+    : coords
+        .map((c, i) => `${i === 0 ? "M" : "L"}${c.x.toFixed(2)},${c.y.toFixed(2)}`)
+        .join(" ");
 
-// Sum of Euclidean distances between consecutive points
-const computePathLen = (coords) => {
-  let len = 0;
-  for (let i = 1; i < coords.length; i++) {
-    const dx = coords[i].x - coords[i - 1].x;
-    const dy = coords[i].y - coords[i - 1].y;
-    len += Math.sqrt(dx * dx + dy * dy);
+// Split points into three groups by mileage
+const splitPoints = (startMi, endMi) => {
+  const completed = [];
+  const current = [];
+  const future = [];
+
+  for (const p of points) {
+    if (p.mi < startMi) {
+      completed.push(p);
+    } else if (p.mi <= endMi) {
+      // Ensure continuity: duplicate the boundary point
+      if (current.length === 0 && completed.length > 0) {
+        current.push(completed[completed.length - 1]);
+      }
+      current.push(p);
+    } else {
+      if (future.length === 0 && current.length > 0) {
+        future.push(current[current.length - 1]);
+      }
+      future.push(p);
+    }
   }
-  return len;
+
+  // If no completed points but current starts after 0, add first point
+  if (completed.length > 0 && current.length > 0) {
+    // Ensure current starts where completed ends
+  }
+  if (current.length === 0 && completed.length > 0) {
+    future.unshift(completed[completed.length - 1]);
+  }
+
+  return { completed, current, future };
 };
 
-// Returns { completedFrac, currentStartFrac, currentEndFrac }
-const sectionToFractions = (activeSection) => {
+const sectionToMiles = (activeSection) => {
   if (activeSection === "intro" || activeSection === "day-0") {
-    return { completedFrac: 0, currentStartFrac: 0, currentEndFrac: 0 };
+    return { startMi: 0, endMi: 0 };
   }
   if (activeSection === "aftermath") {
-    return { completedFrac: 1, currentStartFrac: 1, currentEndFrac: 1 };
+    return { startMi: totalMi, endMi: totalMi };
   }
 
   const dayNum = parseInt(activeSection.replace("day-", ""));
   const dayData = days.find((d) => d.day === dayNum);
-  if (!dayData)
-    return { completedFrac: 0, currentStartFrac: 0, currentEndFrac: 0 };
+  if (!dayData) return { startMi: 0, endMi: 0 };
 
-  return {
-    completedFrac: dayData.startMi / totalMi,
-    currentStartFrac: dayData.startMi / totalMi,
-    currentEndFrac: dayData.endMi / totalMi,
-  };
-};
-
-const TrailPath = ({ d, pathLen, startFrac, endFrac, stroke, pulse }) => {
-  const visibleLen = pathLen * (endFrac - startFrac);
-
-  return (
-    <path
-      d={d}
-      fill="none"
-      stroke={stroke}
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeDasharray={`${visibleLen} ${pathLen}`}
-      strokeDashoffset={-pathLen * startFrac}
-      className={pulse ? "trail-pulse" : undefined}
-      style={
-        pulse
-          ? undefined
-          : {
-              transition:
-                "stroke-dashoffset 0.4s ease, stroke-dasharray 0.4s ease",
-            }
-      }
-    />
-  );
+  return { startMi: dayData.startMi, endMi: dayData.endMi };
 };
 
 export const JMTTrailViz = ({
@@ -112,15 +103,23 @@ export const JMTTrailViz = ({
   const mapWidth = horizontal ? 80 : 160;
   const mapHeight = horizontal ? 75 : 110;
 
-  const eleCoords = computeEleCoords(points, eleWidth, eleHeight);
-  const mapCoords = computeMapCoords(points, mapWidth, mapHeight);
-  const elePath = coordsToPath(eleCoords);
-  const mapPath = coordsToPath(mapCoords);
-  const eleLen = computePathLen(eleCoords);
-  const mapLen = computePathLen(mapCoords);
+  const { startMi, endMi } = sectionToMiles(activeSection);
+  const { completed, current, future } = splitPoints(startMi, endMi);
 
-  const { completedFrac, currentStartFrac, currentEndFrac } =
-    sectionToFractions(activeSection);
+  const eleCompleted = toSvgPath(completed.map((p) => eleCoord(p, eleWidth, eleHeight)));
+  const eleCurrent = toSvgPath(current.map((p) => eleCoord(p, eleWidth, eleHeight)));
+  const eleFuture = toSvgPath(future.map((p) => eleCoord(p, eleWidth, eleHeight)));
+
+  const mapCompleted = toSvgPath(completed.map((p) => mapCoord(p, mapWidth, mapHeight)));
+  const mapCurrent = toSvgPath(current.map((p) => mapCoord(p, mapWidth, mapHeight)));
+  const mapFuture = toSvgPath(future.map((p) => mapCoord(p, mapWidth, mapHeight)));
+
+  const pathProps = {
+    fill: "none",
+    strokeWidth: "1.5",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+  };
 
   return (
     <div className={`jmt-trail-viz${horizontal ? " horizontal" : ""}`}>
@@ -130,29 +129,9 @@ export const JMTTrailViz = ({
           height={eleHeight}
           viewBox={`0 0 ${eleWidth} ${eleHeight}`}
         >
-          <path
-            d={elePath}
-            fill="none"
-            stroke="rgba(0,0,0,0.15)"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <TrailPath
-            d={elePath}
-            pathLen={eleLen}
-            startFrac={0}
-            endFrac={completedFrac}
-            stroke="#527aff"
-          />
-          <TrailPath
-            d={elePath}
-            pathLen={eleLen}
-            startFrac={currentStartFrac}
-            endFrac={currentEndFrac}
-            stroke="#527aff"
-            pulse
-          />
+          {eleFuture && <path d={eleFuture} stroke="rgba(0,0,0,0.15)" {...pathProps} />}
+          {eleCompleted && <path d={eleCompleted} stroke="#527aff" {...pathProps} />}
+          {eleCurrent && <path d={eleCurrent} stroke="#527aff" className="trail-pulse" {...pathProps} />}
         </svg>
         {!horizontal && <span className="viz-label">Elevation</span>}
       </div>
@@ -162,29 +141,9 @@ export const JMTTrailViz = ({
           height={mapHeight}
           viewBox={`0 0 ${mapWidth} ${mapHeight}`}
         >
-          <path
-            d={mapPath}
-            fill="none"
-            stroke="rgba(0,0,0,0.15)"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <TrailPath
-            d={mapPath}
-            pathLen={mapLen}
-            startFrac={0}
-            endFrac={completedFrac}
-            stroke="#527aff"
-          />
-          <TrailPath
-            d={mapPath}
-            pathLen={mapLen}
-            startFrac={currentStartFrac}
-            endFrac={currentEndFrac}
-            stroke="#527aff"
-            pulse
-          />
+          {mapFuture && <path d={mapFuture} stroke="rgba(0,0,0,0.15)" {...pathProps} />}
+          {mapCompleted && <path d={mapCompleted} stroke="#527aff" {...pathProps} />}
+          {mapCurrent && <path d={mapCurrent} stroke="#527aff" className="trail-pulse" {...pathProps} />}
         </svg>
         {!horizontal && <span className="viz-label">Route</span>}
       </div>
