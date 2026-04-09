@@ -31,6 +31,8 @@ export const JMTFullPage = () => {
   const location = useLocation();
   const [activeSection, setActiveSection] = useState("intro");
   const [tocExpanded, setTocExpanded] = useState(false);
+  const [showMobileViz, setShowMobileViz] = useState(false);
+  const [mobileVizVisible, setMobileVizVisible] = useState(false);
 
   // Scroll to section based on URL (for old bookmarks)
   useEffect(() => {
@@ -71,6 +73,21 @@ export const JMTFullPage = () => {
     return () => observer.disconnect();
   }, []);
 
+  // Show mobile viz only during days 1-15, with fade in/out
+  useEffect(() => {
+    const dayMatch = activeSection.match(/^day-(\d+)$/);
+    const shouldShow = dayMatch && parseInt(dayMatch[1]) >= 1 && parseInt(dayMatch[1]) <= 15;
+
+    if (shouldShow) {
+      setShowMobileViz(true);
+      requestAnimationFrame(() => setMobileVizVisible(true));
+    } else {
+      setMobileVizVisible(false);
+      const timeout = setTimeout(() => setShowMobileViz(false), 400);
+      return () => clearTimeout(timeout);
+    }
+  }, [activeSection]);
+
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
     setTocExpanded(false);
@@ -95,6 +112,12 @@ export const JMTFullPage = () => {
           </div>
           <JMTTrailViz activeSection={activeSection} />
         </nav>
+
+        {showMobileViz && (
+          <div className={`jmt-viz-mobile${mobileVizVisible ? " visible" : ""}`}>
+            <JMTTrailViz activeSection={activeSection} horizontal />
+          </div>
+        )}
 
         <div className={`jmt-toc-mobile${tocExpanded ? " expanded" : ""}`}>
           <button

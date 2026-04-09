@@ -86,11 +86,11 @@ const TrailPath = ({ d, pathLen, startFrac, endFrac, stroke, pulse }) => {
   );
 };
 
-export const JMTTrailViz = ({ activeSection = "intro" }) => {
-  const eleWidth = 160;
-  const eleHeight = 60;
-  const mapWidth = 160;
-  const mapHeight = 110;
+export const JMTTrailViz = ({ activeSection = "intro", horizontal = false }) => {
+  const eleWidth = horizontal ? 160 : 160;
+  const eleHeight = horizontal ? 54 : 60;
+  const mapWidth = horizontal ? 80 : 160;
+  const mapHeight = horizontal ? 75 : 110;
 
   const elePath = buildElevationPath(points, eleWidth, eleHeight);
   const mapPath = buildMapPath(points, mapWidth, mapHeight);
@@ -109,7 +109,7 @@ export const JMTTrailViz = ({ activeSection = "intro" }) => {
     sectionToFractions(activeSection);
 
   return (
-    <div className="jmt-trail-viz">
+    <div className={`jmt-trail-viz${horizontal ? " horizontal" : ""}`}>
       <div className="viz-section">
         <svg
           width={eleWidth}
@@ -150,7 +150,7 @@ export const JMTTrailViz = ({ activeSection = "intro" }) => {
             stroke="none"
           />
         </svg>
-        <span className="viz-label">Elevation</span>
+        {!horizontal && <span className="viz-label">Elevation</span>}
       </div>
       <div className="viz-section">
         <svg
@@ -188,7 +188,7 @@ export const JMTTrailViz = ({ activeSection = "intro" }) => {
             stroke="none"
           />
         </svg>
-        <span className="viz-label">Route</span>
+        {!horizontal && <span className="viz-label">Route</span>}
       </div>
     </div>
   );
